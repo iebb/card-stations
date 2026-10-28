@@ -1,0 +1,194 @@
+{
+  "databases": {
+    "jp_stations.sqlite": {
+      "schema": [
+        "CREATE TABLE jp_stations (\n                hex_code TEXT PRIMARY KEY,\n                code_integer INTEGER NOT NULL,\n                csv_names_json TEXT NOT NULL,\n                csv_primary_name TEXT NOT NULL,\n                station_name TEXT NOT NULL,\n                station_original_name TEXT NOT NULL,\n                station_source TEXT NOT NULL,\n                station_code TEXT NOT NULL,\n                prefecture INTEGER NOT NULL,\n                latitude REAL NOT NULL,\n                longitude REAL NOT NULL,\n                address TEXT NOT NULL,\n                line_codes_json TEXT NOT NULL,\n                match_method TEXT NOT NULL,\n                confidence REAL NOT NULL,\n                is_pseudo INTEGER NOT NULL,\n                pseudo_id TEXT,\n                error_center_latitude REAL,\n                error_center_longitude REAL,\n                error_radius_km REAL\n            );",
+        "CREATE TABLE station_edges (\n                line_code TEXT NOT NULL,\n                from_station_code TEXT NOT NULL,\n                to_station_code TEXT NOT NULL,\n                distance_km REAL NOT NULL\n            );",
+        "CREATE INDEX idx_jp_stations_code_integer ON jp_stations (code_integer);",
+        "CREATE INDEX idx_jp_stations_station_name ON jp_stations (station_name);",
+        "CREATE INDEX idx_station_edges_from ON station_edges (from_station_code);",
+        "CREATE INDEX idx_station_edges_to ON station_edges (to_station_code);",
+        "CREATE TABLE station_edge_paths (line_code TEXT NOT NULL, from_station_code TEXT NOT NULL, to_station_code TEXT NOT NULL, geohash_path TEXT NOT NULL, PRIMARY KEY (line_code,from_station_code,to_station_code)) WITHOUT ROWID;"
+      ],
+      "tables": {
+        "jp_stations": [
+          "hex_code",
+          "code_integer",
+          "csv_names_json",
+          "csv_primary_name",
+          "station_name",
+          "station_original_name",
+          "station_source",
+          "station_code",
+          "prefecture",
+          "latitude",
+          "longitude",
+          "address",
+          "line_codes_json",
+          "match_method",
+          "confidence",
+          "is_pseudo",
+          "pseudo_id",
+          "error_center_latitude",
+          "error_center_longitude",
+          "error_radius_km"
+        ],
+        "station_edges": [
+          "line_code",
+          "from_station_code",
+          "to_station_code",
+          "distance_km"
+        ],
+        "station_edge_paths": [
+          "line_code",
+          "from_station_code",
+          "to_station_code",
+          "geohash_path"
+        ]
+      }
+    },
+    "tunion_stations.sqlite": {
+      "schema": [
+        "CREATE TABLE tunion_stations (\n            station_key TEXT PRIMARY KEY,\n            city_id TEXT NOT NULL,\n            city_name TEXT NOT NULL,\n            line_key TEXT NOT NULL,\n            sequence INTEGER NOT NULL,\n            station_name TEXT NOT NULL,\n            normalized_station_name TEXT NOT NULL,\n            match_status TEXT NOT NULL,\n            match_quality TEXT NOT NULL,\n            match_source TEXT,\n            match_query TEXT,\n            latitude REAL,\n            longitude REAL,\n            display_name TEXT,\n            osm_type TEXT,\n            osm_id TEXT,\n            importance REAL,\n            osm_name TEXT,\n            osm_name_zh TEXT,\n            osm_name_en TEXT,\n            osm_name_ja TEXT,\n            osm_names_json TEXT,\n            last_updated_at TEXT NOT NULL\n        , source_code TEXT, source_type TEXT, source_line_name TEXT, source_station_name TEXT, source_tripreader_json TEXT);",
+        "CREATE TABLE station_edges (\n            line_code TEXT NOT NULL,\n            from_station_code TEXT NOT NULL,\n            to_station_code TEXT NOT NULL,\n            distance_km REAL NOT NULL,\n            PRIMARY KEY (line_code, from_station_code, to_station_code)\n        );",
+        "CREATE TABLE tunion_lines (\n            city_id TEXT NOT NULL,\n            line_code TEXT NOT NULL,\n            line_name TEXT NOT NULL,\n            station_type TEXT NOT NULL,\n            source_count INTEGER NOT NULL,\n            source_city_folder TEXT,\n            source_csv_file TEXT,\n            PRIMARY KEY (city_id, line_code, line_name, station_type)\n        );",
+        "CREATE TABLE tunion_terminal_stations (\n            record_kind TEXT NOT NULL CHECK (record_kind IN ('18', '1e')),\n            city_id TEXT NOT NULL,\n            terminal_code TEXT NOT NULL,\n            station_name TEXT NOT NULL,\n            line_name TEXT NOT NULL,\n            station_type TEXT NOT NULL,\n            station_key TEXT REFERENCES tunion_stations(station_key),\n            source_json TEXT NOT NULL,\n            PRIMARY KEY (record_kind, city_id, terminal_code)\n        ) WITHOUT ROWID\n        ;",
+        "CREATE TABLE cityunion_terminal_prefixes (\n            terminal_prefix TEXT PRIMARY KEY, city_id TEXT NOT NULL,\n            station_name TEXT NOT NULL, line_name TEXT NOT NULL,\n            station_type TEXT NOT NULL, station_key TEXT,\n            source_json TEXT NOT NULL\n        ) WITHOUT ROWID\n    ;",
+        "CREATE INDEX idx_tunion_edges_from ON station_edges (from_station_code);",
+        "CREATE INDEX idx_tunion_edges_to ON station_edges (to_station_code);",
+        "CREATE INDEX idx_tunion_line_key ON tunion_stations (line_key);",
+        "CREATE INDEX idx_tunion_match_status ON tunion_stations (match_status, match_quality);",
+        "CREATE INDEX idx_tunion_station_name ON tunion_stations (station_name);",
+        "CREATE TABLE station_edge_paths (line_code TEXT NOT NULL, from_station_code TEXT NOT NULL, to_station_code TEXT NOT NULL, geohash_path TEXT NOT NULL, PRIMARY KEY (line_code,from_station_code,to_station_code)) WITHOUT ROWID;"
+      ],
+      "tables": {
+        "tunion_stations": [
+          "station_key",
+          "city_id",
+          "city_name",
+          "line_key",
+          "sequence",
+          "station_name",
+          "normalized_station_name",
+          "match_status",
+          "match_quality",
+          "match_source",
+          "match_query",
+          "latitude",
+          "longitude",
+          "display_name",
+          "osm_type",
+          "osm_id",
+          "importance",
+          "osm_name",
+          "osm_name_zh",
+          "osm_name_en",
+          "osm_name_ja",
+          "osm_names_json",
+          "last_updated_at",
+          "source_code",
+          "source_type",
+          "source_line_name",
+          "source_station_name",
+          "source_tripreader_json"
+        ],
+        "station_edges": [
+          "line_code",
+          "from_station_code",
+          "to_station_code",
+          "distance_km"
+        ],
+        "tunion_lines": [
+          "city_id",
+          "line_code",
+          "line_name",
+          "station_type",
+          "source_count",
+          "source_city_folder",
+          "source_csv_file"
+        ],
+        "tunion_terminal_stations": [
+          "record_kind",
+          "city_id",
+          "terminal_code",
+          "station_name",
+          "line_name",
+          "station_type",
+          "station_key",
+          "source_json"
+        ],
+        "cityunion_terminal_prefixes": [
+          "terminal_prefix",
+          "city_id",
+          "station_name",
+          "line_name",
+          "station_type",
+          "station_key",
+          "source_json"
+        ],
+        "station_edge_paths": [
+          "line_code",
+          "from_station_code",
+          "to_station_code",
+          "geohash_path"
+        ]
+      }
+    },
+    "ulaanbaatar_transit.sqlite": {
+      "schema": [
+        "CREATE TABLE stations (\n                    station_id INTEGER PRIMARY KEY,\n                    station_name_mn TEXT NOT NULL,\n                    station_name_en TEXT NOT NULL,\n                    latitude REAL NOT NULL,\n                    longitude REAL NOT NULL\n                );",
+        "CREATE TABLE routes (\n                    route_id INTEGER PRIMARY KEY,\n                    route_name_mn TEXT NOT NULL,\n                    route_name_en TEXT NOT NULL,\n                    endpoint_name_mn TEXT NOT NULL,\n                    endpoint_name_en TEXT NOT NULL\n                );",
+        "CREATE TABLE route_stations (\n                    route_id INTEGER NOT NULL REFERENCES routes(route_id),\n                    station_sequence INTEGER NOT NULL,\n                    station_id INTEGER NOT NULL REFERENCES stations(station_id),\n                    PRIMARY KEY (route_id, station_sequence)\n                );",
+        "CREATE INDEX route_stations_station_id_idx ON route_stations(station_id);"
+      ],
+      "tables": {
+        "stations": [
+          "station_id",
+          "station_name_mn",
+          "station_name_en",
+          "latitude",
+          "longitude"
+        ],
+        "routes": [
+          "route_id",
+          "route_name_mn",
+          "route_name_en",
+          "endpoint_name_mn",
+          "endpoint_name_en"
+        ],
+        "route_stations": [
+          "route_id",
+          "station_sequence",
+          "station_id"
+        ]
+      }
+    }
+  },
+  "korean_columns": [
+    "location_code",
+    "station_id",
+    "transport_mode_code",
+    "transport_mode_name_ko",
+    "transport_mode_name_en",
+    "transport_mode_name_ja",
+    "transport_mode_name_hanja",
+    "transport_mode_name_zh_hans",
+    "transport_mode_name_zh_hant",
+    "transport_class",
+    "station_name_ko",
+    "canonical_name_ko",
+    "station_name_en",
+    "station_name_ja",
+    "station_name_hanja",
+    "station_name_zh_hans",
+    "station_name_zh_hant",
+    "operator_name",
+    "line_name",
+    "latitude",
+    "longitude",
+    "province_code",
+    "province_name",
+    "district_code",
+    "district_name"
+  ]
+}

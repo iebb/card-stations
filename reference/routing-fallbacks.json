@@ -1,0 +1,4 @@
+{
+  "30012|3001205|3001206": "Doi-shita closed 1976-02-15. The extra dataset mixes historical and current branches without a common geometry epoch; retain fallback.",
+  "11629|1162902|1160303": "Kinrakuji closed 1981-04-01. The extra dataset mixes historical and current branches without a common geometry epoch; retain fallback."
+}

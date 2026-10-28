@@ -1,0 +1,171 @@
+{
+  "version": 2,
+  "tables": [
+    {
+      "name": "japanese-ic",
+      "glob": "data/japanese-ic/stations/**/*.csv",
+      "columns": [
+        "code",
+        "station_code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "line_code",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ]
+    },
+    {
+      "name": "t-union",
+      "glob": "data/t-union/stations/**/*.csv",
+      "columns": [
+        "code",
+        "station_code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "line_code",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ]
+    },
+    {
+      "name": "korean",
+      "glob": "data/korean/stations/**/*.csv",
+      "columns": [
+        "code",
+        "station_code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "line_code",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ]
+    },
+    {
+      "name": "u-money",
+      "glob": "data/u-money/stations/**/*.csv",
+      "columns": [
+        "code",
+        "station_code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "line_code",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ]
+    },
+    {
+      "name": "terminals",
+      "glob": "data/t-union/terminals/**/*.csv",
+      "columns": [
+        "code",
+        "station_code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "line_code",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ]
+    },
+    {
+      "name": "cityunion",
+      "glob": "data/t-union/cityunion/**/*.csv",
+      "columns": [
+        "code",
+        "station_code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "line_code",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ]
+    },
+    {
+      "name": "modes",
+      "glob": "data/korean/modes.csv",
+      "columns": [
+        "code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "class"
+      ]
+    },
+    {
+      "name": "cities",
+      "glob": "data/t-union/cities.csv",
+      "columns": [
+        "code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_zh_hant",
+        "osm_ref"
+      ]
+    },
+    {
+      "name": "card-names",
+      "glob": "data/t-union/card-names.csv",
+      "columns": [
+        "code",
+        "name"
+      ]
+    },
+    {
+      "name": "bus-companies",
+      "glob": "data/japanese-ic/bus-companies.csv",
+      "columns": [
+        "code",
+        "name"
+      ]
+    },
+    {
+      "name": "u-money-lines",
+      "glob": "data/u-money/lines.csv",
+      "columns": [
+        "code",
+        "name",
+        "name_en",
+        "osm_ref"
+      ]
+    }
+  ]
+}

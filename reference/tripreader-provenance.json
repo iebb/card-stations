@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "attribution": "Domosekai Limited and Trip Reader data contributors",
+      "files": {
+        "Anhui/Hefei/brt-tu.csv": "b65a10a57f45f9e36dd349ecd9f4468f668ee217ea88298b4701772fe034247c",
+        "Anhui/Hefei/metro-tu.csv": "4d648ae7cb34c07ebf40ef4f823a65d712ff451d198d7ac1b5aa0ef28a1fe2e4",
+        "Anhui/Wuhu/metro-tu.csv": "e1adc7fb9f8681f40c1b492b63fed9dfd4858c1b84202f7450669dda115b3975",
+        "Beijing/brt-tu.csv": "968ed2d19406f698829a064fce0f0e7114b0b22a43179e225290bc66449e15b9",
+        "Beijing/metro-tu.csv": "a6b46c33aa875f7693ce14486a3a4e70d5dfd44a89a1dd5932e544b343190c9f",
+        "Chongqing/metro-tu.csv": "365bf1b5592abdb13fa366e08fbf76767346856f347b1840f4103db1a7900fdd",
+        "Fujian/Fuzhou/metro-tu.csv": "00aa442a5df488ff68335a7d353c65bb0712e2806a947fc98dd1308763e16d1a",
+        "Fujian/Xiamen/brt-tu.csv": "362fa83e6e897488b8213db29c72b7a2d85b20f25d272919284f366ebdfaeea1",
+        "Fujian/Xiamen/metro-tu.csv": "42102719248c9092d69696071ad61514edfe79a0f980feb74cebb5eefab4ebe6",
+        "Gansu/Lanzhou/metro-tu.csv": "5d895282beef264b3b1181548645f8f1c6c8213ae4c29357a8982cb64f0fe11b",
+        "Guangdong/Dongguan/metro-tu.csv": "705d0ee6ed4e273482ccabd975e0280e1ce60181d32930a1dcf1e49f58a7a609",
+        "Guangdong/Foshan/metro-tu.csv": "54fd99aea09eb2dc1916a2c692b078ab3180fb84648a8f5e43121d63a8a5057b",
+        "Guangdong/Guangzhou/metro-tu.csv": "0f681534277a631d2f24a52acaf4ba2e9b88f51845c0acf64d0027155f5dee52",
+        "Guizhou/Guiyang/metro-tu.csv": "0b5059a4af4b31d7a0d405ddf6ac17925696f8a1c25c1bd3c8efeb345cad8aff",
+        "Heilongjiang/Harbin/metro-tu.csv": "3b2a56d5f032eb24a2f4058399b1a0f372fa33fe5c9c54d2260e34eb065b0633",
+        "Henan/Luoyang/metro-tu.csv": "4d175408dd1ed97299c509c5dee8965f0ebb3019414508b6520560d9fc058e09",
+        "Hunan/Changsha/metro-tu.csv": "6919d5a66ad1f6532f5bda28dcc0a8d58483204fa9e703477d8cb94e35cfdfde",
+        "Jiangsu/Changzhou/metro-tu.csv": "e7797c0680bd05f6749873fc8f40a92b781f797a62b99ee918dae7486dd809f6",
+        "Jiangsu/Nanjing/bike-tu.csv": "e5a892e48febeaf430a18123c2f3e0f35e3a581a2b92f058ccb127b926ddea09",
+        "Jiangsu/Nanjing/metro-tu.csv": "8755f3db3aa162c104df7643051d282c166d17199b1d05663fd33a5d6563a87e",
+        "Jiangsu/Suzhou/metro-tu.csv": "40fb15bf457c3b4c7446c5494619418e35e95a5345fbb1c036ba4412dfb98e83",
+        "Jiangsu/Wuxi/metro-tu.csv": "c298794c3fd6d110bbf0fb019fd7fddc8c53098d7d6a68034c08c9a09e330665",
+        "Jiangsu/Xuzhou/metro-tu.csv": "588507d73a6f2c1910b99ed24f46ea18d75860f87c3cf24d589e07b8feeb9f43",
+        "Jiangxi/Nanchang/metro-tu.csv": "8354b942de87b872a586cb56b70e27a422c44bcdf9c18a1f58aba19f6766249a",
+        "Liaoning/Dalian/brt-tu.csv": "7f68ec4675a94e381c109c82ce6c9642f549015f71aa5249e7830db1c7e36328",
+        "Liaoning/Dalian/bus-tu.csv": "36fff8244a0c5c5fe44f2c5ab49bcf865a7e20380d87aeb424f254c9c9fa8c91",
+        "Liaoning/Dalian/metro-tu.csv": "0b2d9e4a67e2e96b8a431cdd33ee7389e0fbce9e8d6f510ba24e1bbfd3b28d45",
+        "Liaoning/Shenyang/metro-tu.csv": "5d4703affb43b1c20e4f729e9b29a98321a90f49e2900ebffc855f5ea8881eb6",
+        "Shaanxi/Xi'an/metro-tu.csv": "dab230d56d097101d0d043e0e77a2423d1ad79c505945662918c082df76077a6",
+        "Shandong/Jinan/metro-tu.csv": "7b0f487f68e7285380eb99e47b18f705190a9000de1b6a4bb64e04eb44688dad",
+        "Shandong/Qingdao/metro-tu.csv": "0bbc590990a09fa1877be5c6ff2f69e0a39eb363b8cd027acc9742453a94eff0",
+        "Shanghai/brt-tu.csv": "f068fe4a76fe1b681717ac36fb6a8c3d19b9998065a45dc46409fb9aa5a0494c",
+        "Shanghai/bus-tu.csv": "cbb71cc115f09edf0f87501a21dca963216977d62df8257e8d666bfdd4349763",
+        "Shanghai/cu.csv": "9776afa356d7651368a9b9da1ec94e5c412b4551eafcc57658fa9464be216ee0",
+        "Shanghai/metro-tu.csv": "05bcd9428c70816caa117a2ae3bf1b248abd906ec322846eead9419a80d179d7",
+        "Shanxi/Taiyuan/bus-tu.csv": "6a0f3d85c6459e8aeffe7b5ccfdd1f891f509323899936eb259fa1f2ef959835",
+        "Tianjin/metro-tu.csv": "f2eb8e89da609c26cc9a1de86ceea7685f93efad951c106c441af1024d4468d4",
+        "Xinjiang/Urumqi/metro-tu.csv": "e23368da499b31de111a87c269d8dfa1ba24c876fbd26e09e613ee683f3bc013",
+        "Yunnan/Kunming/metro-tu.csv": "fd83e337e18919a2fd84d3e6efcaa4f54384235a9afdab28fef88d19aa07c386",
+        "Zhejiang/Hangzhou/metro-tu.csv": "b7acfe702401e721de89062c3e3f8e1f222016dc5a3903be581762e436e33f44",
+        "Zhejiang/Jiaxing/metro-tu.csv": "e40cdfa5412c3832883bd58fca3a7ddc977cf2fafd692627fa94057be6829278",
+        "Zhejiang/Ningbo/metro-tu.csv": "a866730eb12e5a3c9f018a9ec6f733486db85f8a8999db96b838ef08eb346353",
+        "Zhejiang/Shaoxing/metro-1e-tu.csv": "f75b313c1f2e88bf57be7363666d072c35239ed60ab294f45f347df73801cb16",
+        "Zhejiang/Shaoxing/metro-tu.csv": "b744ffc6f061bf81577cffb3c481cd419afd6cc17c39d5865704b8f18eb7b8f8",
+        "Zhejiang/Shaoxing/train-tu.csv": "85ab628dc58e55012159bb2befbd73e48f995a53bc2bf8682cb670d2e167bb4c"
+      },
+      "license": "CC-BY-4.0",
+      "revision": "c5584d6b8d9a39d7162b7b9781134be52db66186",
+      "url": "https://github.com/domosekai/tripreader-data"
+    },
+    {
+      "attribution": "Domosekai Limited, Trip Reader 读卡识途",
+      "license": "APK data terms not specified",
+      "notes": "Three rail station-code/name pairs absent from the existing registry, plus 4014 exact terminal-to-station aliases matching published gate IDs. Eleven aliases resolve the current name 长安. Literal data from the official APK; no application code or executable is redistributed.",
+      "revision": "1.7.17-cn",
+      "sha256": "b8cc78e73c3775f602656b4cde46c6ec4994ca364cdf985c5a18c6f68fe111b1",
+      "table": "M0.W.f1054a",
+      "terminal_tables": [
+        "M0.s/M0.t/M0.u"
+      ],
+      "url": "https://support.domosekai.com/download/tripreader-1.7.17-cn.apk"
+    }
+  ]
+}

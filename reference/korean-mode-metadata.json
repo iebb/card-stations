@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "title": "한국철도공사_광역정보_대중교통 정보_20230825",
+    "publisher": "한국철도공사",
+    "system": "KOTRIS",
+    "catalogURL": "https://www.data.go.kr/data/15121099/fileData.do",
+    "datasetDate": "2023-08-25",
+    "portalModifiedDate": "2025-09-03",
+    "retrievedAt": "2026-07-27",
+    "license": "이용허락범위 제한 없음",
+    "licenseEnglish": "No restrictions on permitted use",
+    "rowCount": 319,
+    "generatedFrom": "https://github.com/kitta-co/cardbal-korean-trips/blob/master/visualizer/scripts/sources/kotris_transport_modes.csv",
+    "sourceEncoding": "UTF-8 converted from the official CP949 CSV",
+    "sourceSHA256": "47b501a0bea9cb579ae361c55765548b1e826b4625968833607a98664ae34767",
+    "transformation": "Converted to UTF-8 JSON and trimmed surrounding whitespace from descriptions and class values; codes and labels are otherwise unchanged."
+  },
+  "supplementaryModes": [
+    {
+      "code": 142,
+      "matchStatus": "official_seoul",
+      "sourceTitle": "Seoul Smart Card transport-code table",
+      "sourceURL": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=13"
+    },
+    {
+      "code": 209,
+      "matchStatus": "official_seoul",
+      "sourceTitle": "Seoul Smart Card transport-code table",
+      "sourceURL": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=13"
+    },
+    {
+      "code": 210,
+      "matchStatus": "institutional_reference",
+      "sourceTitle": "Incheon Institute, 도시와 대중교통, Table 3",
+      "sourceURL": "https://www.ii.re.kr/storage/data/2024/04/30/DATA_ATTACH_1714437784942.pdf"
+    },
+    {
+      "code": 235,
+      "matchStatus": "official_seoul",
+      "sourceTitle": "Seoul Smart Card transport-code table",
+      "sourceURL": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=13"
+    },
+    {
+      "code": 237,
+      "matchStatus": "institutional_reference",
+      "sourceTitle": "Incheon Institute, 도시와 대중교통, Table 3",
+      "sourceURL": "https://www.ii.re.kr/storage/data/2024/04/30/DATA_ATTACH_1714437784942.pdf"
+    },
+    {
+      "code": 290,
+      "matchStatus": "corpus_geometry_inference",
+      "sourceTitle": "KOTI GTX-A line reference and CardBal distance geometry",
+      "sourceURL": "https://cppr.koti.re.kr/site.do?command=railwyDetail&railwyId=RID241201000022"
+    }
+  ]
+}
