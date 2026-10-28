@@ -1,2 +1,2 @@
-code,name,name_en,name_ja,name_hanja,name_zh_hans,name_zh_hant,line,latitude,longitude
-0000665000D1,수지구청,Suji-gu Office Station,水枝区庁駅,水枝區廳,水枝区厅,水枝區廳,경기철도,37.322702,127.095026
+code,name,name_en,name_ja,name_hanja,name_zh_hans,name_zh_hant,line,latitude,longitude,osm_ref
+0000665000D1,수지구청,Suji-gu Office Station,水枝区庁駅,水枝區廳,水枝区厅,水枝區廳,경기철도,37.322702,127.095026,node/6269743766

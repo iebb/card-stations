@@ -1,0 +1,2247 @@
+{
+  "checked_date": "2026-10-28",
+  "baseline_commit": "b328f96",
+  "scope": "All 93 originally missing-OSM rows in the ten assigned southern/western T-Union station files. Card city identifiers describe the lookup service region, not administrative containment.",
+  "policy": "Preserve every original code and native name; use independently verified station identities, cited exact historical/full-name equivalences, or explicit BRT stop groups. No line inference from card-code arithmetic, no Wikipedia coordinates, no raw report data. Known OSM references retain the same numeric coordinates across CSVs. A station reference does not assert that passenger service is open.",
+  "totals": {
+    "reviewed": 93,
+    "accepted": 85,
+    "unresolved": 8,
+    "unique_osm_objects_added": 83,
+    "fields_filled": {
+      "name_en": 77,
+      "latitude": 85,
+      "longitude": 85,
+      "osm_ref": 85,
+      "name_zh_hant": 5,
+      "line": 1
+    }
+  },
+  "cities": {
+    "3930": {
+      "reviewed": 21,
+      "accepted": 18,
+      "unresolved": 3
+    },
+    "4210": {
+      "reviewed": 1,
+      "accepted": 1,
+      "unresolved": 0
+    },
+    "5510": {
+      "reviewed": 4,
+      "accepted": 3,
+      "unresolved": 1
+    },
+    "5810": {
+      "reviewed": 25,
+      "accepted": 25,
+      "unresolved": 0
+    },
+    "5880": {
+      "reviewed": 1,
+      "accepted": 1,
+      "unresolved": 0
+    },
+    "6020": {
+      "reviewed": 1,
+      "accepted": 1,
+      "unresolved": 0
+    },
+    "6510": {
+      "reviewed": 4,
+      "accepted": 1,
+      "unresolved": 3
+    },
+    "6900": {
+      "reviewed": 1,
+      "accepted": 1,
+      "unresolved": 0
+    },
+    "7010": {
+      "reviewed": 3,
+      "accepted": 3,
+      "unresolved": 0
+    },
+    "7910": {
+      "reviewed": 32,
+      "accepted": 31,
+      "unresolved": 1
+    }
+  },
+  "rows": [
+    {
+      "city": "3930",
+      "code": "39300313",
+      "name": "体育会展",
+      "line": "3号线",
+      "decision": "accepted",
+      "osm_ref": "node/8829387994",
+      "osm_name": "国际博览中心",
+      "reason": "Documented 体育会展 → 国际博览中心 rename; same Line 3 station.",
+      "sources": [
+        "https://www.openstreetmap.org/node/8829387994",
+        "https://www.openstreetmap.org/relation/12893647",
+        "https://www.openstreetmap.org/relation/12893654",
+        "https://zh.wikipedia.org/wiki/国际博览中心站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "International Expo Center",
+        "latitude": "24.5594259",
+        "longitude": "118.2038614",
+        "osm_ref": "node/8829387994"
+      },
+      "latitude": "24.5594259",
+      "longitude": "118.2038614"
+    },
+    {
+      "city": "3930",
+      "code": "39302107",
+      "name": "金榜公园",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2334368",
+      "osm_name": "文灶站 WenZao (BRT)",
+      "reason": "OSM still labels the old BRT stop group 文灶 at the documented 金榜公园 location; the station article records its 2019 rename. The pre-existing 文灶 lookup is retained unchanged because its historical lookup semantics are uncertain.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2334368",
+        "https://zh.wikipedia.org/wiki/金榜公园站"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "latitude": "24.4698599",
+        "longitude": "118.1034403",
+        "osm_ref": "relation/2334368"
+      },
+      "latitude": "24.4698599",
+      "longitude": "118.1034403",
+      "translation_note": "Defective, stale, or malformed source English label omitted."
+    },
+    {
+      "city": "3930",
+      "code": "39302114",
+      "name": "前埔枢纽站",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2330985",
+      "osm_name": "前埔枢纽站 Qianpu Junction (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2330985"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "Qianpu Junction",
+        "latitude": "24.4739846",
+        "longitude": "118.1675152",
+        "osm_ref": "relation/2330985"
+      },
+      "latitude": "24.4739846",
+      "longitude": "118.1675152"
+    },
+    {
+      "city": "3930",
+      "code": "39302117",
+      "name": "市行政服务中心",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2340900",
+      "osm_name": "市政务服务中心站 Xiamen Municipal Administration Service Center (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected. The system article explicitly records 市政务服务中心 as the former name of 市行政服务中心.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2340900",
+        "https://zh.wikipedia.org/wiki/厦门快速公交"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "Xiamen Municipal Administration Service Center",
+        "latitude": "24.5147821",
+        "longitude": "118.1540343",
+        "osm_ref": "relation/2340900"
+      },
+      "latitude": "24.5147821",
+      "longitude": "118.1540343"
+    },
+    {
+      "city": "3930",
+      "code": "39302119",
+      "name": "县后",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2340901",
+      "osm_name": "县后站(机场) XianHou (Airport) (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected. The system article explicitly identifies 县后 as the former short name of 县后(机场).",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2340901",
+        "https://zh.wikipedia.org/wiki/厦门快速公交"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "XianHou (Airport)",
+        "latitude": "24.534267",
+        "longitude": "118.1477893",
+        "osm_ref": "relation/2340901"
+      },
+      "latitude": "24.534267",
+      "longitude": "118.1477893"
+    },
+    {
+      "city": "3930",
+      "code": "39302124",
+      "name": "华侨大学",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2317518",
+      "osm_name": "华侨大学站 HuaQiao University",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2317518"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "HuaQiao University",
+        "latitude": "24.6000896",
+        "longitude": "118.0824221",
+        "osm_ref": "relation/2317518"
+      },
+      "latitude": "24.6000896",
+      "longitude": "118.0824221"
+    },
+    {
+      "city": "3930",
+      "code": "39302125",
+      "name": "大学城",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2319209",
+      "osm_name": "大学城站 University City (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2319209"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "University City",
+        "latitude": "24.6047085",
+        "longitude": "118.0743637",
+        "osm_ref": "relation/2319209"
+      },
+      "latitude": "24.6047085",
+      "longitude": "118.0743637"
+    },
+    {
+      "city": "3930",
+      "code": "39302126",
+      "name": "产业研究院",
+      "line": "",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "Only a platform with defective/truncated OSM name 产业研究研究 Institution ... (BRT) was found in the expected BRT corridor. Operator announcement confirms the station exists, but no exact grouped station identity or reliable name equivalence was established; do not turn a fuzzy match into a lookup mapping.",
+      "sources": [
+        "https://www.openstreetmap.org/node/4406288790",
+        "https://www.sina.cn/news/detail/5159356387563925.html"
+      ]
+    },
+    {
+      "city": "3930",
+      "code": "39302127",
+      "name": "中科院",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2319210",
+      "osm_name": "中科院站 CAS (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2319210"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "CAS",
+        "latitude": "24.6123396",
+        "longitude": "118.0609549",
+        "osm_ref": "relation/2319210"
+      },
+      "latitude": "24.6123396",
+      "longitude": "118.0609549"
+    },
+    {
+      "city": "3930",
+      "code": "39302128",
+      "name": "东宅",
+      "line": "",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "Two directional BRT stops exist without a station/stop-area grouping. Do not choose one direction without lookup-direction evidence. The exact-name metro 东宅 station is a different physical station and is rejected.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12089955453",
+        "https://www.openstreetmap.org/node/12089967511",
+        "https://www.openstreetmap.org/way/765488976",
+        "https://zh.wikipedia.org/wiki/厦门快速公交"
+      ]
+    },
+    {
+      "city": "3930",
+      "code": "39302129",
+      "name": "田厝",
+      "line": "",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "Two BRT boarding points and ordinary-bus homonyms exist without a station/stop-area grouping. Keep the physical mapping unknown rather than choose an arbitrary direction.",
+      "sources": [
+        "https://www.openstreetmap.org/node/3902785853",
+        "https://www.openstreetmap.org/node/12089949096",
+        "https://zh.wikipedia.org/wiki/厦门快速公交"
+      ]
+    },
+    {
+      "city": "3930",
+      "code": "39302130",
+      "name": "厦门北站",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2378229",
+      "osm_name": "厦门北站 Xiamen North Railway Station (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2378229"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "Xiamen North Railway Station",
+        "latitude": "24.6369261",
+        "longitude": "118.0683183",
+        "osm_ref": "relation/2378229"
+      },
+      "latitude": "24.6369261",
+      "longitude": "118.0683183"
+    },
+    {
+      "city": "3930",
+      "code": "39302131",
+      "name": "凤林",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2319249",
+      "osm_name": "凤林站 FengLin (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2319249"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "FengLin",
+        "latitude": "24.5901392",
+        "longitude": "118.1163315",
+        "osm_ref": "relation/2319249"
+      },
+      "latitude": "24.5901392",
+      "longitude": "118.1163315"
+    },
+    {
+      "city": "3930",
+      "code": "39302132",
+      "name": "东安",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2319272",
+      "osm_name": "东垵站 DongAn (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected. 东安/东垵 orthography is corroborated by the official bus-group announcement describing access to this BRT station.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2319272",
+        "https://zh.wikipedia.org/wiki/厦门快速公交二号线",
+        "https://www.fjdaily.com/app/content/2020-10/29/content_852108.html"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "DongAn",
+        "latitude": "24.5968436",
+        "longitude": "118.1214444",
+        "osm_ref": "relation/2319272"
+      },
+      "latitude": "24.5968436",
+      "longitude": "118.1214444"
+    },
+    {
+      "city": "3930",
+      "code": "39302133",
+      "name": "后田",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2319273",
+      "osm_name": "后田站 HouTian (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2319273"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "HouTian",
+        "latitude": "24.6054404",
+        "longitude": "118.127752",
+        "osm_ref": "relation/2319273"
+      },
+      "latitude": "24.6054404",
+      "longitude": "118.127752"
+    },
+    {
+      "city": "3930",
+      "code": "39302134",
+      "name": "东亭",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2321896",
+      "osm_name": "东亭站 DongTIng (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2321896"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "DongTing",
+        "latitude": "24.6142795",
+        "longitude": "118.1300057",
+        "osm_ref": "relation/2321896"
+      },
+      "latitude": "24.6142795",
+      "longitude": "118.1300057"
+    },
+    {
+      "city": "3930",
+      "code": "39302135",
+      "name": "美峰",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2321912",
+      "osm_name": "美峰站 MeiFeng (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2321912"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "MeiFeng",
+        "latitude": "24.6209565",
+        "longitude": "118.1344232",
+        "osm_ref": "relation/2321912"
+      },
+      "latitude": "24.6209565",
+      "longitude": "118.1344232"
+    },
+    {
+      "city": "3930",
+      "code": "39302136",
+      "name": "蔡店",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2321920",
+      "osm_name": "蔡店站 CaiDian (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2321920"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "CaiDian",
+        "latitude": "24.6296342",
+        "longitude": "118.1417067",
+        "osm_ref": "relation/2321920"
+      },
+      "latitude": "24.6296342",
+      "longitude": "118.1417067"
+    },
+    {
+      "city": "3930",
+      "code": "39302137",
+      "name": "潘涂",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2321992",
+      "osm_name": "潘涂站 PanTu (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2321992"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "name_en": "PanTu",
+        "latitude": "24.6405467",
+        "longitude": "118.1460015",
+        "osm_ref": "relation/2321992"
+      },
+      "latitude": "24.6405467",
+      "longitude": "118.1460015"
+    },
+    {
+      "city": "3930",
+      "code": "39302138",
+      "name": "滨海新城（西柯）枢纽站",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "relation/2322196",
+      "osm_name": "滨海新城 (西柯) 枢纽站 BinHai New Town (XiKe) Junction (BRT)",
+      "reason": "The BRT-tagged stop area groups its actual stops/platforms and supplies a station representative point; ordinary bus and metro homonyms are not selected.",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2322196"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "latitude": "24.6460364",
+        "longitude": "118.1548545",
+        "osm_ref": "relation/2322196"
+      },
+      "latitude": "24.6460364",
+      "longitude": "118.1548545",
+      "translation_note": "Defective, stale, or malformed source English label omitted."
+    },
+    {
+      "city": "3930",
+      "code": "39302145",
+      "name": "同安枢纽站",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "way/917311630",
+      "osm_name": "同安枢纽站",
+      "reason": "Exact bus-station footprint 同安枢纽站; BRT terminal identity is independently listed in the system article. The whole station footprint is preferred to a directional boarding point.",
+      "sources": [
+        "https://www.openstreetmap.org/way/917311630",
+        "https://zh.wikipedia.org/wiki/厦门快速公交"
+      ],
+      "coordinate_source": "OSM stop-area or station-footprint bounding-box centre",
+      "added_fields": {
+        "latitude": "24.7225267",
+        "longitude": "118.1329488",
+        "osm_ref": "way/917311630"
+      },
+      "latitude": "24.7225267",
+      "longitude": "118.1329488"
+    },
+    {
+      "city": "4210",
+      "code": "421000020221",
+      "name": "大岗",
+      "line": "2号线",
+      "decision": "accepted",
+      "osm_ref": "node/2657254253",
+      "osm_name": "南昌中学",
+      "reason": "Documented 大岗 → 南昌中学 rename; same Nanchang Line 2 station.",
+      "sources": [
+        "https://www.openstreetmap.org/node/2657254253",
+        "https://www.openstreetmap.org/relation/3067723",
+        "https://www.openstreetmap.org/relation/13502831",
+        "https://zh.wikipedia.org/wiki/南昌中学站",
+        "https://epaper.jxxw.com.cn/resfile/2024-11-07/07/jxrb-20241107-007.pdf"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Nanchang High School",
+        "latitude": "28.563878",
+        "longitude": "115.784322",
+        "osm_ref": "node/2657254253"
+      },
+      "latitude": "28.563878",
+      "longitude": "115.784322"
+    },
+    {
+      "city": "5510",
+      "code": "5510060035",
+      "name": "黄花机场T3",
+      "line": "6号线",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "The documented Line 6 extension station is distinct from T1/T2. Regional rail/construction queries and the T3 vicinity map supplied the airport terminal building but no verified metro station object; the terminal building is rejected as a station reference.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1292584043",
+        "https://zh.wikipedia.org/wiki/黄花机场T1T2站",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-03-25/244942_20260325_CM0R.pdf"
+      ]
+    },
+    {
+      "city": "5510",
+      "code": "55101F001F07",
+      "name": "黄家湾",
+      "line": "3号线",
+      "decision": "accepted",
+      "osm_ref": "node/11016535642",
+      "osm_name": "黄家湾",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11016535642",
+        "https://www.openstreetmap.org/relation/11257187",
+        "https://www.openstreetmap.org/relation/11257189",
+        "https://www.openstreetmap.org/relation/16103880",
+        "https://www.openstreetmap.org/relation/16103881"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Huangjiawan",
+        "latitude": "27.9936974",
+        "longitude": "112.9416682",
+        "osm_ref": "node/11016535642"
+      },
+      "latitude": "27.9936974",
+      "longitude": "112.9416682"
+    },
+    {
+      "city": "5510",
+      "code": "55101F001F08",
+      "name": "船形山",
+      "line": "3号线",
+      "decision": "accepted",
+      "osm_ref": "node/11016535641",
+      "osm_name": "船形山（湘潭理工学院）",
+      "reason": "The station article explicitly identifies 船形山 and its former on-site qualifier 湘潭理工学院; station node belongs to the same named stop area and Line 3.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11016535641",
+        "https://www.openstreetmap.org/relation/11257187",
+        "https://www.openstreetmap.org/relation/11257189",
+        "https://www.openstreetmap.org/relation/16103880",
+        "https://www.openstreetmap.org/relation/16103881",
+        "https://zh.wikipedia.org/wiki/船形山站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Chuanxingshan (Xiangtan Institute of Technology)",
+        "latitude": "27.9830297",
+        "longitude": "112.943983",
+        "osm_ref": "node/11016535641"
+      },
+      "latitude": "27.9830297",
+      "longitude": "112.943983"
+    },
+    {
+      "city": "5510",
+      "code": "55101F001F09",
+      "name": "湘潭北站",
+      "line": "3号线",
+      "decision": "accepted",
+      "osm_ref": "node/11016535640",
+      "osm_name": "湘潭北站",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11016535640",
+        "https://www.openstreetmap.org/relation/11257187",
+        "https://www.openstreetmap.org/relation/11257189",
+        "https://www.openstreetmap.org/relation/16103880",
+        "https://www.openstreetmap.org/relation/16103881"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Xiangtan North Railway Station",
+        "latitude": "27.9669503",
+        "longitude": "112.937838",
+        "osm_ref": "node/11016535640"
+      },
+      "latitude": "27.9669503",
+      "longitude": "112.937838"
+    },
+    {
+      "city": "5810",
+      "code": "581000070025",
+      "name": "美的大道",
+      "line": "7号线",
+      "decision": "accepted",
+      "osm_ref": "node/9706799354",
+      "osm_name": "美的大道",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9706799354",
+        "https://zh.wikipedia.org/wiki/美的大道站",
+        "https://zh.wikipedia.org/wiki/广州地铁7号线"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Meidi Dadao",
+        "latitude": "22.9476007",
+        "longitude": "113.2023646",
+        "osm_ref": "node/9706799354"
+      },
+      "latitude": "22.9476007",
+      "longitude": "113.2023646"
+    },
+    {
+      "city": "5810",
+      "code": "581000070026",
+      "name": "北滘公园",
+      "line": "7号线",
+      "decision": "accepted",
+      "osm_ref": "node/9706799353",
+      "osm_name": "北滘公园",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9706799353",
+        "https://www.openstreetmap.org/relation/7520751",
+        "https://www.openstreetmap.org/relation/7520752",
+        "https://www.openstreetmap.org/relation/15054264",
+        "https://www.openstreetmap.org/relation/15054271",
+        "https://www.openstreetmap.org/relation/20996095",
+        "https://www.openstreetmap.org/relation/20996096",
+        "https://zh.wikipedia.org/wiki/北滘公园站",
+        "https://zh.wikipedia.org/wiki/广州地铁7号线"
+      ],
+      "coordinate_source": "existing shared-reference coordinates",
+      "other_catalog_city_codes": [
+        "5880"
+      ],
+      "added_fields": {
+        "name_en": "Beijiao Park",
+        "name_zh_hant": "北滘公園",
+        "latitude": "22.9329013",
+        "longitude": "113.2066843",
+        "osm_ref": "node/9706799353"
+      },
+      "latitude": "22.9329013",
+      "longitude": "113.2066843"
+    },
+    {
+      "city": "5810",
+      "code": "581000070027",
+      "name": "美的",
+      "line": "7号线",
+      "decision": "accepted",
+      "osm_ref": "node/9706799352",
+      "osm_name": "美的",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9706799352",
+        "https://zh.wikipedia.org/wiki/美的站",
+        "https://zh.wikipedia.org/wiki/广州地铁7号线"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Midea",
+        "latitude": "22.9364785",
+        "longitude": "113.2215575",
+        "osm_ref": "node/9706799352"
+      },
+      "latitude": "22.9364785",
+      "longitude": "113.2215575"
+    },
+    {
+      "city": "5810",
+      "code": "581000070028",
+      "name": "南涌",
+      "line": "7号线",
+      "decision": "accepted",
+      "osm_ref": "node/9706799351",
+      "osm_name": "南涌",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9706799351",
+        "https://zh.wikipedia.org/wiki/南涌站",
+        "https://zh.wikipedia.org/wiki/广州地铁7号线"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Nanchong",
+        "latitude": "22.9419037",
+        "longitude": "113.2327155",
+        "osm_ref": "node/9706799351"
+      },
+      "latitude": "22.9419037",
+      "longitude": "113.2327155"
+    },
+    {
+      "city": "5810",
+      "code": "581000070029",
+      "name": "锦龙",
+      "line": "7号线",
+      "decision": "accepted",
+      "osm_ref": "node/9706799350",
+      "osm_name": "锦龙",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9706799350",
+        "https://zh.wikipedia.org/wiki/锦龙站 (佛山)",
+        "https://zh.wikipedia.org/wiki/广州地铁7号线"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Jinlong",
+        "name_zh_hant": "錦龍",
+        "latitude": "22.9567914",
+        "longitude": "113.235791",
+        "osm_ref": "node/9706799350"
+      },
+      "latitude": "22.9567914",
+      "longitude": "113.235791"
+    },
+    {
+      "city": "5810",
+      "code": "581000070030",
+      "name": "陈村",
+      "line": "7号线",
+      "decision": "accepted",
+      "osm_ref": "node/9706799349",
+      "osm_name": "陈村",
+      "reason": "Exact metro station name and station=subway; distinct from the separate intercity railway 陈村 node. The station and Line 7 articles confirm the service.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9706799349",
+        "https://zh.wikipedia.org/wiki/陈村站_(地铁)",
+        "https://zh.wikipedia.org/wiki/广州地铁7号线"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Chencun",
+        "name_zh_hant": "陳村",
+        "latitude": "22.9707566",
+        "longitude": "113.2315806",
+        "osm_ref": "node/9706799349"
+      },
+      "latitude": "22.9707566",
+      "longitude": "113.2315806"
+    },
+    {
+      "city": "5810",
+      "code": "581000070031",
+      "name": "陈村北",
+      "line": "7号线",
+      "decision": "accepted",
+      "osm_ref": "node/9706799348",
+      "osm_name": "陈村北",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9706799348",
+        "https://zh.wikipedia.org/wiki/陳村北站",
+        "https://zh.wikipedia.org/wiki/广州地铁7号线"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Chencunbei",
+        "name_zh_hant": "陳村北",
+        "latitude": "22.9788197",
+        "longitude": "113.2398796",
+        "osm_ref": "node/9706799348"
+      },
+      "latitude": "22.9788197",
+      "longitude": "113.2398796"
+    },
+    {
+      "city": "5810",
+      "code": "581000600001",
+      "name": "魁奇路",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/14137668134",
+      "osm_name": "魁奇路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/14137668134",
+        "https://www.openstreetmap.org/relation/2646091",
+        "https://www.openstreetmap.org/relation/7944797",
+        "https://zh.wikipedia.org/wiki/魁奇路站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Kuiqi Lu",
+        "latitude": "22.9961184",
+        "longitude": "113.1031413",
+        "osm_ref": "node/14137668134"
+      },
+      "latitude": "22.9961184",
+      "longitude": "113.1031413"
+    },
+    {
+      "city": "5810",
+      "code": "581000600002",
+      "name": "季华园",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001288",
+      "osm_name": "季华园",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001288",
+        "https://zh.wikipedia.org/wiki/季華園站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Jihua Park",
+        "latitude": "23.0096252",
+        "longitude": "113.1030462",
+        "osm_ref": "node/6491001288"
+      },
+      "latitude": "23.0096252",
+      "longitude": "113.1030462"
+    },
+    {
+      "city": "5810",
+      "code": "581000600003",
+      "name": "同济路",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001287",
+      "osm_name": "同济路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001287",
+        "https://zh.wikipedia.org/wiki/同濟路站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Tongji Lu",
+        "latitude": "23.0216223",
+        "longitude": "113.1030268",
+        "osm_ref": "node/6491001287"
+      },
+      "latitude": "23.0216223",
+      "longitude": "113.1030268"
+    },
+    {
+      "city": "5810",
+      "code": "581000600004",
+      "name": "祖庙",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001286",
+      "osm_name": "祖庙",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001286",
+        "https://zh.wikipedia.org/wiki/祖廟站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Zumiao",
+        "latitude": "23.0296284",
+        "longitude": "113.1066766",
+        "osm_ref": "node/6491001286"
+      },
+      "latitude": "23.0296284",
+      "longitude": "113.1066766"
+    },
+    {
+      "city": "5810",
+      "code": "581000600005",
+      "name": "普君北路",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/5441714428",
+      "osm_name": "普君北路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/5441714428",
+        "https://zh.wikipedia.org/wiki/普君北路站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Pujun Beilu",
+        "latitude": "23.030176",
+        "longitude": "113.1177994",
+        "osm_ref": "node/5441714428"
+      },
+      "latitude": "23.030176",
+      "longitude": "113.1177994"
+    },
+    {
+      "city": "5810",
+      "code": "581000600006",
+      "name": "朝安",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001285",
+      "osm_name": "朝安",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001285",
+        "https://zh.wikipedia.org/wiki/朝安站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Chao'an",
+        "latitude": "23.0301623",
+        "longitude": "113.1277392",
+        "osm_ref": "node/6491001285"
+      },
+      "latitude": "23.0301623",
+      "longitude": "113.1277392"
+    },
+    {
+      "city": "5810",
+      "code": "581000600007",
+      "name": "桂城",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/14137668135",
+      "osm_name": "桂城",
+      "reason": "Exact 桂城 station for Guangfo service; operator is 广东广佛轨道交通有限公司, distinct from the separate Foshan Line 3 node.",
+      "sources": [
+        "https://www.openstreetmap.org/node/14137668135",
+        "https://zh.wikipedia.org/wiki/桂城站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Guicheng",
+        "latitude": "23.0343546",
+        "longitude": "113.1360386",
+        "osm_ref": "node/14137668135"
+      },
+      "latitude": "23.0343546",
+      "longitude": "113.1360386"
+    },
+    {
+      "city": "5810",
+      "code": "581000600008",
+      "name": "南桂路",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/5447531190",
+      "osm_name": "南桂路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/5447531190",
+        "https://zh.wikipedia.org/wiki/南桂路站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Nangui Road",
+        "latitude": "23.0367782",
+        "longitude": "113.1486741",
+        "osm_ref": "node/5447531190"
+      },
+      "latitude": "23.0367782",
+      "longitude": "113.1486741"
+    },
+    {
+      "city": "5810",
+      "code": "581000600009",
+      "name": "𧒽岗",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001184",
+      "osm_name": "𧒽岗",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001184",
+        "https://www.openstreetmap.org/relation/2646091",
+        "https://www.openstreetmap.org/relation/7944797",
+        "https://zh.wikipedia.org/wiki/𧒽崗站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "existing shared-reference coordinates",
+      "other_catalog_city_codes": [
+        "5880"
+      ],
+      "added_fields": {
+        "name_en": "Leigang",
+        "latitude": "23.04518",
+        "longitude": "113.1499495",
+        "osm_ref": "node/6491001184"
+      },
+      "latitude": "23.04518",
+      "longitude": "113.1499495"
+    },
+    {
+      "city": "5810",
+      "code": "581000600010",
+      "name": "千灯湖",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001183",
+      "osm_name": "千灯湖",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001183",
+        "https://zh.wikipedia.org/wiki/千燈湖站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Qiandeng Lake",
+        "latitude": "23.0575032",
+        "longitude": "113.1500148",
+        "osm_ref": "node/6491001183"
+      },
+      "latitude": "23.0575032",
+      "longitude": "113.1500148"
+    },
+    {
+      "city": "5810",
+      "code": "581000600011",
+      "name": "金融高新区",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001182",
+      "osm_name": "金融高新区",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001182",
+        "https://zh.wikipedia.org/wiki/金融高新区站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Financial Hi-Tech Zone",
+        "latitude": "23.0686698",
+        "longitude": "113.1530235",
+        "osm_ref": "node/6491001182"
+      },
+      "latitude": "23.0686698",
+      "longitude": "113.1530235"
+    },
+    {
+      "city": "5810",
+      "code": "581000600022",
+      "name": "澜石",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001290",
+      "osm_name": "澜石",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001290",
+        "https://zh.wikipedia.org/wiki/澜石站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Lanshi",
+        "latitude": "22.9866445",
+        "longitude": "113.1015033",
+        "osm_ref": "node/6491001290"
+      },
+      "latitude": "22.9866445",
+      "longitude": "113.1015033"
+    },
+    {
+      "city": "5810",
+      "code": "581000600023",
+      "name": "世纪莲",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/5447446564",
+      "osm_name": "世纪莲",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/5447446564",
+        "https://zh.wikipedia.org/wiki/世纪莲站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Shijilian",
+        "latitude": "22.9679295",
+        "longitude": "113.1100146",
+        "osm_ref": "node/5447446564"
+      },
+      "latitude": "22.9679295",
+      "longitude": "113.1100146"
+    },
+    {
+      "city": "5810",
+      "code": "581000600024",
+      "name": "东平",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001291",
+      "osm_name": "东平",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001291",
+        "https://www.openstreetmap.org/relation/2646091",
+        "https://www.openstreetmap.org/relation/7944797",
+        "https://zh.wikipedia.org/wiki/东平站 (佛山市)",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "existing shared-reference coordinates",
+      "other_catalog_city_codes": [
+        "5880"
+      ],
+      "added_fields": {
+        "name_en": "Dongping",
+        "latitude": "22.9677025",
+        "longitude": "113.1236856",
+        "osm_ref": "node/6491001291"
+      },
+      "latitude": "22.9677025",
+      "longitude": "113.1236856"
+    },
+    {
+      "city": "5810",
+      "code": "581000600025",
+      "name": "新城东",
+      "line": "广佛线",
+      "decision": "accepted",
+      "osm_ref": "node/6491001292",
+      "osm_name": "新城东",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. This catalog identifies the card service region; the verified station may physically lie in Foshan.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6491001292",
+        "https://zh.wikipedia.org/wiki/新城東站",
+        "https://zh.wikipedia.org/wiki/广佛地铁"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Xincheng Dong",
+        "latitude": "22.9615085",
+        "longitude": "113.1349373",
+        "osm_ref": "node/6491001292"
+      },
+      "latitude": "22.9615085",
+      "longitude": "113.1349373"
+    },
+    {
+      "city": "5810",
+      "code": "581000700001",
+      "name": "清城",
+      "line": "广清城际",
+      "decision": "accepted",
+      "osm_ref": "node/9198249301",
+      "osm_name": "清城",
+      "reason": "Exact railway station; regional search covers the Guangqing service in Qingyuan beyond Guangzhou administrative limits.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9198249301",
+        "https://zh.wikipedia.org/wiki/清城站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "latitude": "23.6560817",
+        "longitude": "113.0607505",
+        "osm_ref": "node/9198249301"
+      },
+      "latitude": "23.6560817",
+      "longitude": "113.0607505"
+    },
+    {
+      "city": "5810",
+      "code": "581000700002",
+      "name": "龙塘镇",
+      "line": "广清城际",
+      "decision": "accepted",
+      "osm_ref": "node/9198249302",
+      "osm_name": "龙塘镇",
+      "reason": "Exact intercity railway station, distinct from ordinary local bus stops; Guangqing membership and location corroborated.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9198249302",
+        "https://zh.wikipedia.org/wiki/龙塘镇站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Longtangzhen",
+        "latitude": "23.6086625",
+        "longitude": "113.0785404",
+        "osm_ref": "node/9198249302"
+      },
+      "latitude": "23.6086625",
+      "longitude": "113.0785404"
+    },
+    {
+      "city": "5810",
+      "code": "581000700003",
+      "name": "银盏",
+      "line": "广清城际",
+      "decision": "accepted",
+      "osm_ref": "node/9198249303",
+      "osm_name": "银盏",
+      "reason": "Exact Guangqing intercity station and operator, distinct from the adjacent 清远长隆 maglev station and 银盏坳 freight station.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9198249303",
+        "https://zh.wikipedia.org/wiki/银盏站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "latitude": "23.5519984",
+        "longitude": "113.1247311",
+        "osm_ref": "node/9198249303"
+      },
+      "latitude": "23.5519984",
+      "longitude": "113.1247311"
+    },
+    {
+      "city": "5880",
+      "code": "588000420017",
+      "name": "广州南站",
+      "line": "2号线",
+      "decision": "accepted",
+      "osm_ref": "node/9372157614",
+      "osm_name": "广州南站",
+      "reason": "Exact Guangzhou South station on Foshan Line 2 (operator 佛山市地铁运营有限公司/ref F227), distinct from Guangzhou Lines 2/7 and 22 nodes.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9372157614",
+        "https://www.openstreetmap.org/relation/13604443",
+        "https://www.openstreetmap.org/relation/13604444",
+        "https://zh.wikipedia.org/wiki/广州南站_(地铁)"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Guangzhou South Railway Station",
+        "name_zh_hant": "廣州南站",
+        "latitude": "22.9910905",
+        "longitude": "113.2604785",
+        "osm_ref": "node/9372157614"
+      },
+      "latitude": "22.9910905",
+      "longitude": "113.2604785"
+    },
+    {
+      "city": "6020",
+      "code": "602000020208",
+      "name": "鸿福路",
+      "line": "2号线",
+      "decision": "accepted",
+      "osm_ref": "node/12791162944",
+      "osm_name": "市民中心",
+      "reason": "OSM old_name exactly 鸿福路; documented rename to 市民中心 on 2025-10-15, with Line 2 continuity.",
+      "sources": [
+        "https://www.openstreetmap.org/node/12791162944",
+        "https://zh.wikipedia.org/wiki/市民中心站_(东莞市)"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Civic Center",
+        "latitude": "23.0143497",
+        "longitude": "113.7549604",
+        "osm_ref": "node/12791162944"
+      },
+      "latitude": "23.0143497",
+      "longitude": "113.7549604"
+    },
+    {
+      "city": "6510",
+      "code": "65101831",
+      "name": "天府机场3号4号航站楼",
+      "line": "18号线",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "Reserved/unopened terminal station is documented. OSM has several directional named stop_position nodes but no verified station centre/group; their placement also differs materially from the article coordinates. Keep the mapping unknown rather than select a direction or borrow the T1/T2 station.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6669929054",
+        "https://www.openstreetmap.org/node/8867473140",
+        "https://www.openstreetmap.org/node/9164861769",
+        "https://zh.wikipedia.org/wiki/天府机场3号4号航站楼站"
+      ]
+    },
+    {
+      "city": "6510",
+      "code": "65101941",
+      "name": "天府机场3号4号航站楼",
+      "line": "19号线",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "Same reserved terminal-station ambiguity as the Line 18 lookup: directional stop_position nodes are insufficient to select a stable station identity; no T1/T2 substitution or operating-status inference.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6669929054",
+        "https://www.openstreetmap.org/node/9164861769",
+        "https://zh.wikipedia.org/wiki/天府机场3号4号航站楼站"
+      ]
+    },
+    {
+      "city": "6510",
+      "code": "65107322",
+      "name": "卢葭",
+      "line": "S3号线",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "A real reserved S3 station is mapped as 芦葭站 and documented as 芦葭. No public source found establishes the different lookup spelling 卢葭 as an alias; similarity alone is insufficient. Preserve the native lookup name and defer the OSM link.",
+      "sources": [
+        "https://www.openstreetmap.org/way/1530966031",
+        "https://zh.wikipedia.org/wiki/芦葭站"
+      ]
+    },
+    {
+      "city": "6510",
+      "code": "65107326",
+      "name": "宝台",
+      "line": "S3号线",
+      "decision": "accepted",
+      "osm_ref": "node/11942182955",
+      "osm_name": "宝台",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11942182955",
+        "https://www.openstreetmap.org/relation/11516374"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Baotai",
+        "latitude": "30.1167403",
+        "longitude": "104.6713209",
+        "osm_ref": "node/11942182955"
+      },
+      "latitude": "30.1167403",
+      "longitude": "104.6713209"
+    },
+    {
+      "city": "6900",
+      "code": "69000901",
+      "name": "新桥",
+      "line": "9号线",
+      "decision": "accepted",
+      "osm_ref": "node/9436112295",
+      "osm_name": "新桥",
+      "reason": "OSM explicitly maps the Line 9 subway station under construction, distinct from same-named ordinary bus stops. The line article lists 新桥 as not yet open; no opening status is inferred from this reference.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9436112295",
+        "https://zh.wikipedia.org/wiki/重庆轨道交通9号线"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Xinqiao",
+        "latitude": "29.528906",
+        "longitude": "106.4359275",
+        "osm_ref": "node/9436112295"
+      },
+      "latitude": "29.528906",
+      "longitude": "106.4359275"
+    },
+    {
+      "city": "7010",
+      "code": "70100301",
+      "name": "桐木岭",
+      "line": "3号线",
+      "decision": "accepted",
+      "osm_ref": "node/11434807652",
+      "osm_name": "桐木岭（省委党校）",
+      "reason": "Documented short/full station-name equivalence: 桐木岭（省委党校） on Guiyang Line 3.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11434807652",
+        "https://zh.wikipedia.org/wiki/桐木岭（省委党校）站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Tongmuling (Party School of the CPC Guizhou Provincial Committee)",
+        "latitude": "26.3830482",
+        "longitude": "106.6767636",
+        "osm_ref": "node/11434807652"
+      },
+      "latitude": "26.3830482",
+      "longitude": "106.6767636"
+    },
+    {
+      "city": "7010",
+      "code": "70100312",
+      "name": "四方河",
+      "line": "3号线",
+      "decision": "accepted",
+      "osm_ref": "node/11434854460",
+      "osm_name": "四方河（省中医院）",
+      "reason": "Documented short/full station-name equivalence: 四方河（省中医院） on Guiyang Line 3.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11434854460",
+        "https://zh.wikipedia.org/wiki/四方河（省中医院）站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Sifanghe (Guizhou Branch Hospital of Guangdong Provincial Hospital of Traditional Chinese Medicine)",
+        "latitude": "26.5340958",
+        "longitude": "106.6786371",
+        "osm_ref": "node/11434854460"
+      },
+      "latitude": "26.5340958",
+      "longitude": "106.6786371"
+    },
+    {
+      "city": "7010",
+      "code": "70100328",
+      "name": "东风",
+      "line": "3号线",
+      "decision": "accepted",
+      "osm_ref": "node/11432158706",
+      "osm_name": "东风（贵黔医院）",
+      "reason": "Documented short/full station-name equivalence: 东风（贵黔医院） on Guiyang Line 3.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11432158706",
+        "https://zh.wikipedia.org/wiki/东风（贵黔医院）站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Dongfeng (Guiqian International General Hospital)",
+        "latitude": "26.6409165",
+        "longitude": "106.8152025",
+        "osm_ref": "node/11432158706"
+      },
+      "latitude": "26.6409165",
+      "longitude": "106.8152025"
+    },
+    {
+      "city": "7910",
+      "code": "791000010006",
+      "name": "咸阳西站",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/11207125789",
+      "osm_name": "咸阳西站",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11207125789",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "latitude": "34.3353008",
+        "longitude": "108.6580703",
+        "osm_ref": "node/11207125789"
+      },
+      "latitude": "34.3353008",
+      "longitude": "108.6580703",
+      "translation_note": "Defective, stale, or malformed source English label omitted."
+    },
+    {
+      "city": "7910",
+      "code": "791000010007",
+      "name": "宝泉路",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/11207125788",
+      "osm_name": "宝泉路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11207125788",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "latitude": "34.3267532",
+        "longitude": "108.6610595",
+        "osm_ref": "node/11207125788"
+      },
+      "latitude": "34.3267532",
+      "longitude": "108.6610595",
+      "translation_note": "Defective, stale, or malformed source English label omitted."
+    },
+    {
+      "city": "7910",
+      "code": "791000010008",
+      "name": "中华西路",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/11207125785",
+      "osm_name": "中华西路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11207125785",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "West Zhonghua Road",
+        "latitude": "34.3147353",
+        "longitude": "108.669106",
+        "osm_ref": "node/11207125785"
+      },
+      "latitude": "34.3147353",
+      "longitude": "108.669106"
+    },
+    {
+      "city": "7910",
+      "code": "791000010009",
+      "name": "安谷",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/11207125782",
+      "osm_name": "安谷",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11207125782",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Angu",
+        "latitude": "34.3076163",
+        "longitude": "108.6889717",
+        "osm_ref": "node/11207125782"
+      },
+      "latitude": "34.3076163",
+      "longitude": "108.6889717"
+    },
+    {
+      "city": "7910",
+      "code": "79100001000A",
+      "name": "陈杨寨",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/11207125779",
+      "osm_name": "陈杨寨",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11207125779",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Chenyangzhai",
+        "latitude": "34.3151594",
+        "longitude": "108.7022356",
+        "osm_ref": "node/11207125779"
+      },
+      "latitude": "34.3151594",
+      "longitude": "108.7022356"
+    },
+    {
+      "city": "7910",
+      "code": "79100001000B",
+      "name": "白马河",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/11207125776",
+      "osm_name": "白马河",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11207125776",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Baimahe",
+        "latitude": "34.318127",
+        "longitude": "108.7225042",
+        "osm_ref": "node/11207125776"
+      },
+      "latitude": "34.318127",
+      "longitude": "108.7225042"
+    },
+    {
+      "city": "7910",
+      "code": "79100001000C",
+      "name": "陕西中医药大学",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/11207125773",
+      "osm_name": "陕西中医药大学",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11207125773",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Shaanxi University of Chinese Medicine",
+        "latitude": "34.3197407",
+        "longitude": "108.7334678",
+        "osm_ref": "node/11207125773"
+      },
+      "latitude": "34.3197407",
+      "longitude": "108.7334678"
+    },
+    {
+      "city": "7910",
+      "code": "79100001000D",
+      "name": "沣河森林公园",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/9560059871",
+      "osm_name": "沣河森林公园",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9560059871",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Fenghe Forest Park",
+        "latitude": "34.321772",
+        "longitude": "108.7482192",
+        "osm_ref": "node/9560059871"
+      },
+      "latitude": "34.321772",
+      "longitude": "108.7482192"
+    },
+    {
+      "city": "7910",
+      "code": "79100001000F",
+      "name": "北槐",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/9560059893",
+      "osm_name": "北槐",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9560059893",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Beihuai",
+        "latitude": "34.3187761",
+        "longitude": "108.7584167",
+        "osm_ref": "node/9560059893"
+      },
+      "latitude": "34.3187761",
+      "longitude": "108.7584167"
+    },
+    {
+      "city": "7910",
+      "code": "791000010011",
+      "name": "上林路",
+      "line": "1号线",
+      "decision": "accepted",
+      "osm_ref": "node/9560059903",
+      "osm_name": "上林路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9560059903",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252",
+        "https://www.openstreetmap.org/relation/16104050",
+        "https://www.openstreetmap.org/relation/16104054"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Shanglin Road",
+        "latitude": "34.314707",
+        "longitude": "108.772807",
+        "osm_ref": "node/9560059903"
+      },
+      "latitude": "34.314707",
+      "longitude": "108.772807"
+    },
+    {
+      "city": "7910",
+      "code": "79100004004B",
+      "name": "元朔路",
+      "line": "4号线",
+      "decision": "accepted",
+      "osm_ref": "node/9443169356",
+      "osm_name": "元鼎路",
+      "reason": "OSM old_name exactly 元朔路; documented rename to 元鼎路 on the same Line 4 station.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9443169356",
+        "https://www.openstreetmap.org/relation/9807756",
+        "https://www.openstreetmap.org/relation/16464387",
+        "https://zh.wikipedia.org/wiki/元鼎路站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Yuanding Road",
+        "latitude": "34.3688759",
+        "longitude": "108.925074",
+        "osm_ref": "node/9443169356"
+      },
+      "latitude": "34.3688759",
+      "longitude": "108.925074"
+    },
+    {
+      "city": "7910",
+      "code": "791000050051",
+      "name": "钓台",
+      "line": "5号线",
+      "decision": "accepted",
+      "osm_ref": "node/9455452632",
+      "osm_name": "钓台",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9455452632",
+        "https://www.openstreetmap.org/relation/12925431",
+        "https://www.openstreetmap.org/relation/12925432"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Diaotai",
+        "latitude": "34.2702513",
+        "longitude": "108.6859309",
+        "osm_ref": "node/9455452632"
+      },
+      "latitude": "34.2702513",
+      "longitude": "108.6859309"
+    },
+    {
+      "city": "7910",
+      "code": "791000050053",
+      "name": "翱翔小镇",
+      "line": "5号线",
+      "decision": "accepted",
+      "osm_ref": "node/9455452633",
+      "osm_name": "翱翔小镇",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9455452633",
+        "https://www.openstreetmap.org/relation/12925431",
+        "https://www.openstreetmap.org/relation/12925432"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Aoxiangxiaozhen",
+        "latitude": "34.2702419",
+        "longitude": "108.676021",
+        "osm_ref": "node/9455452633"
+      },
+      "latitude": "34.2702419",
+      "longitude": "108.676021"
+    },
+    {
+      "city": "7910",
+      "code": "791000050055",
+      "name": "创新港东",
+      "line": "5号线",
+      "decision": "accepted",
+      "osm_ref": "node/9455452634",
+      "osm_name": "创新港东",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9455452634",
+        "https://www.openstreetmap.org/relation/12925431",
+        "https://www.openstreetmap.org/relation/12925432"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Chuangxingang East",
+        "latitude": "34.2597309",
+        "longitude": "108.6621178",
+        "osm_ref": "node/9455452634"
+      },
+      "latitude": "34.2597309",
+      "longitude": "108.6621178"
+    },
+    {
+      "city": "7910",
+      "code": "791000080043",
+      "name": "市图书馆",
+      "line": "8号线",
+      "decision": "accepted",
+      "osm_ref": "node/9312150581",
+      "osm_name": "青少年中心",
+      "reason": "OSM old_name exactly 市图书馆; documented rename to 青少年中心, the Lines 2/8 interchange.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9312150581",
+        "https://www.openstreetmap.org/relation/5454553",
+        "https://www.openstreetmap.org/relation/7869227",
+        "https://www.openstreetmap.org/relation/18462995",
+        "https://www.openstreetmap.org/relation/18462996",
+        "https://zh.wikipedia.org/wiki/青少年中心站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Youth Center",
+        "latitude": "34.3194225",
+        "longitude": "108.9422346",
+        "osm_ref": "node/9312150581"
+      },
+      "latitude": "34.3194225",
+      "longitude": "108.9422346"
+    },
+    {
+      "city": "7910",
+      "code": "791000090027",
+      "name": "西工程大·西科大",
+      "line": "9号线",
+      "decision": "accepted",
+      "osm_ref": "node/9556103756",
+      "osm_name": "西工程大·西科大（临潼校区）",
+      "reason": "Documented short/full station name 西工程大·西科大（临潼校区） on Line 9, preserving the original lookup label.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9556103756",
+        "https://zh.wikipedia.org/wiki/西工程大·西科大（临潼校区）站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "latitude": "34.3716213",
+        "longitude": "109.1840467",
+        "osm_ref": "node/9556103756"
+      },
+      "latitude": "34.3716213",
+      "longitude": "109.1840467",
+      "translation_note": "Defective, stale, or malformed source English label omitted."
+    },
+    {
+      "city": "7910",
+      "code": "79100010001F",
+      "name": "复兴大道北",
+      "line": "16号线",
+      "decision": "accepted",
+      "osm_ref": "node/11019635793",
+      "osm_name": "复兴大道北",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11019635793",
+        "https://www.openstreetmap.org/relation/16104050",
+        "https://www.openstreetmap.org/relation/16104054"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "North Fuxing Avenue",
+        "latitude": "34.2981146",
+        "longitude": "108.7654411",
+        "osm_ref": "node/11019635793"
+      },
+      "latitude": "34.2981146",
+      "longitude": "108.7654411"
+    },
+    {
+      "city": "7910",
+      "code": "791000100021",
+      "name": "上林路",
+      "line": "16号线",
+      "decision": "accepted",
+      "osm_ref": "node/9560059903",
+      "osm_name": "上林路",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9560059903",
+        "https://www.openstreetmap.org/relation/5454552",
+        "https://www.openstreetmap.org/relation/7869252",
+        "https://www.openstreetmap.org/relation/16104050",
+        "https://www.openstreetmap.org/relation/16104054"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Shanglin Road",
+        "latitude": "34.314707",
+        "longitude": "108.772807",
+        "osm_ref": "node/9560059903"
+      },
+      "latitude": "34.314707",
+      "longitude": "108.772807"
+    },
+    {
+      "city": "7910",
+      "code": "791000100023",
+      "name": "西咸大厦",
+      "line": "16号线",
+      "decision": "accepted",
+      "osm_ref": "node/11019667176",
+      "osm_name": "西咸大厦",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11019667176",
+        "https://www.openstreetmap.org/relation/16104050",
+        "https://www.openstreetmap.org/relation/16104054"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Xixiandasha",
+        "latitude": "34.3303746",
+        "longitude": "108.7780471",
+        "osm_ref": "node/11019667176"
+      },
+      "latitude": "34.3303746",
+      "longitude": "108.7780471"
+    },
+    {
+      "city": "7910",
+      "code": "791000100025",
+      "name": "秦创原中心",
+      "line": "16号线",
+      "decision": "accepted",
+      "osm_ref": "node/11019586184",
+      "osm_name": "秦创原中心",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/11019586184",
+        "https://www.openstreetmap.org/relation/16104050",
+        "https://www.openstreetmap.org/relation/16104054"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Qinchuangyuanzhongxin",
+        "latitude": "34.3389129",
+        "longitude": "108.7818646",
+        "osm_ref": "node/11019586184"
+      },
+      "latitude": "34.3389129",
+      "longitude": "108.7818646"
+    },
+    {
+      "city": "7910",
+      "code": "791002001F",
+      "name": "市图书馆",
+      "line": "2号线",
+      "decision": "accepted",
+      "osm_ref": "node/9312150581",
+      "osm_name": "青少年中心",
+      "reason": "OSM old_name exactly 市图书馆; documented rename to 青少年中心, the Lines 2/8 interchange.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9312150581",
+        "https://www.openstreetmap.org/relation/5454553",
+        "https://www.openstreetmap.org/relation/7869227",
+        "https://www.openstreetmap.org/relation/18462995",
+        "https://www.openstreetmap.org/relation/18462996",
+        "https://zh.wikipedia.org/wiki/青少年中心站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Youth Center",
+        "latitude": "34.3194225",
+        "longitude": "108.9422346",
+        "osm_ref": "node/9312150581"
+      },
+      "latitude": "34.3194225",
+      "longitude": "108.9422346"
+    },
+    {
+      "city": "7910",
+      "code": "7910020033",
+      "name": "纬一街",
+      "line": "2号线",
+      "decision": "accepted",
+      "osm_ref": "node/9312150578",
+      "osm_name": "八里村",
+      "reason": "OSM old_name exactly 纬一街; documented rename to 八里村, same Line 2 station.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9312150578",
+        "https://www.openstreetmap.org/relation/5454553",
+        "https://www.openstreetmap.org/relation/7869227",
+        "https://zh.wikipedia.org/wiki/八里村站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Balicun",
+        "latitude": "34.2141712",
+        "longitude": "108.9419712",
+        "osm_ref": "node/9312150578"
+      },
+      "latitude": "34.2141712",
+      "longitude": "108.9419712"
+    },
+    {
+      "city": "7910",
+      "code": "79100E0015",
+      "name": "机场西",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907144407",
+      "osm_name": "机场西（T1、T2、T3）",
+      "reason": "Documented short/full station name 机场西（T1、T2、T3） on Line 14; distinct from 机场（T5）.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907144407",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396",
+        "https://zh.wikipedia.org/wiki/机场西站"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Airport West (T1, T2, T3)",
+        "latitude": "34.4402911",
+        "longitude": "108.7572182",
+        "osm_ref": "node/6907144407"
+      },
+      "latitude": "34.4402911",
+      "longitude": "108.7572182"
+    },
+    {
+      "city": "7910",
+      "code": "79100E0017",
+      "name": "机场",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907145119",
+      "osm_name": "机场（T5）",
+      "reason": "Documented short/full station name 机场（T5） on Line 14; distinct from 机场西（T1、T2、T3）.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907145119",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396",
+        "https://zh.wikipedia.org/wiki/机场站_(西安地铁)"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Airport (T5)",
+        "latitude": "34.4556793",
+        "longitude": "108.7799451",
+        "osm_ref": "node/6907145119"
+      },
+      "latitude": "34.4556793",
+      "longitude": "108.7799451"
+    },
+    {
+      "city": "7910",
+      "code": "79100E0019",
+      "name": "空港新城",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907144573",
+      "osm_name": "空港新城",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907144573",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Konggangxincheng",
+        "latitude": "34.4306397",
+        "longitude": "108.7938602",
+        "osm_ref": "node/6907144573"
+      },
+      "latitude": "34.4306397",
+      "longitude": "108.7938602"
+    },
+    {
+      "city": "7910",
+      "code": "79100E001B",
+      "name": "艺术中心",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907144908",
+      "osm_name": "艺术中心",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907144908",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Yishuzhongxin",
+        "latitude": "34.4206071",
+        "longitude": "108.7950605",
+        "osm_ref": "node/6907144908"
+      },
+      "latitude": "34.4206071",
+      "longitude": "108.7950605"
+    },
+    {
+      "city": "7910",
+      "code": "79100E001D",
+      "name": "摆旗寨",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907144717",
+      "osm_name": "摆旗寨",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907144717",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Baiqizhai",
+        "latitude": "34.391531",
+        "longitude": "108.7919955",
+        "osm_ref": "node/6907144717"
+      },
+      "latitude": "34.391531",
+      "longitude": "108.7919955"
+    },
+    {
+      "city": "7910",
+      "code": "79100E001F",
+      "name": "长陵",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907144561",
+      "osm_name": "长陵",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907144561",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Changling",
+        "latitude": "34.3913748",
+        "longitude": "108.8244519",
+        "osm_ref": "node/6907144561"
+      },
+      "latitude": "34.3913748",
+      "longitude": "108.8244519"
+    },
+    {
+      "city": "7910",
+      "code": "79100E0021",
+      "name": "秦汉新城",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907144502",
+      "osm_name": "秦汉新城",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907144502",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Qinhanxincheng",
+        "latitude": "34.3996462",
+        "longitude": "108.8436402",
+        "osm_ref": "node/6907144502"
+      },
+      "latitude": "34.3996462",
+      "longitude": "108.8436402"
+    },
+    {
+      "city": "7910",
+      "code": "79100E0023",
+      "name": "秦宫",
+      "line": "14号线",
+      "decision": "accepted",
+      "osm_ref": "node/6907144503",
+      "osm_name": "秦宫",
+      "reason": "Exact native station name and compatible railway/station tags, checked against public line evidence. A regional query covers the intercity service beyond the administrative city boundary.",
+      "sources": [
+        "https://www.openstreetmap.org/node/6907144503",
+        "https://www.openstreetmap.org/relation/10381386",
+        "https://www.openstreetmap.org/relation/10381396"
+      ],
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Qingong",
+        "latitude": "34.4071298",
+        "longitude": "108.8668341",
+        "osm_ref": "node/6907144503"
+      },
+      "latitude": "34.4071298",
+      "longitude": "108.8668341"
+    },
+    {
+      "city": "7910",
+      "code": "7910240017",
+      "name": "昆明池",
+      "line": "",
+      "decision": "unresolved",
+      "osm_ref": "",
+      "reason": "The Xihu railway project and line article identify this planned/new passenger station. No named, verified station object was found in the corridor query; the lake/scenic site and future metro station must not be substituted. No coordinate is invented.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/西户铁路",
+        "https://www.cnr.cn/sxpd/sx/20220722/t20220722_525927020.shtml"
+      ]
+    },
+    {
+      "city": "7910",
+      "code": "7910240019",
+      "name": "马王",
+      "line": "",
+      "decision": "accepted",
+      "osm_ref": "node/2968410794",
+      "osm_name": "马王村",
+      "reason": "OSM explicitly lists alt_name 马王站/马王火车站 for this railway station. The Xihu line article and project report identify the existing station; a reference does not assert that passenger service is open.",
+      "sources": [
+        "https://www.openstreetmap.org/node/2968410794",
+        "https://zh.wikipedia.org/wiki/西户铁路",
+        "https://www.cnr.cn/sxpd/sx/20220722/t20220722_525927020.shtml"
+      ],
+      "add_line": "西户线",
+      "coordinate_source": "live primary OSM station node",
+      "added_fields": {
+        "name_en": "Mawangcun",
+        "line": "西户线",
+        "latitude": "34.2081457",
+        "longitude": "108.7223303",
+        "osm_ref": "node/2968410794"
+      },
+      "latitude": "34.2081457",
+      "longitude": "108.7223303"
+    }
+  ],
+  "validation": {
+    "catalog_check": "passed",
+    "unit_tests": 29,
+    "unit_test_status": "passed",
+    "original_missing_rows_covered": 93,
+    "original_codes_and_native_names": "unchanged",
+    "preexisting_mapped_rows": "unchanged",
+    "shared_reference_coordinates": "consistent"
+  },
+  "integration_note": "This ledger covers the originally missing-reference rows. Two related pre-existing station-body corrections are documented separately in research/station-body-corrections-2026-10-28.json."
+}

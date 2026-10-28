@@ -1,0 +1,2976 @@
+{
+  "checked_date": "2026-10-28",
+  "scope": {
+    "city_codes": [
+      "1000",
+      "1121",
+      "2220",
+      "2610",
+      "2900",
+      "3010",
+      "3020",
+      "3050",
+      "3310",
+      "3320",
+      "3330",
+      "3350",
+      "3370",
+      "4510",
+      "4520",
+      "4930"
+    ],
+    "initial_unreferenced_lookup_rows": 97,
+    "preserve_codes_and_native_names": true
+  },
+  "summary": {
+    "verified_osm_links_added": 72,
+    "remaining_without_osm_reference": 25,
+    "lookup_rows_changed": 73,
+    "fields_filled": {
+      "name_en": 30,
+      "latitude": 72,
+      "longitude": 72,
+      "osm_ref": 72,
+      "name_zh_hant": 2,
+      "line": 2
+    }
+  },
+  "policy": "Reviewed station identities only. Station-group centres preserve directional labels without assigning a platform side. Cross-city service identities reuse existing reviewed coordinates. Spelling-only inferences remain unresolved. No lookup key or line order is generated.",
+  "entries": [
+    {
+      "city_code": "1000",
+      "code": "1000010001",
+      "native_name": "高井",
+      "decision": "verified",
+      "reason": "Restricted Line 1 station 五三 / 53号, also documented as 高井; use its actual station node, not a private entrance.",
+      "osm_ref": "node/9470274656",
+      "sources": [
+        "https://www.openstreetmap.org/node/9470274656",
+        "https://zh.wikipedia.org/wiki/53号站"
+      ],
+      "name_history": {
+        "source_native": "高井",
+        "osm_current": "五三",
+        "documented_identity": "53号站"
+      },
+      "osm_name": "五三",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/9470274656",
+        "latitude": "https://www.openstreetmap.org/node/9470274656",
+        "longitude": "https://www.openstreetmap.org/node/9470274656",
+        "osm_ref": "https://www.openstreetmap.org/node/9470274656"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "10000E003B",
+      "native_name": "南八里庄",
+      "decision": "unresolved",
+      "reason": "Cancelled Line 14 station; nearby 周家庄 is a different Line 17 station and is not substituted.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/南八里庄站"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "1000",
+      "code": "1000110017",
+      "native_name": "未来科学城南",
+      "decision": "verified",
+      "reason": "Exact old_name includes 未来科学城南; explicit Line 17 stop-area membership.",
+      "osm_ref": "node/11478693919",
+      "sources": [
+        "https://www.openstreetmap.org/node/11478693919",
+        "https://zh.wikipedia.org/wiki/未来科学城站",
+        "https://www.openstreetmap.org/relation/13625142",
+        "https://www.openstreetmap.org/relation/13625144"
+      ],
+      "name_history": {
+        "osm_old_name": "未来科技城南区;未来科学城南;未来科技城南",
+        "osm_current": "未来科学城"
+      },
+      "osm_name": "未来科学城",
+      "route_relations": [
+        13625142,
+        13625144
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/11478693919",
+        "latitude": "https://www.openstreetmap.org/node/11478693919",
+        "longitude": "https://www.openstreetmap.org/node/11478693919",
+        "osm_ref": "https://www.openstreetmap.org/node/11478693919"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "100011001D",
+      "native_name": "勇士营",
+      "decision": "verified",
+      "reason": "Exact OSM old_name 勇士营 identifies the Line 17 station now called 红军营.",
+      "osm_ref": "node/11478723290",
+      "sources": [
+        "https://www.openstreetmap.org/node/11478723290",
+        "https://zh.wikipedia.org/wiki/红军营站",
+        "https://www.openstreetmap.org/relation/13625142",
+        "https://www.openstreetmap.org/relation/13625144"
+      ],
+      "name_history": {
+        "osm_old_name": "勇士营",
+        "osm_current": "红军营"
+      },
+      "osm_name": "红军营",
+      "route_relations": [
+        13625142,
+        13625144
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/11478723290",
+        "latitude": "https://www.openstreetmap.org/node/11478723290",
+        "longitude": "https://www.openstreetmap.org/node/11478723290",
+        "osm_ref": "https://www.openstreetmap.org/node/11478723290"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "10004F0031",
+      "native_name": "老观里",
+      "decision": "unresolved",
+      "reason": "Unbuilt / deferred tram terminus; no positioned compatible OSM station identity was found.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/老观里站"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "1000",
+      "code": "1000530015",
+      "native_name": "沙城",
+      "decision": "verified",
+      "reason": "Hebei Shacheng railway station serves Beijing suburban S2; city clipping omitted it. The Wenzhou S2 homonym is rejected.",
+      "osm_ref": "node/3961326598",
+      "sources": [
+        "https://www.openstreetmap.org/node/3961326598",
+        "https://zh.wikipedia.org/wiki/沙城站",
+        "https://zh.wikipedia.org/wiki/北京市郊铁路S2线"
+      ],
+      "osm_name": "沙城",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/3961326598",
+        "latitude": "https://www.openstreetmap.org/node/3961326598",
+        "longitude": "https://www.openstreetmap.org/node/3961326598",
+        "osm_ref": "https://www.openstreetmap.org/node/3961326598"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "100055001D",
+      "native_name": "通州",
+      "decision": "verified",
+      "reason": "Original Tongzhou railway station, renamed 中仓; distinct from newly built 北京通州 station.",
+      "osm_ref": "node/4883415766",
+      "sources": [
+        "https://www.openstreetmap.org/node/4883415766",
+        "https://zh.wikipedia.org/wiki/中仓站"
+      ],
+      "name_history": {
+        "osm_old_name": "通州站;通州火车站",
+        "osm_current": "中仓"
+      },
+      "osm_name": "中仓",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/4883415766",
+        "latitude": "https://www.openstreetmap.org/node/4883415766",
+        "longitude": "https://www.openstreetmap.org/node/4883415766",
+        "osm_ref": "https://www.openstreetmap.org/node/4883415766"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "100058001B",
+      "native_name": "大兴机场",
+      "decision": "verified",
+      "reason": "Exact subway station in Daxing Airport stop_area; distinct from the national-rail station node.",
+      "osm_ref": "node/6818020471",
+      "sources": [
+        "https://www.openstreetmap.org/node/6818020471",
+        "https://zh.wikipedia.org/wiki/大兴机场站_(地铁)"
+      ],
+      "osm_name": "大兴机场",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/6818020471",
+        "latitude": "https://www.openstreetmap.org/node/6818020471",
+        "longitude": "https://www.openstreetmap.org/node/6818020471",
+        "osm_ref": "https://www.openstreetmap.org/node/6818020471"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "100062001B",
+      "native_name": "3号航站楼",
+      "decision": "verified",
+      "reason": "Capital Airport Terminal 3 subway station, explicitly grouped with Airport Line stops; the airport prefix is retained by OSM.",
+      "osm_ref": "node/9380267870",
+      "sources": [
+        "https://www.openstreetmap.org/node/9380267870",
+        "https://zh.wikipedia.org/wiki/3号航站楼站",
+        "https://www.openstreetmap.org/relation/2062998"
+      ],
+      "osm_name": "首都机场3号航站楼",
+      "route_relations": [
+        2062998
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/9380267870",
+        "latitude": "https://www.openstreetmap.org/node/9380267870",
+        "longitude": "https://www.openstreetmap.org/node/9380267870",
+        "osm_ref": "https://www.openstreetmap.org/node/9380267870"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "1000B3B30007",
+      "native_name": "华汇商厦",
+      "decision": "verified",
+      "reason": "Exact historical 华汇商厦 tag on the present 慧忠北里北 bus stop_area; BRT 3 service is corroborated by the public line list.",
+      "osm_ref": "relation/2061635",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2061635",
+        "https://zh.wikipedia.org/wiki/北京快速公交3号线"
+      ],
+      "name_history": {
+        "osm_old_name:-2021": "华汇商厦",
+        "osm_current": "慧忠北里北"
+      },
+      "osm_name": "慧忠北里北",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/10698486564",
+        "node/10698486565",
+        "node/10698486569",
+        "node/10698486567",
+        "node/10698486566",
+        "node/10698486568",
+        "node/1652540782",
+        "node/1652540793"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/2061635",
+        "longitude": "https://www.openstreetmap.org/relation/2061635",
+        "osm_ref": "https://www.openstreetmap.org/relation/2061635"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "1000B3B3000F",
+      "native_name": "天通西苑北",
+      "decision": "verified",
+      "reason": "Published bus-stop rename 天通西苑北 → 地铁天通苑南站; shared bus stop_area, not the adjacent subway station.",
+      "osm_ref": "relation/2061713",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2061713",
+        "https://zh.wikipedia.org/wiki/北京快速公交3号线",
+        "https://wap.bjd.com.cn/deep/2021/09/16/175637t276.html"
+      ],
+      "name_history": {
+        "published_old_name": "天通西苑北",
+        "osm_current": "地铁天通苑南站"
+      },
+      "osm_name": "地铁天通苑南站",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/7638132536",
+        "node/2133001491",
+        "node/11072923527",
+        "node/11072923523",
+        "node/11072923524",
+        "node/11072923525",
+        "node/11072923526",
+        "node/1652646162",
+        "node/11630648186",
+        "node/11630648187",
+        "node/11630648188",
+        "node/11630648189",
+        "node/11630648190",
+        "node/11630648191"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/2061713",
+        "longitude": "https://www.openstreetmap.org/relation/2061713",
+        "osm_ref": "https://www.openstreetmap.org/relation/2061713"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "1000B3B30011",
+      "native_name": "东三旗南站",
+      "decision": "verified",
+      "reason": "Published bus-stop rename 东三旗南站 → 地铁天通苑站; shared bus stop_area, not a subway node.",
+      "osm_ref": "relation/2061711",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2061711",
+        "https://zh.wikipedia.org/wiki/北京快速公交3号线",
+        "https://wap.bjd.com.cn/deep/2021/09/16/175637t276.html"
+      ],
+      "name_history": {
+        "published_old_name": "东三旗南站",
+        "osm_current": "地铁天通苑站"
+      },
+      "osm_name": "地铁天通苑站",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/1652646153",
+        "node/11471959039",
+        "node/11471959038",
+        "node/2500451695",
+        "node/2500451694",
+        "node/2500451693",
+        "node/2500451692",
+        "node/11625857366",
+        "node/11630577638",
+        "node/11630577641",
+        "node/11630577637",
+        "node/11630577639",
+        "node/11630577636",
+        "node/11630577640",
+        "node/11630648176",
+        "node/11630648177",
+        "node/11630648178",
+        "node/11630648179"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/2061711",
+        "longitude": "https://www.openstreetmap.org/relation/2061711",
+        "osm_ref": "https://www.openstreetmap.org/relation/2061711"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "1000B3B40004",
+      "native_name": "双峪环岛西",
+      "decision": "verified",
+      "reason": "Its BRT 4 platform members retain exact alt_name 双峪环岛西; group centre represents both directions.",
+      "osm_ref": "relation/3255587",
+      "sources": [
+        "https://www.openstreetmap.org/relation/3255587",
+        "https://zh.wikipedia.org/wiki/北京快速公交4号线",
+        "https://www.openstreetmap.org/relation/2684202",
+        "https://www.openstreetmap.org/relation/2684735"
+      ],
+      "route_relations": [
+        2684202,
+        2684735
+      ],
+      "name_history": {
+        "platform_alt_name": "双峪环岛西",
+        "osm_current": "双峪"
+      },
+      "osm_name": "双峪",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/2489522990",
+        "node/2489522991",
+        "node/2489522988",
+        "node/2489522993",
+        "node/11017150546",
+        "node/11328669753",
+        "node/11328669754",
+        "node/11017136437"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/3255587",
+        "longitude": "https://www.openstreetmap.org/relation/3255587",
+        "osm_ref": "https://www.openstreetmap.org/relation/3255587"
+      }
+    },
+    {
+      "city_code": "1000",
+      "code": "1000B3B4000D",
+      "native_name": "沙石路口",
+      "decision": "verified",
+      "reason": "The same OSM stop member was named 沙石路口 in versions 3–4 and 砂石路口 in version 5. Explicit BRT 4 platform membership links it to this shared stop_area.",
+      "osm_ref": "relation/2433160",
+      "sources": [
+        "https://www.openstreetmap.org/relation/2433160",
+        "https://zh.wikipedia.org/wiki/北京快速公交4号线",
+        "https://www.openstreetmap.org/node/1930752185/history",
+        "https://api.openstreetmap.org/api/0.6/node/1930752185/4.json",
+        "https://www.openstreetmap.org/relation/2684202",
+        "https://www.openstreetmap.org/relation/2684735"
+      ],
+      "route_relations": [
+        2684202,
+        2684735
+      ],
+      "name_history": {
+        "stop_member": "node/1930752185",
+        "name_versions_3_4": "沙石路口",
+        "name_version_5": "砂石路口"
+      },
+      "osm_name": "砂石路口",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/1930752185",
+        "node/10259626125",
+        "node/1930752182",
+        "node/10259626124"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/2433160",
+        "longitude": "https://www.openstreetmap.org/relation/2433160",
+        "osm_ref": "https://www.openstreetmap.org/relation/2433160"
+      }
+    },
+    {
+      "city_code": "1121",
+      "code": "112100010007",
+      "native_name": "车站北路",
+      "decision": "unresolved",
+      "reason": "Reserved Line 9 station in the published line list; available same-name bus objects are not evidence of the rail station.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/天津地铁9号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "1121",
+      "code": "112100010009",
+      "native_name": "中心庄",
+      "decision": "unresolved",
+      "reason": "Reserved Line 9 station in the published line list; available same-name bus objects are not evidence of the rail station.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/天津地铁9号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "1121",
+      "code": "112100010010",
+      "native_name": "中西村",
+      "decision": "unresolved",
+      "reason": "Reserved Line 9 station in the published line list; available same-name bus objects are not evidence of the rail station.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/天津地铁9号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "1121",
+      "code": "112100060032",
+      "native_name": "黑牛城道",
+      "decision": "verified",
+      "reason": "Black-Cow-City Road station was renamed 医大二院; station node is explicitly present in both Line 6 and Line 11 stop areas. Reuse reviewed coordinates.",
+      "osm_ref": "node/12471374044",
+      "sources": [
+        "https://www.openstreetmap.org/node/12471374044",
+        "https://zh.wikipedia.org/wiki/医大二院站_(天津市)",
+        "https://www.openstreetmap.org/relation/7001837",
+        "https://www.openstreetmap.org/relation/8490134",
+        "https://www.openstreetmap.org/relation/16914085",
+        "https://www.openstreetmap.org/relation/16914088"
+      ],
+      "name_history": {
+        "published_old_name": "黑牛城道",
+        "osm_current": "医大二院"
+      },
+      "osm_name": "医大二院",
+      "route_relations": [
+        7001837,
+        8490134,
+        16914085,
+        16914088
+      ],
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/12471374044",
+        "latitude": "https://www.openstreetmap.org/node/12471374044",
+        "longitude": "https://www.openstreetmap.org/node/12471374044",
+        "osm_ref": "https://www.openstreetmap.org/node/12471374044"
+      }
+    },
+    {
+      "city_code": "1121",
+      "code": "112100110029",
+      "native_name": "文洁路",
+      "decision": "unresolved",
+      "reason": "Line 11 western extension is documented, but no precise compatible named OSM station object was verified; do not use road/bus names.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/天津地铁11号线",
+        "https://www.tj.gov.cn/zmhd/wmfkxd/202509/t20250917_7135466.html"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "1121",
+      "code": "112100110030",
+      "native_name": "澄江路",
+      "decision": "unresolved",
+      "reason": "Line 11 western extension is documented, but no precise compatible named OSM station object was verified; do not use road/bus names.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/天津地铁11号线",
+        "https://www.tj.gov.cn/zmhd/wmfkxd/202509/t20250917_7135466.html"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "2220",
+      "code": "22200D17",
+      "native_name": "西三十里",
+      "decision": "unresolved",
+      "reason": "Reserved Line 13 station documented by the station list; no exact compatible rail object was found in the targeted OSM search.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/大连地铁13号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "2220",
+      "code": "22200D19",
+      "native_name": "四十里",
+      "decision": "unresolved",
+      "reason": "Reserved Line 13 station documented by the station list; no exact compatible rail object was found in the targeted OSM search.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/大连地铁13号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "2220",
+      "code": "22200D1A",
+      "native_name": "五十里",
+      "decision": "unresolved",
+      "reason": "Reserved Line 13 station documented by the station list; no exact compatible rail object was found in the targeted OSM search.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/大连地铁13号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "2220",
+      "code": "22200D1E",
+      "native_name": "五里台",
+      "decision": "unresolved",
+      "reason": "Reserved Line 13 station documented by the station list; no exact compatible rail object was found in the targeted OSM search.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/大连地铁13号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "2220",
+      "code": "22200D23",
+      "native_name": "平安河",
+      "decision": "unresolved",
+      "reason": "Reserved Line 13 station documented by the station list; no exact compatible rail object was found in the targeted OSM search.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/大连地铁13号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "2610",
+      "code": "261003FF19",
+      "native_name": "兆麟公园",
+      "decision": "verified",
+      "reason": "Current OSM station includes the hospital name-hint; Wikipedia identifies the same 兆麟公园 Line 3 station.",
+      "osm_ref": "node/12375784935",
+      "sources": [
+        "https://www.openstreetmap.org/node/12375784935",
+        "https://zh.wikipedia.org/wiki/兆麟公园站",
+        "https://www.openstreetmap.org/relation/7949017",
+        "https://www.openstreetmap.org/relation/7949018"
+      ],
+      "name_history": {
+        "short_name": "兆麟公园",
+        "osm_current": "兆麟公园·市儿童医院"
+      },
+      "osm_name": "兆麟公园·市儿童医院",
+      "route_relations": [
+        7949017,
+        7949018
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/12375784935",
+        "latitude": "https://www.openstreetmap.org/node/12375784935",
+        "longitude": "https://www.openstreetmap.org/node/12375784935",
+        "osm_ref": "https://www.openstreetmap.org/node/12375784935"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "290000110014",
+      "native_name": "花桥",
+      "decision": "verified",
+      "reason": "Shanghai Line 11 station in Kunshan, Jiangsu; explicit Shanghai service membership resolves the city-boundary omission.",
+      "osm_ref": "node/3506766921",
+      "sources": [
+        "https://www.openstreetmap.org/node/3506766921",
+        "https://zh.wikipedia.org/wiki/上海轨道交通11号线",
+        "https://www.openstreetmap.org/relation/5611110",
+        "https://www.openstreetmap.org/relation/5611111"
+      ],
+      "route_relations": [
+        5611110,
+        5611111
+      ],
+      "osm_name": "花桥",
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "name_en",
+        "name_zh_hant",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/3506766921",
+        "name_zh_hant": "https://www.openstreetmap.org/node/3506766921",
+        "latitude": "https://www.openstreetmap.org/node/3506766921",
+        "longitude": "https://www.openstreetmap.org/node/3506766921",
+        "osm_ref": "https://www.openstreetmap.org/node/3506766921"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "290000110015",
+      "native_name": "光明路",
+      "decision": "verified",
+      "reason": "Shanghai Line 11 station in Kunshan, Jiangsu; explicit Shanghai service membership resolves the city-boundary omission.",
+      "osm_ref": "node/3506766920",
+      "sources": [
+        "https://www.openstreetmap.org/node/3506766920",
+        "https://zh.wikipedia.org/wiki/上海轨道交通11号线",
+        "https://www.openstreetmap.org/relation/5611110",
+        "https://www.openstreetmap.org/relation/5611111"
+      ],
+      "route_relations": [
+        5611110,
+        5611111
+      ],
+      "osm_name": "光明路",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/3506766920",
+        "latitude": "https://www.openstreetmap.org/node/3506766920",
+        "longitude": "https://www.openstreetmap.org/node/3506766920",
+        "osm_ref": "https://www.openstreetmap.org/node/3506766920"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "290000110016",
+      "native_name": "兆丰路",
+      "decision": "verified",
+      "reason": "Shanghai Line 11 station in Kunshan, Jiangsu; explicit Shanghai service membership resolves the city-boundary omission.",
+      "osm_ref": "node/3506766919",
+      "sources": [
+        "https://www.openstreetmap.org/node/3506766919",
+        "https://zh.wikipedia.org/wiki/上海轨道交通11号线",
+        "https://www.openstreetmap.org/relation/5611110",
+        "https://www.openstreetmap.org/relation/5611111"
+      ],
+      "route_relations": [
+        5611110,
+        5611111
+      ],
+      "osm_name": "兆丰路",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/3506766919",
+        "latitude": "https://www.openstreetmap.org/node/3506766919",
+        "longitude": "https://www.openstreetmap.org/node/3506766919",
+        "osm_ref": "https://www.openstreetmap.org/node/3506766919"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261101",
+      "native_name": "辰塔路",
+      "decision": "unresolved",
+      "reason": "Reserved / unopened T1 terminus; no positioned tram object was found. Road, bus-stop and depot objects are not station identities.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261103",
+      "native_name": "三新北路 (东)",
+      "decision": "verified",
+      "reason": "Both directional aliases belong to this explicitly grouped tram station; use the shared group centre without guessing a direction-specific platform.",
+      "osm_ref": "relation/19059551",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059551",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "三新北路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456734",
+        "node/12798456735",
+        "node/12798456733",
+        "node/12798456732",
+        "node/12798456737",
+        "node/12798456736"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059551",
+        "longitude": "https://www.openstreetmap.org/relation/19059551",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059551"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261104",
+      "native_name": "三新北路 (西)",
+      "decision": "verified",
+      "reason": "Both directional aliases belong to this explicitly grouped tram station; use the shared group centre without guessing a direction-specific platform.",
+      "osm_ref": "relation/19059551",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059551",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "三新北路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456734",
+        "node/12798456735",
+        "node/12798456733",
+        "node/12798456732",
+        "node/12798456737",
+        "node/12798456736"
+      ],
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059551",
+        "longitude": "https://www.openstreetmap.org/relation/19059551",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059551"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261113",
+      "native_name": "松东路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059548",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059548",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "松东路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456727",
+        "node/12798456730",
+        "node/12798456729",
+        "node/12798456728"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059548",
+        "longitude": "https://www.openstreetmap.org/relation/19059548",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059548"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261114",
+      "native_name": "松卫公路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059559",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059559",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "松卫公路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456771",
+        "node/12798456772",
+        "node/12798456770",
+        "node/12798456773"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059559",
+        "longitude": "https://www.openstreetmap.org/relation/19059559",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059559"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261115",
+      "native_name": "宝胜路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059560",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059560",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "宝胜路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456774",
+        "node/12798456776",
+        "node/12798456777",
+        "node/12798456775"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059560",
+        "longitude": "https://www.openstreetmap.org/relation/19059560",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059560"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261116",
+      "native_name": "东兴路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059561",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059561",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "东兴路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456778",
+        "node/12798456781",
+        "node/12798456779",
+        "node/12798456780"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059561",
+        "longitude": "https://www.openstreetmap.org/relation/19059561",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059561"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261117",
+      "native_name": "联阳路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059562",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059562",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "联阳路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456783",
+        "node/12798456784",
+        "node/12798456785",
+        "node/12798456786"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059562",
+        "longitude": "https://www.openstreetmap.org/relation/19059562",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059562"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261118",
+      "native_name": "锦昔路 (西)",
+      "decision": "verified",
+      "reason": "Both directional aliases belong to this explicitly grouped tram station; use the shared group centre without guessing a direction-specific platform.",
+      "osm_ref": "relation/19059563",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059563",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "锦昔路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456787",
+        "node/12798456788",
+        "node/12798456791",
+        "node/12798456792",
+        "node/12798456790",
+        "node/12798456789"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059563",
+        "longitude": "https://www.openstreetmap.org/relation/19059563",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059563"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261119",
+      "native_name": "锦昔路 (东)",
+      "decision": "verified",
+      "reason": "Both directional aliases belong to this explicitly grouped tram station; use the shared group centre without guessing a direction-specific platform.",
+      "osm_ref": "relation/19059563",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059563",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "锦昔路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456787",
+        "node/12798456788",
+        "node/12798456791",
+        "node/12798456792",
+        "node/12798456790",
+        "node/12798456789"
+      ],
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059563",
+        "longitude": "https://www.openstreetmap.org/relation/19059563",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059563"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261120",
+      "native_name": "曹农路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059547",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059547",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "曹农路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456795",
+        "node/12798456796",
+        "node/12798456794",
+        "node/12798456793"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059547",
+        "longitude": "https://www.openstreetmap.org/relation/19059547",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059547"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261121",
+      "native_name": "新庙三路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059564",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059564",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "新庙三路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456797",
+        "node/12798456798",
+        "node/12798456800",
+        "node/12798456799"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059564",
+        "longitude": "https://www.openstreetmap.org/relation/19059564",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059564"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261122",
+      "native_name": "漕河路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059565",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059565",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "漕河路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798481201",
+        "node/12798481204",
+        "node/12798481202",
+        "node/12798481203"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059565",
+        "longitude": "https://www.openstreetmap.org/relation/19059565",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059565"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261123",
+      "native_name": "新车公路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059566",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059566",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "新车公路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798481205",
+        "node/12798481206",
+        "node/12798481207",
+        "node/12798481208"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059566",
+        "longitude": "https://www.openstreetmap.org/relation/19059566",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059566"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261124",
+      "native_name": "新镇街",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059567",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059567",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "新镇街",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798481209",
+        "node/12798481211",
+        "node/12798481210",
+        "node/12798481212"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059567",
+        "longitude": "https://www.openstreetmap.org/relation/19059567",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059567"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261125",
+      "native_name": "新站路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059568",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059568",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "新站路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798481215",
+        "node/12798481214",
+        "node/12798481213",
+        "node/12798481216"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059568",
+        "longitude": "https://www.openstreetmap.org/relation/19059568",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059568"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261126",
+      "native_name": "新桥火车站",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/18515717",
+      "sources": [
+        "https://www.openstreetmap.org/relation/18515717",
+        "https://zh.wikipedia.org/wiki/松江有轨电车1号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "新桥火车站",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/11764144128",
+        "node/12798481217",
+        "way/1454765504",
+        "node/13341277391",
+        "node/13341277392",
+        "way/1454765503"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/18515717",
+        "longitude": "https://www.openstreetmap.org/relation/18515717",
+        "osm_ref": "https://www.openstreetmap.org/relation/18515717"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261201",
+      "native_name": "仓华路",
+      "decision": "verified",
+      "reason": "Historical T2 Canghua terminus documented before the 2019 loop change; the exact station remains an explicit T1 stop_area. No current T2 service is asserted.",
+      "osm_ref": "relation/19059550",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059550",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884
+      ],
+      "osm_name": "仓华路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456731",
+        "node/12798456782"
+      ],
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059550",
+        "longitude": "https://www.openstreetmap.org/relation/19059550",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059550"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261202",
+      "native_name": "三新北路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059551",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059551",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "三新北路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456734",
+        "node/12798456735",
+        "node/12798456733",
+        "node/12798456732",
+        "node/12798456737",
+        "node/12798456736"
+      ],
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059551",
+        "longitude": "https://www.openstreetmap.org/relation/19059551",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059551"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261203",
+      "native_name": "思贤路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083810",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083810",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "思贤路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810948838",
+        "node/12810948840",
+        "node/12810948841",
+        "node/12810948839"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083810",
+        "longitude": "https://www.openstreetmap.org/relation/19083810",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083810"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261212",
+      "native_name": "梅家浜路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083801",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083801",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "梅家浜路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810948804",
+        "node/12810948805",
+        "node/12810948802",
+        "node/12810948803"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083801",
+        "longitude": "https://www.openstreetmap.org/relation/19083801",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083801"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261213",
+      "native_name": "广富林路 (东华大学)",
+      "decision": "verified",
+      "reason": "Wikipedia explicitly lists 广富林路（东华大学） as one station; OSM group uses its short name 广富林路 with T2 platform membership.",
+      "osm_ref": "relation/19083800",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083800",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "广富林路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934898",
+        "node/12810948801",
+        "node/12810934899",
+        "node/12810934900"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083800",
+        "longitude": "https://www.openstreetmap.org/relation/19083800",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083800"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261214",
+      "native_name": "龙马路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083799",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083799",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "龙马路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934894",
+        "node/12810934897",
+        "node/12810934895",
+        "node/12810934896"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083799",
+        "longitude": "https://www.openstreetmap.org/relation/19083799",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083799"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261216",
+      "native_name": "光星路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083796",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083796",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "光星路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934883",
+        "node/12810934884",
+        "node/12810934882",
+        "node/12810934885"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083796",
+        "longitude": "https://www.openstreetmap.org/relation/19083796",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083796"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261217",
+      "native_name": "茸宁路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083795",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083795",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "茸宁路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934879",
+        "node/12810934880",
+        "node/12810934881",
+        "node/12810934878"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083795",
+        "longitude": "https://www.openstreetmap.org/relation/19083795",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083795"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261218",
+      "native_name": "茸惠路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083794",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083794",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "茸惠路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934874",
+        "node/12810934877",
+        "node/12810934876",
+        "node/12810934875"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083794",
+        "longitude": "https://www.openstreetmap.org/relation/19083794",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083794"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261219",
+      "native_name": "中辰路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083793",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083793",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "中辰路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934870",
+        "node/12810934873",
+        "node/12810934872",
+        "node/12810934871"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083793",
+        "longitude": "https://www.openstreetmap.org/relation/19083793",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083793"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261220",
+      "native_name": "徐塘路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083792",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083792",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "徐塘路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934866",
+        "node/12810934868",
+        "node/12810934867",
+        "node/12810934869"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083792",
+        "longitude": "https://www.openstreetmap.org/relation/19083792",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083792"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261221",
+      "native_name": "明南路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083791",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083791",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "明南路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934864",
+        "node/11494658407",
+        "node/4545332985",
+        "node/12810934865"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083791",
+        "longitude": "https://www.openstreetmap.org/relation/19083791",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083791"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261222",
+      "native_name": "江田东路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19083790",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19083790",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673"
+      ],
+      "route_relations": [
+        16159672,
+        16159673
+      ],
+      "osm_name": "江田东路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12810934860",
+        "node/12810934863",
+        "node/12810934861",
+        "node/12810934862"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19083790",
+        "longitude": "https://www.openstreetmap.org/relation/19083790",
+        "osm_ref": "https://www.openstreetmap.org/relation/19083790"
+      }
+    },
+    {
+      "city_code": "2900",
+      "code": "2900261224",
+      "native_name": "锦昔路",
+      "decision": "verified",
+      "reason": "Exact named tram stop_area with explicit line platform membership; replace the old interpolated point with its OSM group centre.",
+      "osm_ref": "relation/19059563",
+      "sources": [
+        "https://www.openstreetmap.org/relation/19059563",
+        "https://zh.wikipedia.org/wiki/松江有轨电车2号线",
+        "https://www.openstreetmap.org/relation/16159672",
+        "https://www.openstreetmap.org/relation/16159673",
+        "https://www.openstreetmap.org/relation/14251681",
+        "https://www.openstreetmap.org/relation/14251884"
+      ],
+      "route_relations": [
+        14251681,
+        14251884,
+        16159672,
+        16159673
+      ],
+      "osm_name": "锦昔路",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/12798456787",
+        "node/12798456788",
+        "node/12798456791",
+        "node/12798456792",
+        "node/12798456790",
+        "node/12798456789"
+      ],
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/relation/19059563",
+        "longitude": "https://www.openstreetmap.org/relation/19059563",
+        "osm_ref": "https://www.openstreetmap.org/relation/19059563"
+      }
+    },
+    {
+      "city_code": "3010",
+      "code": "3010000C00AB",
+      "native_name": "黄梅",
+      "decision": "verified",
+      "reason": "Exact S6 subway station in Jurong outside Nanjing administrative clipping; station and stop-area membership distinguish it from railway/city homonyms.",
+      "osm_ref": "node/9165103275",
+      "sources": [
+        "https://www.openstreetmap.org/node/9165103275",
+        "https://zh.wikipedia.org/wiki/南京地铁S6号线",
+        "https://www.openstreetmap.org/relation/13200479",
+        "https://www.openstreetmap.org/relation/13200480"
+      ],
+      "route_relations": [
+        13200479,
+        13200480
+      ],
+      "osm_name": "黄梅",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/node/9165103275",
+        "longitude": "https://www.openstreetmap.org/node/9165103275",
+        "osm_ref": "https://www.openstreetmap.org/node/9165103275"
+      }
+    },
+    {
+      "city_code": "3010",
+      "code": "3010000C00AC",
+      "native_name": "童世界",
+      "decision": "verified",
+      "reason": "Exact S6 subway station in Jurong outside Nanjing administrative clipping; station and stop-area membership distinguish it from railway/city homonyms.",
+      "osm_ref": "node/9165103276",
+      "sources": [
+        "https://www.openstreetmap.org/node/9165103276",
+        "https://zh.wikipedia.org/wiki/南京地铁S6号线",
+        "https://www.openstreetmap.org/relation/13200479",
+        "https://www.openstreetmap.org/relation/13200480"
+      ],
+      "route_relations": [
+        13200479,
+        13200480
+      ],
+      "osm_name": "童世界",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/node/9165103276",
+        "longitude": "https://www.openstreetmap.org/node/9165103276",
+        "osm_ref": "https://www.openstreetmap.org/node/9165103276"
+      }
+    },
+    {
+      "city_code": "3010",
+      "code": "3010000C00AD",
+      "native_name": "华阳",
+      "decision": "verified",
+      "reason": "Exact S6 subway station in Jurong outside Nanjing administrative clipping; station and stop-area membership distinguish it from railway/city homonyms.",
+      "osm_ref": "node/9165103277",
+      "sources": [
+        "https://www.openstreetmap.org/node/9165103277",
+        "https://zh.wikipedia.org/wiki/南京地铁S6号线",
+        "https://www.openstreetmap.org/relation/13200479",
+        "https://www.openstreetmap.org/relation/13200480"
+      ],
+      "route_relations": [
+        13200479,
+        13200480
+      ],
+      "osm_name": "华阳",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/node/9165103277",
+        "longitude": "https://www.openstreetmap.org/node/9165103277",
+        "osm_ref": "https://www.openstreetmap.org/node/9165103277"
+      }
+    },
+    {
+      "city_code": "3010",
+      "code": "3010000C00AE",
+      "native_name": "崇明",
+      "decision": "verified",
+      "reason": "Exact S6 subway station in Jurong outside Nanjing administrative clipping; station and stop-area membership distinguish it from railway/city homonyms.",
+      "osm_ref": "node/9165103278",
+      "sources": [
+        "https://www.openstreetmap.org/node/9165103278",
+        "https://zh.wikipedia.org/wiki/南京地铁S6号线",
+        "https://www.openstreetmap.org/relation/13200479",
+        "https://www.openstreetmap.org/relation/13200480"
+      ],
+      "route_relations": [
+        13200479,
+        13200480
+      ],
+      "osm_name": "崇明",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/node/9165103278",
+        "longitude": "https://www.openstreetmap.org/node/9165103278",
+        "osm_ref": "https://www.openstreetmap.org/node/9165103278"
+      }
+    },
+    {
+      "city_code": "3010",
+      "code": "3010000C00AF",
+      "native_name": "句容",
+      "decision": "verified",
+      "reason": "Exact S6 subway station in Jurong outside Nanjing administrative clipping; station and stop-area membership distinguish it from railway/city homonyms.",
+      "osm_ref": "node/9165103279",
+      "sources": [
+        "https://www.openstreetmap.org/node/9165103279",
+        "https://zh.wikipedia.org/wiki/南京地铁S6号线",
+        "https://www.openstreetmap.org/relation/13200479",
+        "https://www.openstreetmap.org/relation/13200480"
+      ],
+      "route_relations": [
+        13200479,
+        13200480
+      ],
+      "osm_name": "句容",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/node/9165103279",
+        "longitude": "https://www.openstreetmap.org/node/9165103279",
+        "osm_ref": "https://www.openstreetmap.org/node/9165103279"
+      }
+    },
+    {
+      "city_code": "3020",
+      "code": "3020020016",
+      "native_name": "安镇",
+      "decision": "unresolved",
+      "reason": "Deferred / unopened Anzhen station. No exact positioned OSM station was verified; planning coordinates are not substituted.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/安镇站"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "3020",
+      "code": "302014001D",
+      "native_name": "霞客湾科学城",
+      "decision": "unresolved",
+      "reason": "Reserved / under-construction S1 station in the published line list; neither full nor short OSM station names yielded a verified object.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/无锡地铁S1线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "3050",
+      "code": "305000070055",
+      "native_name": "蒌葑",
+      "decision": "partial",
+      "reason": "Likely transcription 蒌葑 / 娄葑 remains unproven by a public alias or corrected lookup mapping; OSM name history also lacks 蒌葑. Declared source group supplies only the line name.",
+      "sources": [
+        "https://github.com/domosekai/tripreader-data/blob/c5584d6b8d9a39d7162b7b9781134be52db66186/Jiangsu/Suzhou/metro-tu.csv#L169",
+        "https://zh.wikipedia.org/wiki/娄葑站",
+        "https://www.openstreetmap.org/node/6898474846",
+        "https://www.openstreetmap.org/node/6898474846/history"
+      ],
+      "candidates_not_assigned": [
+        "node/6898474846"
+      ],
+      "fields_changed": [
+        "line"
+      ],
+      "field_sources": {
+        "line": "https://github.com/domosekai/tripreader-data/blob/c5584d6b8d9a39d7162b7b9781134be52db66186/Jiangsu/Suzhou/metro-tu.csv#L169"
+      }
+    },
+    {
+      "city_code": "3050",
+      "code": "305000070056",
+      "native_name": "群力",
+      "decision": "verified",
+      "reason": "Wikipedia explicitly identifies 群力 as the station built under engineering name 东兴路西; the OSM node retains that engineering name.",
+      "osm_ref": "node/6898474858",
+      "sources": [
+        "https://www.openstreetmap.org/node/6898474858",
+        "https://zh.wikipedia.org/wiki/群力站_(苏州市)",
+        "https://github.com/domosekai/tripreader-data/blob/c5584d6b8d9a39d7162b7b9781134be52db66186/Jiangsu/Suzhou/metro-tu.csv#L169",
+        "https://www.openstreetmap.org/relation/18356557",
+        "https://www.openstreetmap.org/relation/18356558"
+      ],
+      "name_history": {
+        "osm_engineering_name": "东兴路西",
+        "published_current": "群力"
+      },
+      "osm_name": "东兴路西",
+      "route_relations": [
+        18356557,
+        18356558
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://zh.wikipedia.org/wiki/群力站_(苏州市)",
+        "line": "https://github.com/domosekai/tripreader-data/blob/c5584d6b8d9a39d7162b7b9781134be52db66186/Jiangsu/Suzhou/metro-tu.csv#L169",
+        "latitude": "https://www.openstreetmap.org/node/6898474858",
+        "longitude": "https://www.openstreetmap.org/node/6898474858",
+        "osm_ref": "https://www.openstreetmap.org/node/6898474858"
+      }
+    },
+    {
+      "city_code": "3310",
+      "code": "331000050017",
+      "native_name": "香积寺路",
+      "decision": "verified",
+      "reason": "Exact old_name 香积寺路; Wikipedia documents the 2022 rename to 东新园.",
+      "osm_ref": "node/9852293351",
+      "sources": [
+        "https://www.openstreetmap.org/node/9852293351",
+        "https://zh.wikipedia.org/wiki/东新园站",
+        "https://www.openstreetmap.org/relation/10386952",
+        "https://www.openstreetmap.org/relation/10386965"
+      ],
+      "route_relations": [
+        10386952,
+        10386965
+      ],
+      "name_history": {
+        "osm_old_name": "香积寺路",
+        "osm_current": "东新园"
+      },
+      "osm_name": "东新园",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/9852293351",
+        "latitude": "https://www.openstreetmap.org/node/9852293351",
+        "longitude": "https://www.openstreetmap.org/node/9852293351",
+        "osm_ref": "https://www.openstreetmap.org/node/9852293351"
+      }
+    },
+    {
+      "city_code": "3310",
+      "code": "331000100001",
+      "native_name": "浙大",
+      "decision": "unresolved",
+      "reason": "Separate deferred southern extension station, not an alias for 黄龙体育中心. No positioned exact OSM station was found.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/浙大站",
+        "https://zh.wikipedia.org/wiki/杭州地铁10号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "3320",
+      "code": "332000010011",
+      "native_name": "东门口",
+      "decision": "verified",
+      "reason": "Published short/full equivalence 东门口 / 东门口（天一广场）; exact Line 1 station, not any same-named bus stop.",
+      "osm_ref": "node/5325681121",
+      "sources": [
+        "https://www.openstreetmap.org/node/5325681121",
+        "https://zh.wikipedia.org/wiki/东门口站",
+        "https://www.openstreetmap.org/relation/4622007",
+        "https://www.openstreetmap.org/relation/7883975"
+      ],
+      "osm_name": "东门口(天一广场)",
+      "route_relations": [
+        4622007,
+        7883975
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/5325681121",
+        "latitude": "https://www.openstreetmap.org/node/5325681121",
+        "longitude": "https://www.openstreetmap.org/node/5325681121",
+        "osm_ref": "https://www.openstreetmap.org/node/5325681121"
+      }
+    },
+    {
+      "city_code": "3320",
+      "code": "33200111",
+      "native_name": "东门口",
+      "decision": "verified",
+      "reason": "Published short/full equivalence 东门口 / 东门口（天一广场）; exact Line 1 station, not any same-named bus stop.",
+      "osm_ref": "node/5325681121",
+      "sources": [
+        "https://www.openstreetmap.org/node/5325681121",
+        "https://zh.wikipedia.org/wiki/东门口站",
+        "https://www.openstreetmap.org/relation/4622007",
+        "https://www.openstreetmap.org/relation/7883975"
+      ],
+      "osm_name": "东门口(天一广场)",
+      "route_relations": [
+        4622007,
+        7883975
+      ],
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/5325681121",
+        "latitude": "https://www.openstreetmap.org/node/5325681121",
+        "longitude": "https://www.openstreetmap.org/node/5325681121",
+        "osm_ref": "https://www.openstreetmap.org/node/5325681121"
+      }
+    },
+    {
+      "city_code": "3330",
+      "code": "333000010134",
+      "native_name": "秀屿",
+      "decision": "unresolved",
+      "reason": "Reserved S1 station; matching ordinary railway/bus objects or other-city 文昌路 stations do not establish its identity.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/温州市域铁路S1线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "3330",
+      "code": "333000010138",
+      "native_name": "温州火车站",
+      "decision": "unresolved",
+      "reason": "Reserved S1 station; matching ordinary railway/bus objects or other-city 文昌路 stations do not establish its identity.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/温州市域铁路S1线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "3330",
+      "code": "333000010141",
+      "native_name": "文昌",
+      "decision": "unresolved",
+      "reason": "Reserved S1 station; matching ordinary railway/bus objects or other-city 文昌路 stations do not establish its identity.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/温州市域铁路S1线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "3350",
+      "code": "335000990001",
+      "native_name": "临平南高铁站",
+      "decision": "verified",
+      "reason": "Dedicated Hang-Hai intercity station west of the Hangzhou Line 9 platforms; use the line-specific station node.",
+      "osm_ref": "node/9439672136",
+      "sources": [
+        "https://www.openstreetmap.org/node/9439672136",
+        "https://zh.wikipedia.org/wiki/杭海城际铁路",
+        "https://www.openstreetmap.org/relation/13078548",
+        "https://www.openstreetmap.org/relation/13078549",
+        "https://www.openstreetmap.org/relation/13279890",
+        "https://www.openstreetmap.org/relation/13279891"
+      ],
+      "route_relations": [
+        13078548,
+        13078549,
+        13279890,
+        13279891
+      ],
+      "osm_name": "临平南高铁站",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/9439672136",
+        "latitude": "https://www.openstreetmap.org/node/9439672136",
+        "longitude": "https://www.openstreetmap.org/node/9439672136",
+        "osm_ref": "https://www.openstreetmap.org/node/9439672136"
+      }
+    },
+    {
+      "city_code": "3350",
+      "code": "335000990004",
+      "native_name": "长安",
+      "decision": "verified",
+      "reason": "Published short/full station identity 长安 / 长安（东方学院） on Hang-Hai intercity; unrelated railway and bus names rejected.",
+      "osm_ref": "node/12761852351",
+      "sources": [
+        "https://www.openstreetmap.org/node/12761852351",
+        "https://zh.wikipedia.org/wiki/杭海城际铁路",
+        "https://zh.wikipedia.org/wiki/长安（东方学院）站"
+      ],
+      "osm_name": "长安(东方学院)",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/node/12761852351",
+        "longitude": "https://www.openstreetmap.org/node/12761852351",
+        "osm_ref": "https://www.openstreetmap.org/node/12761852351"
+      }
+    },
+    {
+      "city_code": "3350",
+      "code": "335000990013",
+      "native_name": "碧云",
+      "decision": "unresolved",
+      "reason": "Deferred Hang-Hai extension beyond 浙大国际校区; no exact positioned OSM station identity was verified.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/杭海城际铁路"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "3370",
+      "code": "337000890001",
+      "native_name": "姑娘桥",
+      "decision": "verified",
+      "reason": "Shaoxing Line 1 endpoint is physically in Hangzhou; exact route membership and shared station node resolve city clipping. Reuse reviewed coordinates.",
+      "osm_ref": "node/9471678351",
+      "sources": [
+        "https://www.openstreetmap.org/node/9471678351",
+        "https://zh.wikipedia.org/wiki/绍兴轨道交通1号线",
+        "https://www.openstreetmap.org/relation/12894636",
+        "https://www.openstreetmap.org/relation/12920989",
+        "https://www.openstreetmap.org/relation/10386952",
+        "https://www.openstreetmap.org/relation/10386965"
+      ],
+      "route_relations": [
+        10386952,
+        10386965,
+        12894636,
+        12920989
+      ],
+      "osm_name": "姑娘桥",
+      "reviewed_coordinates_reused": true,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/9471678351",
+        "latitude": "https://www.openstreetmap.org/node/9471678351",
+        "longitude": "https://www.openstreetmap.org/node/9471678351",
+        "osm_ref": "https://www.openstreetmap.org/node/9471678351"
+      }
+    },
+    {
+      "city_code": "3370",
+      "code": "337000890002",
+      "native_name": "衙前",
+      "decision": "verified",
+      "reason": "Shaoxing Line 1 station in Hangzhou administrative territory; exact station and service evidence, not another 衙前 elsewhere.",
+      "osm_ref": "node/9847996376",
+      "sources": [
+        "https://www.openstreetmap.org/node/9847996376",
+        "https://zh.wikipedia.org/wiki/绍兴轨道交通1号线",
+        "https://www.openstreetmap.org/relation/12894636",
+        "https://www.openstreetmap.org/relation/12920989"
+      ],
+      "route_relations": [
+        12894636,
+        12920989
+      ],
+      "osm_name": "衙前",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/9847996376",
+        "latitude": "https://www.openstreetmap.org/node/9847996376",
+        "longitude": "https://www.openstreetmap.org/node/9847996376",
+        "osm_ref": "https://www.openstreetmap.org/node/9847996376"
+      }
+    },
+    {
+      "city_code": "3370",
+      "code": "33700111",
+      "native_name": "杭州南",
+      "decision": "verified",
+      "reason": "Hangzhou South national-rail station is the published Shaoxing intercity endpoint; geographically outside the Shaoxing city query.",
+      "osm_ref": "node/7039952242",
+      "sources": [
+        "https://www.openstreetmap.org/node/7039952242",
+        "https://zh.wikipedia.org/wiki/绍兴城际线",
+        "https://zh.wikipedia.org/wiki/杭州南站"
+      ],
+      "osm_name": "杭州南",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/7039952242",
+        "latitude": "https://www.openstreetmap.org/node/7039952242",
+        "longitude": "https://www.openstreetmap.org/node/7039952242",
+        "osm_ref": "https://www.openstreetmap.org/node/7039952242"
+      }
+    },
+    {
+      "city_code": "4510",
+      "code": "4510020017",
+      "native_name": "凤凰路",
+      "decision": "verified",
+      "reason": "Wikipedia records 凤凰路 as the opening name and the 2025 rename to 凤凰北路; OSM subway footprint and Line 2 stop-area evidence agree.",
+      "osm_ref": "way/940674834",
+      "sources": [
+        "https://www.openstreetmap.org/way/940674834",
+        "https://zh.wikipedia.org/wiki/凤凰北路站",
+        "https://www.openstreetmap.org/relation/12686483",
+        "https://www.openstreetmap.org/relation/12686484",
+        "https://www.openstreetmap.org/relation/20009444",
+        "https://www.openstreetmap.org/relation/20009445"
+      ],
+      "name_history": {
+        "published_old_name": "凤凰路",
+        "osm_current": "凤凰北路"
+      },
+      "osm_name": "凤凰北路",
+      "route_relations": [
+        12686483,
+        12686484,
+        20009444,
+        20009445
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/way/940674834",
+        "latitude": "https://www.openstreetmap.org/way/940674834",
+        "longitude": "https://www.openstreetmap.org/way/940674834",
+        "osm_ref": "https://www.openstreetmap.org/way/940674834"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45200218",
+      "native_name": "轮渡",
+      "decision": "verified",
+      "reason": "Exact OSM alt_name 轮渡 and published full station name 四川路（轮渡） identify the Line 2 station.",
+      "osm_ref": "node/12438001725",
+      "sources": [
+        "https://www.openstreetmap.org/node/12438001725",
+        "https://zh.wikipedia.org/wiki/四川路（轮渡）站",
+        "https://www.openstreetmap.org/relation/7839800",
+        "https://www.openstreetmap.org/relation/7844334"
+      ],
+      "name_history": {
+        "osm_alt_name": "轮渡",
+        "osm_current": "四川路"
+      },
+      "osm_name": "四川路",
+      "route_relations": [
+        7839800,
+        7844334
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/12438001725",
+        "latitude": "https://www.openstreetmap.org/node/12438001725",
+        "longitude": "https://www.openstreetmap.org/node/12438001725",
+        "osm_ref": "https://www.openstreetmap.org/node/12438001725"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45200220",
+      "native_name": "邮轮母港",
+      "decision": "verified",
+      "reason": "The opening report uses 邮轮母港 for the same World Eye interchange described as 国际邮轮港. The OSM station and Line 2 membership identify the metro site; no formal former-name claim is made.",
+      "osm_ref": "node/12438001723",
+      "sources": [
+        "https://www.openstreetmap.org/node/12438001723",
+        "https://zh.wikipedia.org/wiki/国际邮轮港站",
+        "https://qingdao.iqilu.com/qdyaowen/2024/1205/5752700.shtml",
+        "https://www.qd-metro.com/informationInfo.php?id=6789",
+        "https://www.openstreetmap.org/relation/7839800",
+        "https://www.openstreetmap.org/relation/7844334"
+      ],
+      "name_history": {
+        "published_short_label": "邮轮母港",
+        "osm_current": "国际邮轮港"
+      },
+      "osm_name": "国际邮轮港",
+      "route_relations": [
+        7839800,
+        7844334
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "name_zh_hant",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/12438001723",
+        "name_zh_hant": "https://www.openstreetmap.org/node/12438001723",
+        "latitude": "https://www.openstreetmap.org/node/12438001723",
+        "longitude": "https://www.openstreetmap.org/node/12438001723",
+        "osm_ref": "https://www.openstreetmap.org/node/12438001723"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45200245",
+      "native_name": "合川路",
+      "decision": "verified",
+      "reason": "Operator naming table explicitly maps engineering name 合川路 to 长涧; July approval and the current OSM subway node agree. This does not assert an operating service.",
+      "osm_ref": "node/13653803219",
+      "sources": [
+        "https://www.openstreetmap.org/node/13653803219",
+        "https://zh.wikipedia.org/wiki/合川路站_(消歧义)",
+        "https://m.guanhai.com.cn/p/441027.html",
+        "https://www.qingdao.gov.cn/zwgk/xxgk/mzj/ywfl/qhdm/202607/t20260720_10680727.shtml",
+        "https://www.qdxin.cn/qingdao/2026/389653.html"
+      ],
+      "name_history": {
+        "source_engineering_name": "合川路",
+        "approved_name": "长涧"
+      },
+      "osm_name": "长涧",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/13653803219",
+        "latitude": "https://www.openstreetmap.org/node/13653803219",
+        "longitude": "https://www.openstreetmap.org/node/13653803219",
+        "osm_ref": "https://www.openstreetmap.org/node/13653803219"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45200246",
+      "native_name": "汉川路",
+      "decision": "verified",
+      "reason": "Operator naming table explicitly maps engineering name 汉川路 to 上臧; July approval and the current OSM subway node agree. This does not assert an operating service.",
+      "osm_ref": "node/13653803220",
+      "sources": [
+        "https://www.openstreetmap.org/node/13653803220",
+        "https://zh.wikipedia.org/wiki/青岛地铁2号线",
+        "https://m.guanhai.com.cn/p/441027.html",
+        "https://www.qingdao.gov.cn/zwgk/xxgk/mzj/ywfl/qhdm/202607/t20260720_10680727.shtml",
+        "https://www.qdxin.cn/qingdao/2026/389653.html"
+      ],
+      "name_history": {
+        "source_engineering_name": "汉川路",
+        "approved_name": "上臧"
+      },
+      "osm_name": "上臧",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/13653803220",
+        "latitude": "https://www.openstreetmap.org/node/13653803220",
+        "longitude": "https://www.openstreetmap.org/node/13653803220",
+        "osm_ref": "https://www.openstreetmap.org/node/13653803220"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45200247",
+      "native_name": "宾川路",
+      "decision": "verified",
+      "reason": "Historical planning label 宾川路 was explicitly located at 金水路/东川路. Later engineering name 东川路 was proposed as 上流佳苑, then approved as 李家上流. Match the documented station site and name history, not code order.",
+      "osm_ref": "node/14057694813",
+      "sources": [
+        "https://www.openstreetmap.org/node/14057694813",
+        "https://zh.wikipedia.org/wiki/青岛地铁2号线",
+        "https://epaper.qingdaonews.com/html/qdzb/20210907/qdzb1419713.html",
+        "https://m.guanhai.com.cn/p/441027.html",
+        "https://www.qingdao.gov.cn/zwgk/xxgk/mzj/ywfl/qhdm/202607/t20260720_10680727.shtml",
+        "https://www.qdxin.cn/qingdao/2026/389653.html"
+      ],
+      "name_history": {
+        "source_planning_name": "宾川路",
+        "engineering_name": "东川路",
+        "march_proposal": "上流佳苑（八医东院区）",
+        "july_approved_name": "李家上流（八医东院区）",
+        "published_location": "金水路/东川路"
+      },
+      "osm_name": "李家上流",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/14057694813",
+        "latitude": "https://www.openstreetmap.org/node/14057694813",
+        "longitude": "https://www.openstreetmap.org/node/14057694813",
+        "osm_ref": "https://www.openstreetmap.org/node/14057694813"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45200248",
+      "native_name": "院士港",
+      "decision": "verified",
+      "reason": "Historical 院士港 planning station is located at 常川路/世园广场南路; the later 常川路 engineering station is explicitly renamed 南王家上流 in the operator table and final approval.",
+      "osm_ref": "node/13653803256",
+      "sources": [
+        "https://www.openstreetmap.org/node/13653803256",
+        "https://zh.wikipedia.org/wiki/青岛地铁2号线",
+        "https://epaper.qingdaonews.com/html/qdzb/20210907/qdzb1419713.html",
+        "https://m.guanhai.com.cn/p/441027.html",
+        "https://www.qingdao.gov.cn/zwgk/xxgk/mzj/ywfl/qhdm/202607/t20260720_10680727.shtml",
+        "https://www.qdxin.cn/qingdao/2026/389653.html"
+      ],
+      "name_history": {
+        "source_planning_name": "院士港",
+        "engineering_name": "常川路",
+        "approved_name": "南王家上流",
+        "published_location": "常川路/世园广场南路"
+      },
+      "osm_name": "南王家上流",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/13653803256",
+        "latitude": "https://www.openstreetmap.org/node/13653803256",
+        "longitude": "https://www.openstreetmap.org/node/13653803256",
+        "osm_ref": "https://www.openstreetmap.org/node/13653803256"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45200249",
+      "native_name": "世园大道",
+      "decision": "verified",
+      "reason": "Historical 世园大道 planning station is at 世园大道/龙川路; operator table maps 龙川路 to 毕家上流. OSM adjacent road ways explicitly retain old_name=世园大道 under current 长水路.",
+      "osm_ref": "node/13653803262",
+      "sources": [
+        "https://www.openstreetmap.org/node/13653803262",
+        "https://zh.wikipedia.org/wiki/青岛地铁2号线",
+        "https://epaper.qingdaonews.com/html/qdzb/20210907/qdzb1419713.html",
+        "https://m.guanhai.com.cn/p/441027.html",
+        "https://www.qingdao.gov.cn/zwgk/xxgk/mzj/ywfl/qhdm/202607/t20260720_10680727.shtml",
+        "https://www.qdxin.cn/qingdao/2026/389653.html",
+        "https://www.openstreetmap.org/way/384537311",
+        "https://www.openstreetmap.org/way/548365006"
+      ],
+      "name_history": {
+        "source_planning_name": "世园大道",
+        "engineering_name": "龙川路",
+        "approved_name": "毕家上流",
+        "published_location": "世园大道/龙川路",
+        "osm_road_old_name": "世园大道",
+        "osm_road_current_name": "长水路"
+      },
+      "osm_name": "毕家上流",
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/13653803262",
+        "latitude": "https://www.openstreetmap.org/node/13653803262",
+        "longitude": "https://www.openstreetmap.org/node/13653803262",
+        "osm_ref": "https://www.openstreetmap.org/node/13653803262"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45201142",
+      "native_name": "鳌山湾",
+      "decision": "verified",
+      "reason": "Built but unopened Aoshan Bay station; its exact stop_area contains the rail stop positions. A service currently stopping here is not asserted.",
+      "osm_ref": "relation/13724104",
+      "sources": [
+        "https://www.openstreetmap.org/relation/13724104",
+        "https://zh.wikipedia.org/wiki/鳌山湾站"
+      ],
+      "osm_name": "鳌山湾",
+      "representative": "OSM stop-area bounding centre; station-group precision, not a directional platform position",
+      "explicit_stop_platform_members": [
+        "node/9450007178",
+        "node/5579086031"
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/relation/13724104",
+        "latitude": "https://www.openstreetmap.org/relation/13724104",
+        "longitude": "https://www.openstreetmap.org/relation/13724104",
+        "osm_ref": "https://www.openstreetmap.org/relation/13724104"
+      }
+    },
+    {
+      "city_code": "4520",
+      "code": "45201143",
+      "native_name": "王村",
+      "decision": "unresolved",
+      "reason": "Future Line 11 extension station in the public line diagram; no exact compatible OSM rail object was verified. Same-name places elsewhere are rejected.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/青岛地铁11号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "4520",
+      "code": "45201144",
+      "native_name": "沙戈庄",
+      "decision": "unresolved",
+      "reason": "Future Line 11 extension station in the public line diagram; no exact compatible OSM rail object was verified. Same-name places elsewhere are rejected.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/青岛地铁11号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "4520",
+      "code": "45201145",
+      "native_name": "田横西",
+      "decision": "unresolved",
+      "reason": "Future Line 11 extension station in the public line diagram; no exact compatible OSM rail object was verified. Same-name places elsewhere are rejected.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/青岛地铁11号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "4520",
+      "code": "45201146",
+      "native_name": "田横",
+      "decision": "unresolved",
+      "reason": "Future Line 11 extension station in the public line diagram; no exact compatible OSM rail object was verified. Same-name places elsewhere are rejected.",
+      "sources": [
+        "https://zh.wikipedia.org/wiki/青岛地铁11号线"
+      ],
+      "fields_changed": [],
+      "field_sources": {}
+    },
+    {
+      "city_code": "4930",
+      "code": "4930010014",
+      "native_name": "青年宫",
+      "decision": "verified",
+      "reason": "Wikipedia documents the 2024 青年宫 → 洛邑古城 rename; OSM station keeps the source station article link.",
+      "osm_ref": "node/8988340168",
+      "sources": [
+        "https://www.openstreetmap.org/node/8988340168",
+        "https://zh.wikipedia.org/wiki/洛邑古城站",
+        "https://www.openstreetmap.org/relation/12542585",
+        "https://www.openstreetmap.org/relation/12942002"
+      ],
+      "name_history": {
+        "published_old_name": "青年宫",
+        "osm_current": "洛邑古城"
+      },
+      "osm_name": "洛邑古城",
+      "route_relations": [
+        12542585,
+        12942002
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "name_en",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "name_en": "https://www.openstreetmap.org/node/8988340168",
+        "latitude": "https://www.openstreetmap.org/node/8988340168",
+        "longitude": "https://www.openstreetmap.org/node/8988340168",
+        "osm_ref": "https://www.openstreetmap.org/node/8988340168"
+      }
+    },
+    {
+      "city_code": "4930",
+      "code": "4930010016",
+      "native_name": "启明南路",
+      "decision": "verified",
+      "reason": "Wikipedia explicitly identifies 河南省洛阳正骨医院 as the added subtitle of 启明南路; preserve the original card label.",
+      "osm_ref": "node/8988340199",
+      "sources": [
+        "https://www.openstreetmap.org/node/8988340199",
+        "https://zh.wikipedia.org/wiki/启明南路站",
+        "https://www.openstreetmap.org/relation/12542585",
+        "https://www.openstreetmap.org/relation/12942002"
+      ],
+      "name_history": {
+        "short_name": "启明南路",
+        "osm_current": "启明南路·河南省洛阳正骨医院"
+      },
+      "osm_name": "启明南路·河南省洛阳正骨医院",
+      "route_relations": [
+        12542585,
+        12942002
+      ],
+      "reviewed_coordinates_reused": false,
+      "fields_changed": [
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ],
+      "field_sources": {
+        "latitude": "https://www.openstreetmap.org/node/8988340199",
+        "longitude": "https://www.openstreetmap.org/node/8988340199",
+        "osm_ref": "https://www.openstreetmap.org/node/8988340199"
+      }
+    }
+  ],
+  "integration_note": "This ledger covers the originally missing-reference rows. Two related pre-existing station-body corrections are documented separately in research/station-body-corrections-2026-10-28.json."
+}
