@@ -61,3 +61,11 @@ The [2026-10-28 Chinese-city audit](docs/china-osm-research-2026-10-28.md)
 covers every existing station-city CSV and all 368 city-code OSM references.
 [Incoming station reports](docs/station-reports-2026-10-28.md) are reviewed
 separately; only exact observed keys with physical-source evidence become aliases.
+
+Follow-up research covers the initial 190 remaining Chinese reference gaps
+([north/east](docs/remaining-china-north-2026-10-28.md),
+[south/west](docs/remaining-china-south-2026-10-28.md)) and
+[collected Korean station codes](docs/korean-station-research-2026-10-28.md).
+The audits record verified additions and explicit deferrals; the
+[independent review](docs/station-research-independent-review-2026-10-28.md)
+explains the higher-risk identity decisions.

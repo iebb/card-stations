@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-28",
+  "baseline_commit": "b328f96ace7f38616393479101b5664c892a3851",
+  "policy": "References and coordinates only; codes, native names and other populated fields are preserved. Explicit stop-area/route membership and station layouts distinguish the physical bodies. Independently reviewed by a second agent.",
+  "corrections": [
+    {
+      "code": "305000110067",
+      "city": "3050",
+      "old_ref": "node/3506766921",
+      "new_ref": "node/8992739373",
+      "latitude": "31.3012385",
+      "longitude": "121.0998583",
+      "reason": "Suzhou Line 11 uses a separate underground station body; the previous OSM node is explicitly Shanghai Line 11.",
+      "sources": [
+        "https://www.openstreetmap.org/node/8992739373",
+        "https://www.openstreetmap.org/relation/16025192",
+        "https://www.openstreetmap.org/relation/16025193",
+        "https://www.openstreetmap.org/relation/16097172",
+        "https://zh.wikipedia.org/wiki/花桥站_(昆山市地铁车站)"
+      ],
+      "native_name": "花桥",
+      "previous_coordinates": [
+        "31.3006017",
+        "121.099759"
+      ]
+    },
+    {
+      "code": "588000610001",
+      "city": "5880",
+      "old_ref": "node/6491001184",
+      "new_ref": "node/9016807913",
+      "latitude": "23.0444278",
+      "longitude": "113.1509948",
+      "reason": "Nanhai Tram Line 1 uses its light-rail station body TNH101; the previous OSM node is the Guangfo subway station GF13.",
+      "sources": [
+        "https://www.openstreetmap.org/node/9016807913",
+        "https://www.openstreetmap.org/relation/13124234",
+        "https://www.openstreetmap.org/relation/13103097",
+        "https://www.openstreetmap.org/relation/13103098",
+        "https://zh.wikipedia.org/wiki/𧒽岗站_(有轨电车)"
+      ],
+      "native_name": "𧒽岗",
+      "previous_coordinates": [
+        "23.04518",
+        "113.1499495"
+      ]
+    }
+  ]
+}

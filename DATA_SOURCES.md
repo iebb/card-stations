@@ -13,7 +13,9 @@ Corrections and added mappings must include evidence in their pull request.
 | Published T-Union station, line, gate, and Shanghai CU data | Domosekai Limited and Trip Reader data contributors, [domosekai/tripreader-data](https://github.com/domosekai/tripreader-data), revision `c5584d6b8d9a39d7162b7b9781134be52db66186` | CC BY 4.0 |
 | China coordinates and OSM names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), retained OSM element type/ID | ODbL 1.0 |
 | Three Taizhou station codes and reviewed exact terminal-to-station links | Domosekai Limited, Trip Reader 读卡识途 1.7.17-cn | APK data terms not specified; the public CSV license is not asserted for these mappings |
-| Korean exact location aliases | [iebb/korean-stations](https://github.com/iebb/korean-stations), consumer export revision `f63c4050f862f4b64a530bf923d5f21cd2698847`, SHA-256 `a8b3076d10bd19a18f00fff650b4c96ddfa26d2f7fc458fa801911c4e10e86c0` | Retains the upstream source-specific terms; consult its DATA_SOURCES.md and pinned sources |
+| Base Korean exact location aliases | [iebb/korean-stations](https://github.com/iebb/korean-stations), consumer export revision `f63c4050f862f4b64a530bf923d5f21cd2698847`, SHA-256 `a8b3076d10bd19a18f00fff650b4c96ddfa26d2f7fc458fa801911c4e10e86c0` | Retains the upstream source-specific terms; consult its DATA_SOURCES.md and pinned sources |
+| Additional collected Korean aliases and official station fields | [MOLIT settlement inventory, 2026-07-03](https://www.data.go.kr/data/15128614/fileData.do), reviewed station-only source revision `5f9f9392e2c6e3312bba1dd6e445b2c5edbd4bf6`, and exact Seoul stop IDs | Official source-specific terms; Seoul inputs retain KOGL Type 1 attribution |
+| Korean map references and supplementary names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), pinned Geofabrik South Korea 2026-07-28 extract, and identity-linked [Wikidata labels](https://www.wikidata.org/wiki/Wikidata:Licensing) | OSM-derived Korean data is an ODbL 1.0 Derived Database; Wikidata structured labels are CC0 |
 | Korean transport-mode catalog | [KORAIL KOTRIS, 2023-08-25 dataset](https://www.data.go.kr/data/15121099/fileData.do) | Imported source records “No restrictions on permitted use”; supplementary entries retain separate citations |
 | Ulaanbaatar stops, routes, and sequences | Ulaanbaatar Smart Card LLC, UB Smart Bus service | A separate redistribution license was not recorded in the imported snapshot |
 
@@ -24,9 +26,10 @@ The three APK station codes are `34503113` (仙居南), `34503116` (临海南), 
 No APK, decompiled application code, card identifiers, or travel histories are
 distributed here.
 
-Korean names come from the pinned station-only consumer export, not later
-collection observations or the separate ODbL research export. Missing operator
-names remain unknown. Mode names, translations, and classes are normalized into
+Base Korean names come from the pinned station-only consumer export. The
+follow-up research below adds reviewed station-only identities and separately
+attributed official and map fields. Missing operator names remain unknown.
+Mode names, translations, and classes are normalized into
 one `data/korean/modes.csv`, joined by the mode embedded in each location code.
 `reference/korean-mode-metadata.json` preserves the
 official catalog metadata and supplementary-mode citations.
@@ -60,3 +63,30 @@ include cited Wikipedia and primary OSM evidence. Native names and original
 card keys are preserved. Three additional full-length keys are exact publicly
 shown station-report observations, corroborated against primary OSM station
 and line identities; no private report fields or location pins are distributed.
+
+The follow-up review of the remaining Chinese references is recorded in
+`docs/remaining-china-north-2026-10-28.md` and
+`docs/remaining-china-south-2026-10-28.md`, with per-code evidence under
+`research/`. OSM station nodes and explicitly supported stop groups supply
+coordinates and references; cited Wikipedia articles, operator publications,
+and government naming records establish historical names and service context.
+Card-city prefixes do not require administrative containment for intercity
+services. Native lookup names and codes remain unchanged, and uncertain
+spelling-only or directional matches stay unresolved.
+
+The Korean follow-up uses the station-only source above and the public
+[station-observations aggregate](https://korean-trip-crowdsourcing.ieb.app/research/station-observations)
+to identify collected keys. Additional bus identities require an exact,
+unambiguous official settlement ID, a reviewed bus mode, a normal entry/exit
+observation, and consistent administrative state. The source CSV checksum and
+selection evidence are retained in the research audit. The 1,384 new aliases
+comprise 977 previously reviewed keys and 407 independently reviewed additions.
+MOLIT station facts use its 2026-07-03 snapshot; exact Seoul stop and route joins
+use 2026-08-04 files, with compatible multilingual labels from February 2025.
+No card identifiers,
+histories, raw captures, or observation timestamps are included. See
+`docs/korean-station-research-2026-10-28.md` and
+`docs/korean-collected-candidates-review-2026-10-28.md` for the independent
+review and field-specific source dates. Existing populated Korean fields are
+preserved; map references require explicit stop IDs or supported rail identity,
+and ambiguous features remain unlinked.
