@@ -52,3 +52,11 @@ vertices to nine-character geohashes with shared-prefix compression. Exact
 input hashes and coverage are in `reference/japan-routing.json`. The source
 license notice is retained in `licenses/station_database.md`. Unmatched edges
 retain their prior distance and have no claimed detailed geometry.
+
+The Chinese-city enrichment snapshot is dated 2026-10-28. Its city-scoped OSM
+queries, hashes, identity rejections and route evidence are summarized in
+`research/china-osm-audit-2026-10-28.json`; exact historical-name exceptions
+include cited Wikipedia and primary OSM evidence. Native names and original
+card keys are preserved. Three additional full-length keys are exact publicly
+shown station-report observations, corroborated against primary OSM station
+and line identities; no private report fields or location pins are distributed.

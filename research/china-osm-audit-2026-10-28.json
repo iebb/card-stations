@@ -1,0 +1,4089 @@
+{
+  "checked_date": "2026-10-28",
+  "status": "complete",
+  "policy": "Exact city-scoped OSM identities with whitespace/parenthesis equivalence or a Chinese component followed by the exact explicit name:ug suffix; preserve primary names/codes; no inferred card codes; line labels require explicit relation membership at multiple station identities.",
+  "city_registry": {
+    "rows": 368,
+    "verified_administrative_osm_references": 368
+  },
+  "totals": {
+    "station_cities_researched": 39,
+    "station_cities": 39,
+    "lookup_rows_changed": 3068,
+    "fields_filled": {
+      "name_en": 1686,
+      "osm_ref": 101,
+      "longitude": 101,
+      "latitude": 101,
+      "name_ja": 16,
+      "name_zh_hant": 365,
+      "line": 1304,
+      "name_zh_hans": 6
+    },
+    "new_reference_lookup_rows": 101,
+    "coordinate_pairs_added_or_replaced": 101
+  },
+  "cities": [
+    {
+      "city_code": "1000",
+      "name": "北京市",
+      "lookup_rows": 648,
+      "snapshot": {
+        "sha256": "72aa3f4ce5e46fcd17bd2cb9aea9b9ebd542acefec1df91230854476875f6923",
+        "osm_base": "2026-10-28T03:08:41Z",
+        "elements": 6478
+      },
+      "query_sha256": "49730784a5014ceb33acf60c9bff65bc5817a94cb271d6f1c11a0edf520c6ffe",
+      "supplement": {
+        "sha256": "4318609971553f7882084412886cf97655fcfa9e408edac6fcbd5f648db8ee3a",
+        "osm_base": "2026-10-28T03:27:02Z",
+        "elements": 38
+      },
+      "supplement_query_sha256": "cac207c2d6902010385100af221df5dc1f2220f3b5a89e9e4736af847f530ea7",
+      "lookup_rows_changed": 560,
+      "fields_filled": {
+        "name_en": 560,
+        "osm_ref": 14,
+        "longitude": 14,
+        "latitude": 14,
+        "name_ja": 6,
+        "name_zh_hant": 27
+      },
+      "new_reference_lookup_rows": 14,
+      "coordinate_pairs_added_or_replaced": 14,
+      "new_physical_osm_references": [
+        "node/8252163798",
+        "node/8252163799",
+        "node/8252163800",
+        "node/8252163801",
+        "node/8252163802",
+        "node/8252163803",
+        "node/8252163804",
+        "node/8252163805",
+        "node/8252163806",
+        "node/8252163809",
+        "node/8252163810",
+        "node/8252163812",
+        "relation/1596678",
+        "relation/1652652"
+      ],
+      "unreferenced_lookup_rows_remaining": 14,
+      "unresolved": [
+        {
+          "code": "1000010001",
+          "name": "高井",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "10000E003B",
+          "name": "南八里庄",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "1000110017",
+          "name": "未来科学城南",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "100011001D",
+          "name": "勇士营",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "10004F0031",
+          "name": "老观里",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "1000530015",
+          "name": "沙城",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "100055001D",
+          "name": "通州",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "100058001B",
+          "name": "大兴机场",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "100062001B",
+          "name": "3号航站楼",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "1000B3B30007",
+          "name": "华汇商厦",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "1000B3B3000F",
+          "name": "天通西苑北",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "1000B3B30011",
+          "name": "东三旗南站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "1000B3B40004",
+          "name": "双峪环岛西",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "1000B3B4000D",
+          "name": "沙石路口",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "100002000A",
+          "osm_ref": "node/269996666",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "100004003D",
+          "osm_ref": "node/539260172",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000060033",
+          "osm_ref": "node/5365586568",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "10000E002D",
+          "osm_ref": "node/539260172",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000540013",
+          "osm_ref": "node/7116372189",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000550017",
+          "osm_ref": "node/5463450278",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20001",
+          "osm_ref": "node/2501844495",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20002",
+          "osm_ref": "node/1408034407",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20003",
+          "osm_ref": "node/339085362",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20004",
+          "osm_ref": "node/1408034516",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20005",
+          "osm_ref": "node/1408034560",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20006",
+          "osm_ref": "node/1408034676",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20007",
+          "osm_ref": "node/1408034647",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20008",
+          "osm_ref": "node/1408034697",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20009",
+          "osm_ref": "node/13397177863",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B2000A",
+          "osm_ref": "node/13397177863",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B2000B",
+          "osm_ref": "node/1802535941",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B2000C",
+          "osm_ref": "node/5365586568",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B2000E",
+          "osm_ref": "node/1802535949",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B2000F",
+          "osm_ref": "node/1802595177",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20010",
+          "osm_ref": "node/1802595184",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20011",
+          "osm_ref": "node/35722742",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20012",
+          "osm_ref": "node/1819087384",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B20013",
+          "osm_ref": "node/339089289",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B3000B",
+          "osm_ref": "node/5442212133",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "1000B3B40011",
+          "osm_ref": "node/2010768183",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "1121",
+      "name": "天津市",
+      "lookup_rows": 241,
+      "snapshot": {
+        "sha256": "59138ae7afed45115fc58fb60fdd28d9fe04f8ad27fd8c7969436f9262da22a2",
+        "osm_base": "2026-10-28T03:09:32Z",
+        "elements": 5697
+      },
+      "query_sha256": "ffe5a433bbfc00b3c8aee5a30b5eb90bdd82f77d505c2f4445f136947e59483b",
+      "supplement": {
+        "sha256": "3b46ffd72fc54f7988eeb5dd92dca4beb6c818fe97444f8a10dce38198a789bb",
+        "osm_base": "2026-10-28T03:29:05Z",
+        "elements": 5
+      },
+      "supplement_query_sha256": "e8d13f192ee45b28f8c38f8cbb3ac9b924e61cbc8b4c3a3179d70195d6d0ce0b",
+      "lookup_rows_changed": 63,
+      "fields_filled": {
+        "name_zh_hant": 5,
+        "osm_ref": 1,
+        "longitude": 1,
+        "latitude": 1,
+        "name_en": 1,
+        "line": 57
+      },
+      "new_reference_lookup_rows": 1,
+      "coordinate_pairs_added_or_replaced": 1,
+      "new_physical_osm_references": [
+        "relation/19886973"
+      ],
+      "unreferenced_lookup_rows_remaining": 6,
+      "unresolved": [
+        {
+          "code": "112100010007",
+          "name": "车站北路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "112100010009",
+          "name": "中心庄",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "112100010010",
+          "name": "中西村",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "112100060032",
+          "name": "黑牛城道",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "112100110029",
+          "name": "文洁路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "112100110030",
+          "name": "澄江路",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "112100010024",
+          "osm_ref": "node/273088049",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100020021",
+          "osm_ref": "node/273088049",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100030023",
+          "osm_ref": "node/273088049",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100060019",
+          "osm_ref": "way/1453408806",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100080048",
+          "osm_ref": "way/1450388837",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100080049",
+          "osm_ref": "node/11481034176",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100080050",
+          "osm_ref": "way/1473351164",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100080051",
+          "osm_ref": "node/11481034180",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "112100090024",
+          "osm_ref": "node/7930649661",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "11210008",
+          "label": "8号线",
+          "supporting_station_identities": 9,
+          "mapped_station_identities": 9,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            13711699,
+            13711700
+          ],
+          "rows_filled": 9
+        },
+        {
+          "line_code": "11210010",
+          "label": "10号线",
+          "supporting_station_identities": 19,
+          "mapped_station_identities": 20,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            14903886,
+            14903907
+          ],
+          "rows_filled": 21
+        },
+        {
+          "line_code": "11210011",
+          "label": "11号线",
+          "supporting_station_identities": 20,
+          "mapped_station_identities": 21,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            16914085,
+            16914088
+          ],
+          "rows_filled": 24
+        },
+        {
+          "line_code": "11210021",
+          "label": "津静线",
+          "supporting_station_identities": 3,
+          "mapped_station_identities": 3,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            17868751,
+            18099354
+          ],
+          "rows_filled": 3
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "2210",
+      "name": "沈阳市",
+      "lookup_rows": 136,
+      "snapshot": {
+        "sha256": "82e9f6dc0be573b2be4670de2d45bcdfb88e40560c5f6ab65761331a1c7d6f43",
+        "osm_base": "2026-10-28T03:10:49Z",
+        "elements": 477
+      },
+      "query_sha256": "4606a70ef8759a12c099bf7f1d228aebb81d5501f1be5a1712da4e9f0e037369",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 37,
+      "fields_filled": {
+        "line": 37
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [
+        {
+          "code": "221000010093",
+          "osm_ref": "node/6179162407",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "2210000200D7",
+          "osm_ref": "node/676578837",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "2210000401B5",
+          "osm_ref": "node/676578837",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "2210000401CF",
+          "osm_ref": "node/6179162253",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "22100003",
+          "label": "3号线",
+          "supporting_station_identities": 13,
+          "mapped_station_identities": 14,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            18482203,
+            18482204
+          ],
+          "rows_filled": 14
+        },
+        {
+          "line_code": "22100004",
+          "label": "4号线",
+          "supporting_station_identities": 21,
+          "mapped_station_identities": 21,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            16393679
+          ],
+          "rows_filled": 23
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "2220",
+      "name": "大连市",
+      "lookup_rows": 109,
+      "snapshot": {
+        "sha256": "7f32245ac50634f3a94a19a92ab60218ac7ad1f5b8936152de4cb5d9792b7596",
+        "osm_base": "2026-10-28T03:10:49Z",
+        "elements": 349
+      },
+      "query_sha256": "db7b29cd6c8bebaed7f56e1d309b14f1ec08327f839ddab4c37299a357e60897",
+      "supplement": {
+        "sha256": "5ec260e459d9adee31260bc857fafade5227fff764542f76b0c1ebb6759eb932",
+        "osm_base": "2026-10-28T03:32:05Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "723da4925b888f2ebe88dc5155fb07eca390ba933404efe41fda754d12491a2c",
+      "lookup_rows_changed": 20,
+      "fields_filled": {
+        "name_zh_hant": 4,
+        "line": 18
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 5,
+      "unresolved": [
+        {
+          "code": "22200D17",
+          "name": "西三十里",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "22200D19",
+          "name": "四十里",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "22200D1A",
+          "name": "五十里",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "22200D1E",
+          "name": "五里台",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "22200D23",
+          "name": "平安河",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "22200102",
+          "osm_ref": "node/8083924038",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "22200301",
+          "osm_ref": "node/7913022526",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "22200509",
+          "osm_ref": "node/7913022526",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "222005",
+          "label": "5号线",
+          "supporting_station_identities": 15,
+          "mapped_station_identities": 17,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            15611185,
+            15611910
+          ],
+          "rows_filled": 18
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "2610",
+      "name": "哈尔滨市",
+      "lookup_rows": 78,
+      "snapshot": {
+        "sha256": "b7a78694241b47d42f3ea8521e5c06ac4cd51955e87f50213a63d06844e09a81",
+        "osm_base": "2026-10-28T03:11:49Z",
+        "elements": 262
+      },
+      "query_sha256": "e479fb9a3a3b5ad68c250e6d5edc0b987c60c5e3f75389d7c4c657ddc059add4",
+      "supplement": {
+        "sha256": "87582372d4f97464cc78bc6ee4bffc42512660a9ec29eef339bb65a12576925b",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "38c6edb28a5e5883919cfe7d70479bea4d9f2aaad4e104e50f8e80ec8c9d9bf4",
+      "lookup_rows_changed": 71,
+      "fields_filled": {
+        "name_en": 71,
+        "name_zh_hant": 14
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 1,
+      "unresolved": [
+        {
+          "code": "261003FF19",
+          "name": "兆麟公园",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "261001FF12",
+          "osm_ref": "node/678564923",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "261002FF20",
+          "osm_ref": "node/3701366547",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "261002FF29",
+          "osm_ref": "node/334358067",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "261003FF02",
+          "osm_ref": "node/2155516551",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "2900",
+      "name": "上海市",
+      "lookup_rows": 612,
+      "snapshot": {
+        "sha256": "269345eaa9a877f63270a5b74d2a6ad6e05fd2632af2b190ff501055e9d44acf",
+        "osm_base": "2026-10-28T03:12:51Z",
+        "elements": 16705
+      },
+      "query_sha256": "2981e3e23d1926081b7eb9ae62befc0d531a80c6f646cabd018ba9037f8fca57",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 528,
+      "fields_filled": {
+        "name_en": 516,
+        "osm_ref": 16,
+        "longitude": 16,
+        "latitude": 16,
+        "name_zh_hans": 4,
+        "name_zh_hant": 44,
+        "name_ja": 1
+      },
+      "new_reference_lookup_rows": 16,
+      "coordinate_pairs_added_or_replaced": 16,
+      "new_physical_osm_references": [
+        "node/471016169",
+        "node/5306444964",
+        "node/5314264654",
+        "node/9381954260",
+        "relation/19059549",
+        "relation/19059550",
+        "relation/19059552",
+        "relation/19059554",
+        "relation/19059556",
+        "relation/19059558",
+        "relation/19083802",
+        "relation/19083805",
+        "relation/19083806",
+        "relation/19083809",
+        "relation/19631195"
+      ],
+      "unreferenced_lookup_rows_remaining": 34,
+      "unresolved": [
+        {
+          "code": "290000110014",
+          "name": "花桥",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "290000110015",
+          "name": "光明路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "290000110016",
+          "name": "兆丰路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261101",
+          "name": "辰塔路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261103",
+          "name": "三新北路 (东)",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261104",
+          "name": "三新北路 (西)",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261113",
+          "name": "松东路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261114",
+          "name": "松卫公路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261115",
+          "name": "宝胜路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261116",
+          "name": "东兴路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261117",
+          "name": "联阳路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261118",
+          "name": "锦昔路 (西)",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261119",
+          "name": "锦昔路 (东)",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261120",
+          "name": "曹农路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261121",
+          "name": "新庙三路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261122",
+          "name": "漕河路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261123",
+          "name": "新车公路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261124",
+          "name": "新镇街",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261125",
+          "name": "新站路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261126",
+          "name": "新桥火车站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261201",
+          "name": "仓华路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261202",
+          "name": "三新北路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261203",
+          "name": "思贤路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261212",
+          "name": "梅家浜路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261213",
+          "name": "广富林路 (东华大学)",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261214",
+          "name": "龙马路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261216",
+          "name": "光星路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261217",
+          "name": "茸宁路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261218",
+          "name": "茸惠路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261219",
+          "name": "中辰路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261220",
+          "name": "徐塘路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261221",
+          "name": "明南路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261222",
+          "name": "江田东路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "2900261224",
+          "name": "锦昔路",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "290000010015",
+          "osm_ref": "node/7171261760",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "290000030011",
+          "osm_ref": "node/7171261760",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "290000090018",
+          "osm_ref": "node/7160140850",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "290000110042",
+          "osm_ref": "node/7169128140",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "290000150032",
+          "osm_ref": "node/7171261760",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "290000150043",
+          "osm_ref": "node/7169128140",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "2900261113",
+          "osm_ref": "relation/19059548",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261114",
+          "osm_ref": "relation/19059559",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261115",
+          "osm_ref": "relation/19059560",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261116",
+          "osm_ref": "relation/19059561",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261117",
+          "osm_ref": "relation/19059562",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261120",
+          "osm_ref": "relation/19059547",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261121",
+          "osm_ref": "relation/19059564",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261122",
+          "osm_ref": "relation/19059565",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261123",
+          "osm_ref": "relation/19059566",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261124",
+          "osm_ref": "relation/19059567",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261125",
+          "osm_ref": "relation/19059568",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261126",
+          "osm_ref": "relation/18515717",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261201",
+          "osm_ref": "relation/19059550",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261202",
+          "osm_ref": "relation/19059551",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261203",
+          "osm_ref": "relation/19083810",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261212",
+          "osm_ref": "relation/19083801",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261214",
+          "osm_ref": "relation/19083799",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261216",
+          "osm_ref": "relation/19083796",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261217",
+          "osm_ref": "relation/19083795",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261218",
+          "osm_ref": "relation/19083794",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261219",
+          "osm_ref": "relation/19083793",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261220",
+          "osm_ref": "relation/19083792",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261221",
+          "osm_ref": "relation/19083791",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261222",
+          "osm_ref": "relation/19083790",
+          "reason": "candidate is over 700 m from prior approximate point"
+        },
+        {
+          "code": "2900261224",
+          "osm_ref": "relation/19059563",
+          "reason": "candidate is over 700 m from prior approximate point"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3010",
+      "name": "南京市",
+      "lookup_rows": 234,
+      "snapshot": {
+        "sha256": "4dffc3b3f348829992eaa8da9e4f6e90d7be7af289b36c8ce7dc9f7b9111b663",
+        "osm_base": "2026-10-28T03:12:51Z",
+        "elements": 718
+      },
+      "query_sha256": "1379a2152ae095a8de039c0ec6682617e6ce0193f52c58bb53d4068e21eb2f9d",
+      "supplement": {
+        "sha256": "35d31d8beeac8c90756b4e315d0aa2d1955023991963b21b08edb5d639632b7e",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 1
+      },
+      "supplement_query_sha256": "e177798b1f5441ddcf3006d4a5f891ddbe566bcd9c3e98fa54a131b6e9c7fbf9",
+      "lookup_rows_changed": 172,
+      "fields_filled": {
+        "name_en": 140,
+        "name_zh_hant": 40,
+        "osm_ref": 5,
+        "longitude": 5,
+        "latitude": 5,
+        "name_ja": 1,
+        "line": 36
+      },
+      "new_reference_lookup_rows": 5,
+      "coordinate_pairs_added_or_replaced": 5,
+      "new_physical_osm_references": [
+        "node/7998534650",
+        "node/9164951625",
+        "node/9164951632",
+        "relation/3955385"
+      ],
+      "unreferenced_lookup_rows_remaining": 5,
+      "unresolved": [
+        {
+          "code": "3010000C00AB",
+          "name": "黄梅",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "3010000C00AC",
+          "name": "童世界",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "3010000C00AD",
+          "name": "华阳",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "3010000C00AE",
+          "name": "崇明",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "3010000C00AF",
+          "name": "句容",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "30100001000E",
+          "osm_ref": "node/267225237",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "30100003002C",
+          "osm_ref": "node/2483530943",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "30100005002C",
+          "osm_ref": "node/2483530943",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "30100007000E",
+          "osm_ref": "node/267225237",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "30100007002C",
+          "osm_ref": "node/2483530943",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "30100009002C",
+          "osm_ref": "node/2483530943",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "3010000D",
+          "label": "7号线",
+          "supporting_station_identities": 24,
+          "mapped_station_identities": 24,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            15336345,
+            15336347
+          ],
+          "rows_filled": 27
+        },
+        {
+          "line_code": "3010000F",
+          "label": "5号线",
+          "supporting_station_identities": 7,
+          "mapped_station_identities": 9,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            17417176,
+            17417177
+          ],
+          "rows_filled": 9
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3020",
+      "name": "无锡市",
+      "lookup_rows": 98,
+      "snapshot": {
+        "sha256": "7745824ab00ff5925f644c4fecdf15e32016cc269815fb793ac422030940e13c",
+        "osm_base": "2026-10-28T03:13:40Z",
+        "elements": 218
+      },
+      "query_sha256": "f2a874cee5c8fa792660313a41f0e1b27845765864b9832950d9ed3e0d473e44",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 10,
+      "fields_filled": {
+        "name_ja": 1,
+        "name_zh_hant": 1,
+        "line": 10
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 2,
+      "unresolved": [
+        {
+          "code": "3020020016",
+          "name": "安镇",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "302014001D",
+          "name": "霞客湾科学城",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "3020010002",
+          "osm_ref": "node/6427490830",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010003",
+          "osm_ref": "node/6427480368",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010004",
+          "osm_ref": "node/6427466219",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010005",
+          "osm_ref": "node/6427430577",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010006",
+          "osm_ref": "node/6427411698",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010007",
+          "osm_ref": "node/6427399745",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010009",
+          "osm_ref": "node/6427381100",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302001000A",
+          "osm_ref": "node/6427300394",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302001000B",
+          "osm_ref": "node/6427271124",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302001000C",
+          "osm_ref": "node/6427246796",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302001000D",
+          "osm_ref": "node/6427221227",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302001000E",
+          "osm_ref": "node/6427221234",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302001000F",
+          "osm_ref": "node/6427199220",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010010",
+          "osm_ref": "node/6424807771",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010011",
+          "osm_ref": "node/6424808186",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010012",
+          "osm_ref": "node/6424787055",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010013",
+          "osm_ref": "node/6424787059",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010014",
+          "osm_ref": "node/6424773001",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010016",
+          "osm_ref": "node/6424773007",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020010017",
+          "osm_ref": "node/6424746184",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020002",
+          "osm_ref": "node/6427541677",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020003",
+          "osm_ref": "node/6427541674",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020004",
+          "osm_ref": "node/6427541669",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020005",
+          "osm_ref": "node/6429573291",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020006",
+          "osm_ref": "node/6429578382",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020007",
+          "osm_ref": "node/6429590435",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020008",
+          "osm_ref": "node/6427300394",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302002000A",
+          "osm_ref": "node/6429601336",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302002000C",
+          "osm_ref": "node/6429647548",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302002000D",
+          "osm_ref": "node/6429663971",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302002000E",
+          "osm_ref": "node/6429675873",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302002000F",
+          "osm_ref": "node/6429681982",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020010",
+          "osm_ref": "node/6433776530",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020011",
+          "osm_ref": "node/6433776529",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020012",
+          "osm_ref": "node/6433776528",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020020015",
+          "osm_ref": "node/2063857370",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020030019",
+          "osm_ref": "node/8049327216",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020040015",
+          "osm_ref": "node/6427430577",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020040016",
+          "osm_ref": "node/9287572907",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020040017",
+          "osm_ref": "node/9287572910",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "3020040018",
+          "osm_ref": "node/8049327216",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "302004001B",
+          "osm_ref": "node/6427541669",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "30201400",
+          "label": "S1号线",
+          "supporting_station_identities": 9,
+          "mapped_station_identities": 9,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            17126907,
+            17126908
+          ],
+          "rows_filled": 10
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3030",
+      "name": "徐州市",
+      "lookup_rows": 54,
+      "snapshot": {
+        "sha256": "032b2432e98b54307694afcb46e44f170a462f13b944c9d0a747da3c23897960",
+        "osm_base": "2026-10-28T03:16:51Z",
+        "elements": 320
+      },
+      "query_sha256": "c7eb8cd5a749566a083e10ad73d727f0bd717c7be2ddb8a5b307ee146b17d336",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 0,
+      "fields_filled": {},
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3040",
+      "name": "常州市",
+      "lookup_rows": 44,
+      "snapshot": {
+        "sha256": "9f959a11ddc243de701b76b17e5becb094355ed7b5caf54644612d612edd88ef",
+        "osm_base": "2026-10-28T03:17:58Z",
+        "elements": 194
+      },
+      "query_sha256": "67cb6ff3c6fbc7403a5def3604dfcabab6bc566f56dc7a6ba32d940a122e6261",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 0,
+      "fields_filled": {},
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [
+        {
+          "code": "30400127",
+          "osm_ref": "node/9262932759",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3050",
+      "name": "苏州市",
+      "lookup_rows": 277,
+      "snapshot": {
+        "sha256": "4995559159d0033138a2823737d6adbdeff27b91f3705dd9edbdf47ba4afc5c0",
+        "osm_base": "2026-10-28T03:18:58Z",
+        "elements": 2756
+      },
+      "query_sha256": "5cd6993dbeffc3a71eca55ad6f2daf25d0e74262ac6bc2a0582173ebd65a8095",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 104,
+      "fields_filled": {
+        "name_zh_hant": 67,
+        "name_en": 2,
+        "osm_ref": 3,
+        "longitude": 3,
+        "latitude": 3,
+        "line": 56
+      },
+      "new_reference_lookup_rows": 3,
+      "coordinate_pairs_added_or_replaced": 3,
+      "new_physical_osm_references": [
+        "node/7099206592",
+        "node/7099222610",
+        "node/7099222614"
+      ],
+      "unreferenced_lookup_rows_remaining": 2,
+      "unresolved": [
+        {
+          "code": "305000070055",
+          "name": "蒌葑",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "305000070056",
+          "name": "群力",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [],
+      "line_evidence": [
+        {
+          "line_code": "30500008",
+          "label": "8号线",
+          "supporting_station_identities": 28,
+          "mapped_station_identities": 28,
+          "next_candidate_support": 3,
+          "relation_ids": [
+            18026575,
+            18026576
+          ],
+          "rows_filled": 28
+        },
+        {
+          "line_code": "30500011",
+          "label": "11号线",
+          "supporting_station_identities": 27,
+          "mapped_station_identities": 27,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            5611110,
+            5611111,
+            16025193,
+            16097172,
+            16879714,
+            16879715
+          ],
+          "rows_filled": 28
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3060",
+      "name": "南通市",
+      "lookup_rows": 28,
+      "snapshot": {
+        "sha256": "e1b971205ce6d45ac59994dbb273852c8eafe4d76101c48ce74996403ae28aff",
+        "osm_base": "2026-10-28T03:18:58Z",
+        "elements": 6160
+      },
+      "query_sha256": "26a198947671994f206935731f56f26afb2ace52f7cb87cb68c23ca64a129f9b",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 28,
+      "fields_filled": {
+        "name_en": 28,
+        "line": 28
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [],
+      "line_evidence": [
+        {
+          "line_code": "30600001",
+          "label": "1号线",
+          "supporting_station_identities": 28,
+          "mapped_station_identities": 28,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            14863572,
+            14870559
+          ],
+          "rows_filled": 28
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3310",
+      "name": "杭州市",
+      "lookup_rows": 311,
+      "snapshot": {
+        "sha256": "fd5bd39b5e6c4ffdaf7ebdcdcbacb3596b2bcc1f43389ff1cc801c86a236baf4",
+        "osm_base": "2026-10-28T03:19:42Z",
+        "elements": 10556
+      },
+      "query_sha256": "f90dc31de6c154db542bdaf0fedf315ab7d9bf83ea500a02947e6e86a0eb2567",
+      "supplement": {
+        "sha256": "8043a281d434ca85abde383a7315481001a3e02ebc1589e1dfeb9b24e25be836",
+        "osm_base": "2026-10-28T03:43:21Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "285495f8ab7df2c34cf27c55feb602b5d4e46cb92823c6205ee0af5ab16c4502",
+      "lookup_rows_changed": 311,
+      "fields_filled": {
+        "name_ja": 2,
+        "osm_ref": 1,
+        "longitude": 1,
+        "latitude": 1,
+        "name_en": 1,
+        "name_zh_hant": 1,
+        "line": 311
+      },
+      "new_reference_lookup_rows": 1,
+      "coordinate_pairs_added_or_replaced": 1,
+      "new_physical_osm_references": [
+        "relation/11076850"
+      ],
+      "unreferenced_lookup_rows_remaining": 2,
+      "unresolved": [
+        {
+          "code": "331000050017",
+          "name": "香积寺路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "331000100001",
+          "name": "浙大",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [],
+      "line_evidence": [
+        {
+          "line_code": "33100001",
+          "label": "1号线",
+          "supporting_station_identities": 31,
+          "mapped_station_identities": 33,
+          "next_candidate_support": 3,
+          "relation_ids": [
+            4627560,
+            4627561
+          ],
+          "rows_filled": 33
+        },
+        {
+          "line_code": "33100002",
+          "label": "2号线",
+          "supporting_station_identities": 30,
+          "mapped_station_identities": 33,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            5454457,
+            8323744
+          ],
+          "rows_filled": 33
+        },
+        {
+          "line_code": "33100003",
+          "label": "3号线",
+          "supporting_station_identities": 34,
+          "mapped_station_identities": 36,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            13538219,
+            13538220,
+            14280624,
+            14280625
+          ],
+          "rows_filled": 39
+        },
+        {
+          "line_code": "33100004",
+          "label": "4号线",
+          "supporting_station_identities": 29,
+          "mapped_station_identities": 31,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            9641050,
+            13077392
+          ],
+          "rows_filled": 33
+        },
+        {
+          "line_code": "33100005",
+          "label": "5号线",
+          "supporting_station_identities": 33,
+          "mapped_station_identities": 38,
+          "next_candidate_support": 3,
+          "relation_ids": [
+            10386952,
+            10386965
+          ],
+          "rows_filled": 40
+        },
+        {
+          "line_code": "33100006",
+          "label": "6号线",
+          "supporting_station_identities": 36,
+          "mapped_station_identities": 36,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            13077286,
+            13077287,
+            13077348,
+            13077349
+          ],
+          "rows_filled": 36
+        },
+        {
+          "line_code": "33100007",
+          "label": "7号线",
+          "supporting_station_identities": 22,
+          "mapped_station_identities": 24,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            12561898,
+            13061278
+          ],
+          "rows_filled": 24
+        },
+        {
+          "line_code": "33100008",
+          "label": "8号线",
+          "supporting_station_identities": 7,
+          "mapped_station_identities": 9,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            13042425,
+            13042426
+          ],
+          "rows_filled": 9
+        },
+        {
+          "line_code": "33100009",
+          "label": "9号线",
+          "supporting_station_identities": 15,
+          "mapped_station_identities": 17,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            13060895,
+            13060896
+          ],
+          "rows_filled": 21
+        },
+        {
+          "line_code": "33100010",
+          "label": "10号线",
+          "supporting_station_identities": 11,
+          "mapped_station_identities": 12,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            13535686,
+            13535687
+          ],
+          "rows_filled": 13
+        },
+        {
+          "line_code": "33100016",
+          "label": "16号线",
+          "supporting_station_identities": 12,
+          "mapped_station_identities": 12,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            11076297,
+            11076298
+          ],
+          "rows_filled": 12
+        },
+        {
+          "line_code": "33100019",
+          "label": "19号线",
+          "supporting_station_identities": 17,
+          "mapped_station_identities": 17,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            14613120,
+            14613131
+          ],
+          "rows_filled": 18
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3320",
+      "name": "宁波市",
+      "lookup_rows": 217,
+      "snapshot": {
+        "sha256": "3ca5d84b61a6db7e2bc88258969890c1a04df5b7c1dfaa646af9a1b435b96e9c",
+        "osm_base": "2026-10-28T03:21:01Z",
+        "elements": 4705
+      },
+      "query_sha256": "1bc4b4945875aa2927872ab9abb301fa652cf52e18aa65a93dc5a9babcacf5a0",
+      "supplement": {
+        "sha256": "a9632e1d7d65b79e1f8e818cdd421ee4a6f9d79c9815fbedfea2810a18141839",
+        "osm_base": "2026-10-28T03:43:21Z",
+        "elements": 6
+      },
+      "supplement_query_sha256": "f2bd38822da3caafc54a37046bd4f1484825706b59b31cec919c9bf08d323c27",
+      "lookup_rows_changed": 1,
+      "fields_filled": {
+        "osm_ref": 1,
+        "longitude": 1,
+        "latitude": 1,
+        "name_en": 1
+      },
+      "new_reference_lookup_rows": 1,
+      "coordinate_pairs_added_or_replaced": 1,
+      "new_physical_osm_references": [
+        "node/12520995759"
+      ],
+      "unreferenced_lookup_rows_remaining": 2,
+      "unresolved": [
+        {
+          "code": "332000010011",
+          "name": "东门口",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "33200111",
+          "name": "东门口",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3330",
+      "name": "温州市",
+      "lookup_rows": 41,
+      "snapshot": {
+        "sha256": "63c298ca6ec413c6656daf5c4f62e03d0a094cf19f21a3972c1b9e7bcf047988",
+        "osm_base": "2026-10-28T03:21:01Z",
+        "elements": 110
+      },
+      "query_sha256": "8f9e9f1fe0b5a6aa97f8da8a3c5a006d9d937e89b995ca709e547177f7bbf2a9",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 41,
+      "fields_filled": {
+        "name_zh_hant": 5,
+        "line": 41
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 3,
+      "unresolved": [
+        {
+          "code": "333000010134",
+          "name": "秀屿",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "333000010138",
+          "name": "温州火车站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "333000010141",
+          "name": "文昌",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "333000010133",
+          "osm_ref": "way/972505929",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "33300001",
+          "label": "S1号线",
+          "supporting_station_identities": 17,
+          "mapped_station_identities": 17,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            13084224,
+            13084225
+          ],
+          "rows_filled": 21
+        },
+        {
+          "line_code": "33300002",
+          "label": "S2号线",
+          "supporting_station_identities": 19,
+          "mapped_station_identities": 19,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            13282128,
+            16244466,
+            16244467,
+            16244468
+          ],
+          "rows_filled": 20
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3350",
+      "name": "嘉兴市",
+      "lookup_rows": 13,
+      "snapshot": {
+        "sha256": "f35b01806a3e1795a5a8c12ca21abc121a9ef55f451e38a5108d0500b7fb35fe",
+        "osm_base": "2026-10-28T03:21:51Z",
+        "elements": 5100
+      },
+      "query_sha256": "6ee0b89a32661555268d110c3045c7167e6da3b6d9a69ae47f8ea5a3f8dba27f",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 13,
+      "fields_filled": {
+        "line": 13
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 3,
+      "unresolved": [
+        {
+          "code": "335000990001",
+          "name": "临平南高铁站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "335000990004",
+          "name": "长安",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "335000990013",
+          "name": "碧云",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [],
+      "line_evidence": [
+        {
+          "line_code": "33500099",
+          "label": "杭海城际",
+          "supporting_station_identities": 9,
+          "mapped_station_identities": 9,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            13078548,
+            13078549,
+            13279890,
+            13279891
+          ],
+          "rows_filled": 13
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3370",
+      "name": "绍兴市",
+      "lookup_rows": 47,
+      "snapshot": {
+        "sha256": "21535eff6563416123c7b6becb792fd2de29743eb99137b91f1ec50fbad955b3",
+        "osm_base": "2026-10-28T03:23:02Z",
+        "elements": 136
+      },
+      "query_sha256": "97c482158ecff9b15c55458c579608e4bb481e7811b41892a372c4d8c41979c8",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 9,
+      "fields_filled": {
+        "line": 9
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 3,
+      "unresolved": [
+        {
+          "code": "337000890001",
+          "name": "姑娘桥",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "337000890002",
+          "name": "衙前",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "33700111",
+          "name": "杭州南",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "337000880031",
+          "osm_ref": "node/7714110164",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "33700087",
+          "label": "2号线",
+          "supporting_station_identities": 9,
+          "mapped_station_identities": 9,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            16136201,
+            16136202
+          ],
+          "rows_filled": 9
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3380",
+      "name": "金华市",
+      "lookup_rows": 27,
+      "snapshot": {
+        "sha256": "b120c362c1644b752c4502e64e97dcdff51dc741102ff18176fddd8135564fac",
+        "osm_base": "2026-10-28T03:24:00Z",
+        "elements": 126
+      },
+      "query_sha256": "7358437c4c90a9b968244c2d02fe6edbf34680bfd3f85c8c67dcfcd02d0f235f",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 0,
+      "fields_filled": {},
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [
+        {
+          "code": "338000010011",
+          "osm_ref": "node/7160193955",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "338000010017",
+          "osm_ref": "node/1645281122",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3450",
+      "name": "台州市",
+      "lookup_rows": 18,
+      "snapshot": {
+        "sha256": "64f2c356bb6ebe4b66934983dc2d702d5a404f504d27d2a28b9a0703f9b62f2c",
+        "osm_base": "2026-10-28T03:24:00Z",
+        "elements": 92
+      },
+      "query_sha256": "498335b493bd2bbe4fbf9fa6ad9a5ed79d2bc73978e343b64683de6bb5c638a3",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 18,
+      "fields_filled": {
+        "name_en": 15,
+        "osm_ref": 3,
+        "longitude": 3,
+        "latitude": 3,
+        "line": 15
+      },
+      "new_reference_lookup_rows": 3,
+      "coordinate_pairs_added_or_replaced": 3,
+      "new_physical_osm_references": [
+        "node/7714110156",
+        "node/8541577162",
+        "node/8566213144"
+      ],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [
+        {
+          "code": "345001001A",
+          "osm_ref": "way/1137444279",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "34500100",
+          "label": "S1号线",
+          "supporting_station_identities": 15,
+          "mapped_station_identities": 15,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            11930603,
+            11930605
+          ],
+          "rows_filled": 15
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3610",
+      "name": "合肥市",
+      "lookup_rows": 80,
+      "snapshot": {
+        "sha256": "c6fe4ddd99f0bab6ef3c295e015d17ec7e5911eee6c063566446ae17679a3577",
+        "osm_base": "2026-10-28T03:25:00Z",
+        "elements": 608
+      },
+      "query_sha256": "bc7e94caded3f5ec52d8d8e5fbe16bb69cf3a6af570e17fe299dd4f00c32ac46",
+      "supplement": {
+        "sha256": "e9dd21d42f93c60945bf8afd311dd653a4edff4ec943ace498cb055c05dc2303",
+        "osm_base": "2026-10-28T03:50:35Z",
+        "elements": 1
+      },
+      "supplement_query_sha256": "f2ea8c0a8a3d36b65ab1b384c955590c68908356e780a5ecec665621d48627a6",
+      "lookup_rows_changed": 76,
+      "fields_filled": {
+        "name_en": 76,
+        "name_zh_hant": 22,
+        "osm_ref": 1,
+        "longitude": 1,
+        "latitude": 1
+      },
+      "new_reference_lookup_rows": 1,
+      "coordinate_pairs_added_or_replaced": 1,
+      "new_physical_osm_references": [
+        "node/3473112202"
+      ],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [
+        {
+          "code": "361000010111",
+          "osm_ref": "node/7197518162",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "361000030315",
+          "osm_ref": "node/8080534350",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3620",
+      "name": "芜湖市",
+      "lookup_rows": 36,
+      "snapshot": {
+        "sha256": "1ade31fcfa00af143c16e8e4cbbced2af68c231eff79974c5c82ddefa6ecccda",
+        "osm_base": "2026-10-28T03:25:59Z",
+        "elements": 99
+      },
+      "query_sha256": "f139776dc7f3b7131f54ab9c3caf973f22e4e3344687a737c32f05cb294aa0c1",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 19,
+      "fields_filled": {
+        "name_zh_hant": 19
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [
+        {
+          "code": "3620010018",
+          "osm_ref": "node/7791053789",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3750",
+      "name": "滁州市",
+      "lookup_rows": 14,
+      "snapshot": {
+        "sha256": "6d60bd68a03e7641758fe90eb18d0bf6bdcc7a977349ec43bf1d6c270d2fd1e7",
+        "osm_base": "2026-07-24T11:04:51Z",
+        "elements": 14
+      },
+      "query_sha256": "9cba5f94cb8aaee9e95fd6e59e930a108d05e9d7d13ff0f972753359b6a01164",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 6,
+      "fields_filled": {
+        "name_zh_hant": 6
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3910",
+      "name": "福州市",
+      "lookup_rows": 22,
+      "snapshot": {
+        "sha256": "383b013ef9bfc834f2a8a25bf0a755da137dae1de2e6f8da350aa50b6118a0fe",
+        "osm_base": "2026-10-28T03:27:02Z",
+        "elements": 304
+      },
+      "query_sha256": "e526d3e2bd4138775772202854ed551e89e48321bb37d40fa8c482206f3ecf8e",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 0,
+      "fields_filled": {},
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [
+        {
+          "code": "39100235",
+          "osm_ref": "way/776438257",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "39100248",
+          "osm_ref": "way/775701013",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "39100250",
+          "osm_ref": "way/775570837",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "39100251",
+          "osm_ref": "way/775701020",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "39100252",
+          "osm_ref": "way/775701021",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "3930",
+      "name": "厦门市",
+      "lookup_rows": 122,
+      "snapshot": {
+        "sha256": "a58c04041c247d5049b2c87f37b5879588817f7abdc68850c1fb7a359d626bf7",
+        "osm_base": "2026-10-28T03:31:04Z",
+        "elements": 420
+      },
+      "query_sha256": "07b4ddfd209de348c610286cbfb0b2bd8cc51a3cd871033b646175801b6f3d3e",
+      "supplement": {
+        "sha256": "0bf1c84b9e012d8533711ea54a7205b0e08509ea3ab192d0e47836f36b257709",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 82
+      },
+      "supplement_query_sha256": "6342a3af27b73616c5b56306a3d9ebe854d5e435effd10aefc73a58cc702b2a7",
+      "lookup_rows_changed": 100,
+      "fields_filled": {
+        "name_en": 100,
+        "name_zh_hans": 2,
+        "osm_ref": 25,
+        "longitude": 25,
+        "latitude": 25
+      },
+      "new_reference_lookup_rows": 25,
+      "coordinate_pairs_added_or_replaced": 25,
+      "new_physical_osm_references": [
+        "node/1408154694",
+        "node/1408154720",
+        "node/1408154800",
+        "node/1408154858",
+        "node/1408155020",
+        "node/1408187238",
+        "node/1408187255",
+        "node/1408187281",
+        "node/1408187296",
+        "node/1408187328",
+        "node/1410454140",
+        "node/1410454191",
+        "node/1410454274",
+        "node/1410454481",
+        "node/1761717410",
+        "node/1840796394",
+        "node/1843548389",
+        "node/1847758753",
+        "node/1847781507",
+        "node/1847860788",
+        "node/1847871167",
+        "node/1848081742",
+        "node/1848103082",
+        "node/1849541339",
+        "node/6124468025"
+      ],
+      "unreferenced_lookup_rows_remaining": 21,
+      "unresolved": [
+        {
+          "code": "39300313",
+          "name": "体育会展",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302107",
+          "name": "金榜公园",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302114",
+          "name": "前埔枢纽站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302117",
+          "name": "市行政服务中心",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302119",
+          "name": "县后",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302124",
+          "name": "华侨大学",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302125",
+          "name": "大学城",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302126",
+          "name": "产业研究院",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302127",
+          "name": "中科院",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302128",
+          "name": "东宅",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302129",
+          "name": "田厝",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302130",
+          "name": "厦门北站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302131",
+          "name": "凤林",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302132",
+          "name": "东安",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302133",
+          "name": "后田",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302134",
+          "name": "东亭",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302135",
+          "name": "美峰",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302136",
+          "name": "蔡店",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302137",
+          "name": "潘涂",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302138",
+          "name": "滨海新城（西柯）枢纽站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "39302145",
+          "name": "同安枢纽站",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "39302124",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1843756974",
+            "node/1843756978"
+          ]
+        },
+        {
+          "code": "39302125",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1844816250",
+            "node/1844816251"
+          ]
+        },
+        {
+          "code": "39302127",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1844818719",
+            "node/1844818720"
+          ]
+        },
+        {
+          "code": "39302128",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/12089955453",
+            "node/12089967511"
+          ]
+        },
+        {
+          "code": "39302129",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/3902785853",
+            "node/12089949096"
+          ]
+        },
+        {
+          "code": "39302131",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1844864503",
+            "node/1844864509"
+          ]
+        },
+        {
+          "code": "39302133",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1844866771",
+            "node/1844866772"
+          ]
+        },
+        {
+          "code": "39302134",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1846435931",
+            "node/1846435932"
+          ]
+        },
+        {
+          "code": "39302135",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1846448519",
+            "node/1846448524"
+          ]
+        },
+        {
+          "code": "39302136",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1846454221",
+            "node/1846454227"
+          ]
+        },
+        {
+          "code": "39302137",
+          "reason": "multiple exact station objects",
+          "candidates": [
+            "node/1846478660",
+            "node/1846478672"
+          ]
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "4210",
+      "name": "南昌市",
+      "lookup_rows": 57,
+      "snapshot": {
+        "sha256": "d498ce4b292b29ceb05e7dad212d94b699cb6a40ed912cff0b4eb5087795be5e",
+        "osm_base": "2026-10-28T03:31:04Z",
+        "elements": 292
+      },
+      "query_sha256": "1dca42b3370570e28e777dad4225ce7dae974798e9df99eb536e3b2068afbe42",
+      "supplement": {
+        "sha256": "3992fbed761f1c9b119cfeb7a8f0e2015abdf6d469d8a7973330faa8dbb6d6ba",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "51a5ae0f579aef363b5e4db40a109013c0b28a75587d132924fe8938358a262e",
+      "lookup_rows_changed": 54,
+      "fields_filled": {
+        "name_en": 54
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 1,
+      "unresolved": [
+        {
+          "code": "421000020221",
+          "name": "大岗",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "421000020228",
+          "osm_ref": "node/2266601966",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "4510",
+      "name": "济南市",
+      "lookup_rows": 48,
+      "snapshot": {
+        "sha256": "09ce9638ac96befb29e1f0ac7dd761d20fa538c0028fdd8fee982729ddb9794e",
+        "osm_base": "2026-10-28T03:34:05Z",
+        "elements": 7926
+      },
+      "query_sha256": "74d576d64d3deb6b1513ddd6ebdbe23f855e547531cca7565532d06fa59820a0",
+      "supplement": {
+        "sha256": "a4a85236d7ddb5960616ca032f9bdf571bd49cee3c14a314e10155e85e8669fb",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "92ddc75814f3f7884ec9665b26ad74f7b9f8f28e147d2147d5a1a92855979a93",
+      "lookup_rows_changed": 1,
+      "fields_filled": {
+        "name_en": 1
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 1,
+      "unresolved": [
+        {
+          "code": "4510020017",
+          "name": "凤凰路",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "4510010010",
+          "osm_ref": "node/7733885005",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "4510030012",
+          "osm_ref": "node/6184527923",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "4520",
+      "name": "青岛市",
+      "lookup_rows": 179,
+      "snapshot": {
+        "sha256": "77a89e1aa6cc3c49fe0795c08eb4bee70a220b1e1b5e059191b8ddd3b9eaf2b4",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 1209
+      },
+      "query_sha256": "15a1d3c4735dc7fcfaa8a9e8062c85909c11ea0c72ea8dc05594730d2392c978",
+      "supplement": {
+        "sha256": "46349b2c87aaaec38d290fe0f08a4bda41c490647108bd09e76fec370380b1fc",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 11
+      },
+      "supplement_query_sha256": "3d0c3183c6fcc04606eda68448ecede6c40e41ecb5ba48f761a288b2d9e22648",
+      "lookup_rows_changed": 75,
+      "fields_filled": {
+        "name_zh_hant": 30,
+        "osm_ref": 4,
+        "longitude": 4,
+        "latitude": 4,
+        "name_en": 4,
+        "name_ja": 5,
+        "line": 46
+      },
+      "new_reference_lookup_rows": 4,
+      "coordinate_pairs_added_or_replaced": 4,
+      "new_physical_osm_references": [
+        "node/10288256402",
+        "node/13653803213",
+        "node/13653803214",
+        "node/9374938956"
+      ],
+      "unreferenced_lookup_rows_remaining": 12,
+      "unresolved": [
+        {
+          "code": "45200218",
+          "name": "轮渡",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45200220",
+          "name": "邮轮母港",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45200245",
+          "name": "合川路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45200246",
+          "name": "汉川路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45200247",
+          "name": "宾川路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45200248",
+          "name": "院士港",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45200249",
+          "name": "世园大道",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45201142",
+          "name": "鳌山湾",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45201143",
+          "name": "王村",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45201144",
+          "name": "沙戈庄",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45201145",
+          "name": "田横西",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "45201146",
+          "name": "田横",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "45200228",
+          "osm_ref": "node/5303817514",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "45200437",
+          "osm_ref": "node/10288256400",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "45200838",
+          "osm_ref": "node/6201492201",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "452004",
+          "label": "4号线",
+          "supporting_station_identities": 23,
+          "mapped_station_identities": 25,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            15051204,
+            15051219
+          ],
+          "rows_filled": 25
+        },
+        {
+          "line_code": "452006",
+          "label": "6号线",
+          "supporting_station_identities": 21,
+          "mapped_station_identities": 21,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            17518144,
+            17518159
+          ],
+          "rows_filled": 21
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "4930",
+      "name": "洛阳市",
+      "lookup_rows": 19,
+      "snapshot": {
+        "sha256": "8ce8136878c4efd033f8f73a10eaf8e8752a1d3d43312f2d46b617ee6b52083a",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 99
+      },
+      "query_sha256": "84e9204efe542e9cd07fb557b06f83bbf7b8cc960e835e446b2b279c90150f90",
+      "supplement": {
+        "sha256": "1a80e95bd48429e6a2f663862cbb032d23f652748ba0abda6e742c002ae47e87",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 2
+      },
+      "supplement_query_sha256": "7588e1099386ca26d1a21b0e0057bf2ed479094f151385acbe85c01a72672a5a",
+      "lookup_rows_changed": 1,
+      "fields_filled": {
+        "name_en": 1
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 2,
+      "unresolved": [
+        {
+          "code": "4930010014",
+          "name": "青年宫",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "4930010016",
+          "name": "启明南路",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "5510",
+      "name": "长沙市",
+      "lookup_rows": 208,
+      "snapshot": {
+        "sha256": "496a0ffcc2d13eed789e40335af3bce39899b2f53a0507da833c43607ca81582",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 414
+      },
+      "query_sha256": "9e9c6569cafd407f2a594e232e3f86639469e3555e200986c416e25ef97e4c7b",
+      "supplement": {
+        "sha256": "d2e75d73729e45dbafdc727b16d2a9700179e0cbd97f5fcb63da24a8c1480318",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "a3f75906020421d113177e0a1eba26ffff78fd258de3689d07bcf74e057891ed",
+      "lookup_rows_changed": 11,
+      "fields_filled": {
+        "osm_ref": 2,
+        "longitude": 2,
+        "latitude": 2,
+        "name_en": 2,
+        "line": 9
+      },
+      "new_reference_lookup_rows": 2,
+      "coordinate_pairs_added_or_replaced": 2,
+      "new_physical_osm_references": [
+        "node/7663746578"
+      ],
+      "unreferenced_lookup_rows_remaining": 4,
+      "unresolved": [
+        {
+          "code": "5510060035",
+          "name": "黄花机场T3",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "55101F001F07",
+          "name": "黄家湾",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "55101F001F08",
+          "name": "船形山",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "55101F001F09",
+          "name": "湘潭北站",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "55103C003C01",
+          "osm_ref": "node/9189809827",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "55103C003C03",
+          "osm_ref": "node/9189809825",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "55101F00",
+          "label": "3号线",
+          "supporting_station_identities": 6,
+          "mapped_station_identities": 6,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            11257187,
+            11257189,
+            16103880,
+            16103881
+          ],
+          "rows_filled": 9
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "5810",
+      "name": "广州市",
+      "lookup_rows": 350,
+      "snapshot": {
+        "sha256": "02cc71e0433d370f2c72b61175ab8f226b3acf37091b40fcdd0d42bf57041ba7",
+        "osm_base": "2026-10-28T03:40:19Z",
+        "elements": 3750
+      },
+      "query_sha256": "cc584701719cc16876cd4b59404815b3fecc19e7f4ed1aa5045fb842b672fa2f",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 40,
+      "fields_filled": {
+        "name_zh_hant": 6,
+        "osm_ref": 2,
+        "longitude": 2,
+        "latitude": 2,
+        "name_en": 3,
+        "line": 31
+      },
+      "new_reference_lookup_rows": 2,
+      "coordinate_pairs_added_or_replaced": 2,
+      "new_physical_osm_references": [
+        "node/5444544490",
+        "node/5594592286"
+      ],
+      "unreferenced_lookup_rows_remaining": 25,
+      "unresolved": [
+        {
+          "code": "581000070025",
+          "name": "美的大道",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000070026",
+          "name": "北滘公园",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000070027",
+          "name": "美的",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000070028",
+          "name": "南涌",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000070029",
+          "name": "锦龙",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000070030",
+          "name": "陈村",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000070031",
+          "name": "陈村北",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600001",
+          "name": "魁奇路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600002",
+          "name": "季华园",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600003",
+          "name": "同济路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600004",
+          "name": "祖庙",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600005",
+          "name": "普君北路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600006",
+          "name": "朝安",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600007",
+          "name": "桂城",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600008",
+          "name": "南桂路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600009",
+          "name": "𧒽岗",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600010",
+          "name": "千灯湖",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600011",
+          "name": "金融高新区",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600022",
+          "name": "澜石",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600023",
+          "name": "世纪莲",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600024",
+          "name": "东平",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000600025",
+          "name": "新城东",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000700001",
+          "name": "清城",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000700002",
+          "name": "龙塘镇",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "581000700003",
+          "name": "银盏",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "581000010016",
+          "osm_ref": "node/7890691571",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "581000020049",
+          "osm_ref": "node/3677030154",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "581000030001",
+          "osm_ref": "node/7890691571",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "581000070001",
+          "osm_ref": "node/3677030154",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "581000110008",
+          "osm_ref": "node/7890691571",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "581000180001",
+          "osm_ref": "node/7890691571",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "581000220006",
+          "osm_ref": "node/3677030154",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "58100011",
+          "label": "11号线",
+          "supporting_station_identities": 28,
+          "mapped_station_identities": 29,
+          "next_candidate_support": 3,
+          "relation_ids": [
+            18132492,
+            18132493
+          ],
+          "rows_filled": 31
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "5880",
+      "name": "佛山市",
+      "lookup_rows": 50,
+      "snapshot": {
+        "sha256": "f34e82ac35f730ad266722addd7ae553ab140f66b94126001c130136cf74d3c6",
+        "osm_base": "2026-10-28T03:44:21Z",
+        "elements": 223
+      },
+      "query_sha256": "1581453e67825f7ad774d17ae0520779899aa94040a633f6054f14b7598d6a43",
+      "supplement": {
+        "sha256": "01364a28c70727abda2d945ff5ae0ef4e399d2ee81816d2af7f68a15fb4a0592",
+        "osm_base": "2026-10-28T03:55:26Z",
+        "elements": 2
+      },
+      "supplement_query_sha256": "57d65b95ab03c776c858f30dd4b006526ddf81a67d35601e003f508b4f14499f",
+      "lookup_rows_changed": 49,
+      "fields_filled": {
+        "name_en": 48,
+        "name_zh_hant": 10,
+        "osm_ref": 2,
+        "longitude": 2,
+        "latitude": 2,
+        "line": 23
+      },
+      "new_reference_lookup_rows": 2,
+      "coordinate_pairs_added_or_replaced": 2,
+      "new_physical_osm_references": [
+        "node/10290250424",
+        "way/202253216"
+      ],
+      "unreferenced_lookup_rows_remaining": 1,
+      "unresolved": [
+        {
+          "code": "588000420017",
+          "name": "广州南站",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "588000430002",
+          "osm_ref": "node/7710011711",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "58800043",
+          "label": "3号线",
+          "supporting_station_identities": 20,
+          "mapped_station_identities": 21,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            15054264,
+            15054271,
+            20996095,
+            20996096
+          ],
+          "rows_filled": 23
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "6020",
+      "name": "东莞市",
+      "lookup_rows": 15,
+      "snapshot": {
+        "sha256": "bb00dc1c0a473340b1caa490c3c20d8b42faa8096bcdc3856fbc6f34ec15367e",
+        "osm_base": "2026-10-28T03:45:25Z",
+        "elements": 101
+      },
+      "query_sha256": "4dbe2a6d6330e70b9ff882e155fd55921b7d1903fe9f319f86f6edb67abd894e",
+      "supplement": {
+        "sha256": "b3bad39fc010653d5da14f52ef82cd20f40b505e6da9384ccef5d047e9be13a3",
+        "osm_base": "2026-10-28T03:55:26Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "f6d7ee47074bb1aab053426dd73dd48547f9403a2c0852f9f6524af605a6e3fd",
+      "lookup_rows_changed": 14,
+      "fields_filled": {
+        "name_en": 14
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 1,
+      "unresolved": [
+        {
+          "code": "602000020208",
+          "name": "鸿福路",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "6510",
+      "name": "成都市",
+      "lookup_rows": 398,
+      "snapshot": {
+        "sha256": "190354966756bfcc03f22131f7e206e317eb7a4a2bd8124830dda9d94dc22743",
+        "osm_base": "2026-10-28T03:49:24Z",
+        "elements": 1109
+      },
+      "query_sha256": "dc78c13fd27c0e020b1cc10bf242c064b58d556ecdab65d65acde90f0bf34112",
+      "supplement": {
+        "sha256": "221c076fc0d7f33d17c12c38cbf9202fd24ca91b806f9e027461650c8eb30387",
+        "osm_base": "2026-10-28T03:55:26Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "6056381ba7f43cf1e187505f85a26e93b2df4484ff25c2b2accab2a186fb4768",
+      "lookup_rows_changed": 398,
+      "fields_filled": {
+        "name_zh_hant": 40,
+        "line": 398
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 4,
+      "unresolved": [
+        {
+          "code": "65101831",
+          "name": "天府机场3号4号航站楼",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "65101941",
+          "name": "天府机场3号4号航站楼",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "65107322",
+          "name": "卢葭",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "65107326",
+          "name": "宝台",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "65100348",
+          "osm_ref": "node/9334658568",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "65101027",
+          "osm_ref": "node/9334658568",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "65107327",
+          "osm_ref": "node/3500460600",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "651001",
+          "label": "1号线",
+          "supporting_station_identities": 34,
+          "mapped_station_identities": 34,
+          "next_candidate_support": 3,
+          "relation_ids": [
+            2381768,
+            7913598,
+            8297247,
+            8303538
+          ],
+          "rows_filled": 35
+        },
+        {
+          "line_code": "651002",
+          "label": "2号线",
+          "supporting_station_identities": 32,
+          "mapped_station_identities": 32,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            2474349,
+            8298109
+          ],
+          "rows_filled": 32
+        },
+        {
+          "line_code": "651003",
+          "label": "3号线",
+          "supporting_station_identities": 36,
+          "mapped_station_identities": 36,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            6517083,
+            8297265
+          ],
+          "rows_filled": 37
+        },
+        {
+          "line_code": "651004",
+          "label": "4号线",
+          "supporting_station_identities": 29,
+          "mapped_station_identities": 29,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            6385133,
+            8298131
+          ],
+          "rows_filled": 30
+        },
+        {
+          "line_code": "651005",
+          "label": "5号线",
+          "supporting_station_identities": 41,
+          "mapped_station_identities": 41,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            9627905,
+            10526315
+          ],
+          "rows_filled": 41
+        },
+        {
+          "line_code": "651006",
+          "label": "6号线",
+          "supporting_station_identities": 56,
+          "mapped_station_identities": 56,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            9627850,
+            12038668
+          ],
+          "rows_filled": 56
+        },
+        {
+          "line_code": "651007",
+          "label": "7号线",
+          "supporting_station_identities": 31,
+          "mapped_station_identities": 31,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            7913593,
+            8297136
+          ],
+          "rows_filled": 31
+        },
+        {
+          "line_code": "651008",
+          "label": "8号线",
+          "supporting_station_identities": 30,
+          "mapped_station_identities": 31,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            9761272,
+            12086371
+          ],
+          "rows_filled": 32
+        },
+        {
+          "line_code": "651009",
+          "label": "9号线",
+          "supporting_station_identities": 13,
+          "mapped_station_identities": 13,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            9627519,
+            12094622
+          ],
+          "rows_filled": 13
+        },
+        {
+          "line_code": "651010",
+          "label": "10号线",
+          "supporting_station_identities": 15,
+          "mapped_station_identities": 15,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            7913594,
+            8298253,
+            11807052,
+            11807053
+          ],
+          "rows_filled": 16
+        },
+        {
+          "line_code": "651017",
+          "label": "19号线",
+          "supporting_station_identities": 7,
+          "mapped_station_identities": 9,
+          "next_candidate_support": 3,
+          "relation_ids": [
+            16494768,
+            16494854,
+            16764492,
+            16764493
+          ],
+          "rows_filled": 9
+        },
+        {
+          "line_code": "651018",
+          "label": "18号线",
+          "supporting_station_identities": 10,
+          "mapped_station_identities": 12,
+          "next_candidate_support": 5,
+          "relation_ids": [
+            9869750,
+            11697794,
+            13367599,
+            13367600
+          ],
+          "rows_filled": 13
+        },
+        {
+          "line_code": "651019",
+          "label": "19号线",
+          "supporting_station_identities": 20,
+          "mapped_station_identities": 22,
+          "next_candidate_support": 5,
+          "relation_ids": [
+            16494768,
+            16494854,
+            16764492,
+            16764493,
+            16764494,
+            16764495
+          ],
+          "rows_filled": 23
+        },
+        {
+          "line_code": "651027",
+          "label": "27号线",
+          "supporting_station_identities": 20,
+          "mapped_station_identities": 22,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            12123402,
+            18436260
+          ],
+          "rows_filled": 23
+        },
+        {
+          "line_code": "651073",
+          "label": "S3号线",
+          "supporting_station_identities": 3,
+          "mapped_station_identities": 3,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            11516374
+          ],
+          "rows_filled": 7
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "6900",
+      "name": "重庆市",
+      "lookup_rows": 333,
+      "snapshot": {
+        "sha256": "0f372b347173020b1af5f31e1cc7a8e0ad4752b6fa1e8e89fca894a3332b1f31",
+        "osm_base": "2026-10-28T03:49:24Z",
+        "elements": 1088
+      },
+      "query_sha256": "101b2cee596cb419b9b8d2159e71d2b128a8f3945670fb3e543a37cae856296e",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 56,
+      "fields_filled": {
+        "name_zh_hant": 11,
+        "name_en": 2,
+        "osm_ref": 1,
+        "longitude": 1,
+        "latitude": 1,
+        "line": 43
+      },
+      "new_reference_lookup_rows": 1,
+      "coordinate_pairs_added_or_replaced": 1,
+      "new_physical_osm_references": [
+        "node/9436243353"
+      ],
+      "unreferenced_lookup_rows_remaining": 1,
+      "unresolved": [
+        {
+          "code": "69000901",
+          "name": "新桥",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "69000518",
+          "osm_ref": "node/7238885494",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "69005001",
+          "osm_ref": "node/7238885494",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "69000001",
+          "label": "1号线",
+          "supporting_station_identities": 15,
+          "mapped_station_identities": 15,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            12759727,
+            13305509
+          ],
+          "rows_filled": 15
+        },
+        {
+          "line_code": "690018",
+          "label": "18号线",
+          "supporting_station_identities": 13,
+          "mapped_station_identities": 17,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            15749312,
+            15749313
+          ],
+          "rows_filled": 19
+        },
+        {
+          "line_code": "690072",
+          "label": "BT",
+          "supporting_station_identities": 7,
+          "mapped_station_identities": 7,
+          "next_candidate_support": 0,
+          "relation_ids": [
+            17135614,
+            17135615
+          ],
+          "rows_filled": 9
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "7010",
+      "name": "贵阳市",
+      "lookup_rows": 99,
+      "snapshot": {
+        "sha256": "d45c2e499e5046df818d6f83e521c6c293f6d8bbf9e6804e972d77b2e108e6fe",
+        "osm_base": "2026-10-28T03:50:35Z",
+        "elements": 271
+      },
+      "query_sha256": "33534b3edb4257fa73f60feed6f9980d3d9fefcea0abc5e77737f5472a184db5",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 48,
+      "fields_filled": {
+        "name_en": 6,
+        "line": 42
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 3,
+      "unresolved": [
+        {
+          "code": "70100301",
+          "name": "桐木岭",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "70100312",
+          "name": "四方河",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "70100328",
+          "name": "东风",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "70100111",
+          "osm_ref": "node/2874005142",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "70100303",
+          "osm_ref": "node/3740822592",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "701003",
+          "label": "3号线",
+          "supporting_station_identities": 24,
+          "mapped_station_identities": 24,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            16843975,
+            16843976
+          ],
+          "rows_filled": 29
+        },
+        {
+          "line_code": "701005",
+          "label": "S1号线",
+          "supporting_station_identities": 10,
+          "mapped_station_identities": 10,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            18482300,
+            18482303
+          ],
+          "rows_filled": 13
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "7310",
+      "name": "昆明市",
+      "lookup_rows": 114,
+      "snapshot": {
+        "sha256": "a8af73c45ac6b0dece60677e81783c8a79396eadcde628d135dacf1432ed8020",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 383
+      },
+      "query_sha256": "7bc260ef4d9e8dc535423a7d08f2a7471b160efb51678b9deab60cbc5e75e2ec",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 13,
+      "fields_filled": {
+        "name_zh_hant": 13
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "7910",
+      "name": "西安市",
+      "lookup_rows": 295,
+      "snapshot": {
+        "sha256": "5b273123686e0a8c3d9c307edea5d33bc22cb8c529ad9fc209aac29876dc7926",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 657
+      },
+      "query_sha256": "838f3a5d879ff90008e2dcdf5d15bc479dce8bfb24aaefa4df5b2dce248f0844",
+      "supplement": {
+        "sha256": "1c52af5a42e42526a52c61ac290236069ea87cafb9b821f030ad80291cb02b93",
+        "osm_base": "2026-10-28T03:59:32Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "9809c5af2041ca1459051b3f2960a519011d9624f575da3b863fe0b2b40b4da1",
+      "lookup_rows_changed": 81,
+      "fields_filled": {
+        "line": 81
+      },
+      "new_reference_lookup_rows": 0,
+      "coordinate_pairs_added_or_replaced": 0,
+      "new_physical_osm_references": [],
+      "unreferenced_lookup_rows_remaining": 32,
+      "unresolved": [
+        {
+          "code": "791000010006",
+          "name": "咸阳西站",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000010007",
+          "name": "宝泉路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000010008",
+          "name": "中华西路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000010009",
+          "name": "安谷",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100001000A",
+          "name": "陈杨寨",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100001000B",
+          "name": "白马河",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100001000C",
+          "name": "陕西中医药大学",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100001000D",
+          "name": "沣河森林公园",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100001000F",
+          "name": "北槐",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000010011",
+          "name": "上林路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100004004B",
+          "name": "元朔路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000050051",
+          "name": "钓台",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000050053",
+          "name": "翱翔小镇",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000050055",
+          "name": "创新港东",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000080043",
+          "name": "市图书馆",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000090027",
+          "name": "西工程大·西科大",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100010001F",
+          "name": "复兴大道北",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000100021",
+          "name": "上林路",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000100023",
+          "name": "西咸大厦",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791000100025",
+          "name": "秦创原中心",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "791002001F",
+          "name": "市图书馆",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "7910020033",
+          "name": "纬一街",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E0015",
+          "name": "机场西",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E0017",
+          "name": "机场",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E0019",
+          "name": "空港新城",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E001B",
+          "name": "艺术中心",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E001D",
+          "name": "摆旗寨",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E001F",
+          "name": "长陵",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E0021",
+          "name": "秦汉新城",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "79100E0023",
+          "name": "秦宫",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "7910240017",
+          "name": "昆明池",
+          "reason": "no unique compatible exact OSM station identity"
+        },
+        {
+          "code": "7910240019",
+          "name": "马王",
+          "reason": "no unique compatible exact OSM station identity"
+        }
+      ],
+      "rejected_matches": [
+        {
+          "code": "791000040033",
+          "osm_ref": "node/9620122767",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "79100004004D",
+          "osm_ref": "node/4185074601",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "7910020015",
+          "osm_ref": "node/4185074601",
+          "reason": "referenced object native name differs; no enrichment"
+        },
+        {
+          "code": "79100E0027",
+          "osm_ref": "node/4185074601",
+          "reason": "referenced object native name differs; no enrichment"
+        }
+      ],
+      "line_evidence": [
+        {
+          "line_code": "79100008",
+          "label": "8号线",
+          "supporting_station_identities": 35,
+          "mapped_station_identities": 35,
+          "next_candidate_support": 2,
+          "relation_ids": [
+            18462995,
+            18462996
+          ],
+          "rows_filled": 37
+        },
+        {
+          "line_code": "7910000A",
+          "label": "10号线",
+          "supporting_station_identities": 17,
+          "mapped_station_identities": 17,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            18089013,
+            18089014
+          ],
+          "rows_filled": 17
+        },
+        {
+          "line_code": "79100010",
+          "label": "16号线",
+          "supporting_station_identities": 5,
+          "mapped_station_identities": 5,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            16104050,
+            16104054
+          ],
+          "rows_filled": 9
+        },
+        {
+          "line_code": "79100100",
+          "label": "云巴",
+          "supporting_station_identities": 16,
+          "mapped_station_identities": 18,
+          "next_candidate_support": 1,
+          "relation_ids": [
+            17925372,
+            17925373
+          ],
+          "rows_filled": 18
+        }
+      ],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "8210",
+      "name": "兰州市",
+      "lookup_rows": 20,
+      "snapshot": {
+        "sha256": "2ec002670acbd727e21508dd5a0024ad52fd32d124c92a851e6bda4a69fa76bc",
+        "osm_base": "2026-10-28T03:53:25Z",
+        "elements": 120
+      },
+      "query_sha256": "22d8ecfad0e1c67156bda0af30e15a11b55f48b02e16e71ab392244ac0738abd",
+      "supplement": {
+        "sha256": "fb15700f806aed3f26f060d6323ffc0ef3b0ea37f87496de51930b3be750fdf7",
+        "osm_base": "2026-10-28T03:59:32Z",
+        "elements": 2
+      },
+      "supplement_query_sha256": "beee91fc01b362b1bbff6b5e8bf0c20ef7fb2397f8ee4257e5b9a5f489ab7cfa",
+      "lookup_rows_changed": 20,
+      "fields_filled": {
+        "name_en": 20,
+        "osm_ref": 2,
+        "longitude": 2,
+        "latitude": 2
+      },
+      "new_reference_lookup_rows": 2,
+      "coordinate_pairs_added_or_replaced": 2,
+      "new_physical_osm_references": [
+        "node/6563923252",
+        "node/6563941615"
+      ],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": []
+    },
+    {
+      "city_code": "8810",
+      "name": "乌鲁木齐市",
+      "lookup_rows": 21,
+      "snapshot": {
+        "sha256": "05d0eb4e90c5d753b25cefbbd6d8bc240cf366db7f8525a028030394fd68983a",
+        "osm_base": "2026-10-28T03:54:35Z",
+        "elements": 125
+      },
+      "query_sha256": "8321be31ff877becf2ae2512e335e8c9695bf4b2867d5ef73413c3b1c6cd9d2a",
+      "supplement": null,
+      "supplement_query_sha256": null,
+      "lookup_rows_changed": 20,
+      "fields_filled": {
+        "osm_ref": 18,
+        "longitude": 18,
+        "latitude": 18,
+        "name_en": 20
+      },
+      "new_reference_lookup_rows": 18,
+      "coordinate_pairs_added_or_replaced": 18,
+      "new_physical_osm_references": [
+        "node/13286935096",
+        "node/13286938301",
+        "node/13286938305",
+        "node/13286938306",
+        "node/13286938311",
+        "node/4191403070",
+        "node/4191403073",
+        "node/4191403077",
+        "node/4191403082",
+        "node/4191403084",
+        "node/4191403895",
+        "node/4191403898",
+        "node/4191403900",
+        "node/4191403905",
+        "node/4321204694",
+        "node/4676387145",
+        "node/5931051594",
+        "node/6278600347"
+      ],
+      "unreferenced_lookup_rows_remaining": 0,
+      "unresolved": [],
+      "rejected_matches": [],
+      "line_evidence": [],
+      "bilingual_name_evidence": [
+        {
+          "code": "8810010001",
+          "osm_ref": "node/13286935096",
+          "name": "三屯碑 سەندۈڭبىي",
+          "name:ug": "سەندۈڭبىي‎",
+          "chinese_component": "三屯碑"
+        },
+        {
+          "code": "8810010002",
+          "osm_ref": "node/4191403070",
+          "name": "新疆大学 شىنجاڭ داشۆ",
+          "name:ug": "شىنجاڭ داشۆ",
+          "chinese_component": "新疆大学"
+        },
+        {
+          "code": "8810010003",
+          "osm_ref": "node/4191403073",
+          "name": "二道桥 ئيرداۋ چىيا ۋ",
+          "name:ug": "ئيرداۋ چىيا ۋ",
+          "chinese_component": "二道桥"
+        },
+        {
+          "code": "8810010004",
+          "osm_ref": "node/4191403077",
+          "name": "南门 نە نمين",
+          "name:ug": "نە نمين",
+          "chinese_component": "南门"
+        },
+        {
+          "code": "8810010005",
+          "osm_ref": "node/4191403079",
+          "name": "北门 بېيمىن",
+          "name:ug": "بېيمىن",
+          "chinese_component": "北门"
+        },
+        {
+          "code": "8810010006",
+          "osm_ref": "node/4321204694",
+          "name": "新兴街 شىنشىڭ كوچىسى",
+          "name:ug": "شىنشىڭ كوچىسى",
+          "chinese_component": "新兴街"
+        },
+        {
+          "code": "8810010007",
+          "osm_ref": "node/4191403082",
+          "name": "南湖广场 نەنخۈ مەيدانى",
+          "name:ug": "نەنخۈ مەيدانى",
+          "chinese_component": "南湖广场"
+        },
+        {
+          "code": "8810010008",
+          "osm_ref": "node/4191403084",
+          "name": "南湖北路 شمالىي نەنخۈ",
+          "name:ug": "شمالىي نەنخۈ",
+          "chinese_component": "南湖北路"
+        },
+        {
+          "code": "8810010009",
+          "osm_ref": "node/4191403895",
+          "name": "王家梁 ۋاڭجيالياڭ",
+          "name:ug": "ۋاڭجيالياڭ",
+          "chinese_component": "王家梁"
+        },
+        {
+          "code": "8810010010",
+          "osm_ref": "node/6278600347",
+          "name": "八楼 بالۇ",
+          "name:ug": "بالۇ",
+          "chinese_component": "八楼"
+        },
+        {
+          "code": "8810010011",
+          "osm_ref": "node/4676387144",
+          "name": "新疆图书馆 شىنجاڭ كۈتۈپخانىس",
+          "name:ug": "شىنجاڭ كۈتۈپخانىس",
+          "chinese_component": "新疆图书馆"
+        },
+        {
+          "code": "8810010012",
+          "osm_ref": "node/4676387145",
+          "name": "中营工 جوڭيىڭگوڭ",
+          "name:ug": "جوڭيىڭگوڭ",
+          "chinese_component": "中营工"
+        },
+        {
+          "code": "8810010013",
+          "osm_ref": "node/5931051594",
+          "name": "小西沟 شىاۋشىگۈ",
+          "name:ug": "شىاۋشىگۈ",
+          "chinese_component": "小西沟"
+        },
+        {
+          "code": "8810010014",
+          "osm_ref": "node/4191403898",
+          "name": "铁路局 تۆمۈريول ئىدارىسى",
+          "name:ug": "تۆمۈريول ئىدارىسى",
+          "chinese_component": "铁路局"
+        },
+        {
+          "code": "8810010015",
+          "osm_ref": "node/4191403900",
+          "name": "体育中心 تەنتەربىيە مەركىزى",
+          "name:ug": "تەنتەربىيە مەركىزى",
+          "chinese_component": "体育中心"
+        },
+        {
+          "code": "8810010016",
+          "osm_ref": "node/13286938301",
+          "name": "植物园 ئۆسۈملۈكلەر باغچىسى‎",
+          "name:ug": "ئۆسۈملۈكلەر باغچىسى‎",
+          "chinese_component": "植物园"
+        },
+        {
+          "code": "8810010017",
+          "osm_ref": "node/13286938305",
+          "name": "迎宾路口 يىنبىن يولى ئېغىزى",
+          "name:ug": "يىنبىن يولى ئېغىزى",
+          "chinese_component": "迎宾路口"
+        },
+        {
+          "code": "8810010018",
+          "osm_ref": "node/13286938306",
+          "name": "三工 سەنگۇڭ",
+          "name:ug": "سەنگۇڭ",
+          "chinese_component": "三工"
+        },
+        {
+          "code": "8810010019",
+          "osm_ref": "node/13286938311",
+          "name": "宣仁墩 شۈەنرېندۈن",
+          "name:ug": "شۈەنرېندۈن",
+          "chinese_component": "宣仁墩"
+        },
+        {
+          "code": "8810010020",
+          "osm_ref": "node/4191403905",
+          "name": "大地窝堡 چوڭ دىئوپو",
+          "name:ug": "چوڭ دىئوپو",
+          "chinese_component": "大地窝堡"
+        }
+      ]
+    }
+  ]
+}

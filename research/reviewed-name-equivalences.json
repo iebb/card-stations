@@ -1,0 +1,181 @@
+{
+  "checked_date": "2026-10-28",
+  "scope": "Nine existing card lookup rows only. Physical identity/name equivalence is corroborated; primary names and card codes remain unchanged. Wikipedia station numbers and coordinates are not used as card codes or geometry.",
+  "entries": [
+    {
+      "city_code": "2900",
+      "code": "290000010022",
+      "native_name": "黄陂南路",
+      "osm_ref": "node/471016169",
+      "current_osm_name": "一大会址·黄陂南路",
+      "line": "1号线",
+      "stop_area_id": 6800155,
+      "route_ids": [
+        199200,
+        6800210
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/node/471016169",
+        "https://zh.wikipedia.org/wiki/一大会址·黄陂南路站"
+      ],
+      "reason": "Article records 黄陂南路 as the former station name through 2021; OSM alt_name:zh retains that exact name. Line-specific stop area and explicit stop memberships identify the correct node.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "2900",
+      "code": "290000140035",
+      "native_name": "黄陂南路",
+      "osm_ref": "node/9381954260",
+      "current_osm_name": "一大会址·黄陂南路",
+      "line": "14号线",
+      "stop_area_id": 13620457,
+      "route_ids": [
+        10557250,
+        10557251
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/node/9381954260",
+        "https://zh.wikipedia.org/wiki/一大会址·黄陂南路站"
+      ],
+      "reason": "Article records 黄陂南路 as the former station name through 2021; OSM alt_name:zh retains that exact name. Line-specific stop area and explicit stop memberships identify the correct node.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "2900",
+      "code": "290000100053",
+      "native_name": "新天地",
+      "osm_ref": "node/5306444964",
+      "current_osm_name": "一大会址·新天地",
+      "line": "10号线",
+      "stop_area_id": 7853297,
+      "route_ids": [
+        199189,
+        7452116
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/node/5306444964",
+        "https://zh.wikipedia.org/wiki/一大会址·新天地站"
+      ],
+      "reason": "Article records 新天地 as the former station name through 2021; OSM alt_name:zh retains that exact name. Keep the separate line-specific OSM station nodes.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "2900",
+      "code": "290000130036",
+      "native_name": "新天地",
+      "osm_ref": "node/5314264654",
+      "current_osm_name": "一大会址·新天地",
+      "line": "13号线",
+      "stop_area_id": 7858152,
+      "route_ids": [
+        214631,
+        7451888
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/node/5314264654",
+        "https://zh.wikipedia.org/wiki/一大会址·新天地站"
+      ],
+      "reason": "Article records 新天地 as the former station name through 2021; OSM alt_name:zh retains that exact name. Keep the separate line-specific OSM station nodes.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "3010",
+      "code": "301000080073",
+      "native_name": "草场门",
+      "osm_ref": "node/9164951625",
+      "current_osm_name": "草场门·南艺·二师",
+      "line": "4号线",
+      "stop_area_id": 11749518,
+      "route_ids": [
+        9588280,
+        9588281
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/node/9164951625",
+        "https://zh.wikipedia.org/wiki/草场门站"
+      ],
+      "reason": "Article explicitly equates 草场门 with the full station name 草场门·南艺·二师 and describes the 2018 name/hint change. OSM node belongs to both Line 4 and Line 7 stop areas; this is one physical interchange.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "3010",
+      "code": "3010000D0073",
+      "native_name": "草场门",
+      "osm_ref": "node/9164951625",
+      "current_osm_name": "草场门·南艺·二师",
+      "line": "7号线",
+      "stop_area_id": 18480121,
+      "route_ids": [
+        15336345,
+        15336347
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/node/9164951625",
+        "https://zh.wikipedia.org/wiki/草场门站"
+      ],
+      "reason": "Article explicitly equates 草场门 with the full station name 草场门·南艺·二师 and describes the 2018 name/hint change. OSM node belongs to both Line 4 and Line 7 stop areas; this is one physical interchange.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "3010",
+      "code": "30100008007A",
+      "native_name": "徐庄",
+      "osm_ref": "node/9164951632",
+      "current_osm_name": "徐庄·苏宁总部",
+      "line": "4号线",
+      "stop_area_id": 11749521,
+      "route_ids": [
+        9588280,
+        9588281
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/node/9164951632",
+        "https://zh.wikipedia.org/wiki/徐庄站"
+      ],
+      "reason": "Article explicitly identifies 徐庄·苏宁总部 as the full name and the 2018 name/hint change from 苏宁总部·徐庄. OSM node and explicit stop membership identify the Line 4 station.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "8210",
+      "code": "821000010021",
+      "native_name": "深安大桥南",
+      "osm_ref": "node/6563923252",
+      "current_osm_name": "奥体中心",
+      "line": "1号线",
+      "stop_area_id": null,
+      "route_ids": [],
+      "sources": [
+        "https://www.openstreetmap.org/node/6563923252",
+        "https://zh.wikipedia.org/wiki/奥体中心站_(兰州市)"
+      ],
+      "reason": "The live OSM subway station has exact old_name 深安大桥南. The station article independently records the 2023-11-22 rename to 奥体中心. Preserve the existing native lookup label.",
+      "preserve_name": true,
+      "preserve_code": true
+    },
+    {
+      "city_code": "8210",
+      "code": "821000010022",
+      "native_name": "兰州城市学院",
+      "osm_ref": "node/6563941615",
+      "current_osm_name": "兰州城市学院（省科技馆）",
+      "line": "1号线",
+      "stop_area_id": null,
+      "route_ids": [],
+      "sources": [
+        "https://www.openstreetmap.org/node/6563941615",
+        "https://zh.wikipedia.org/wiki/兰州城市学院（省科技馆）站",
+        "https://zh.wikipedia.org/wiki/兰州轨道交通1号线"
+      ],
+      "reason": "The full-name station article and line-history article corroborate the short label 兰州城市学院 for the same Line 1 station. This is a short/full-name equivalence, not a claim that the shorter label was an official former name. Preserve the existing native lookup label.",
+      "preserve_name": true,
+      "preserve_code": true
+    }
+  ]
+}

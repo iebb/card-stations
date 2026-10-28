@@ -56,3 +56,8 @@ See [routing/README.md](routing/README.md) for the format and provenance.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) and [DATA_SOURCES.md](DATA_SOURCES.md).
 Code is MIT licensed; imported data retains its upstream terms.
+
+The [2026-10-28 Chinese-city audit](docs/china-osm-research-2026-10-28.md)
+covers every existing station-city CSV and all 368 city-code OSM references.
+[Incoming station reports](docs/station-reports-2026-10-28.md) are reviewed
+separately; only exact observed keys with physical-source evidence become aliases.
