@@ -1,369 +1,369 @@
-code,name
-1000,北京市
-1121,天津市
-1210,石家庄市
-1240,唐山市
-1260,秦皇岛市
-1270,邯郸市
-1310,邢台市
-1340,保定市
-1380,张家口市
-1410,承德市
-1430,沧州市
-1460,廊坊市
-1480,衡水市
-1610,太原市
-1620,大同市
-1650,阳泉市
-1660,长治市
-1680,晋城市
-1690,朔州市
-1710,忻州市
-1730,吕梁市
-1750,晋中市
-1770,临汾市
-1810,运城市
-1910,呼和浩特市
-1920,包头市
-1930,乌海市
-1940,赤峰市
-1960,呼伦贝尔市
-1980,兴安盟
-1990,通辽市
-2010,锡林郭勒盟
-2030,乌兰察布市
-2050,鄂尔多斯市
-2070,巴彦淖尔市
-2080,阿拉善盟
-2210,沈阳市
-2220,大连市
-2230,鞍山市
-2240,抚顺市
-2250,本溪市
-2260,丹东市
-2270,锦州市
-2280,营口市
-2290,阜新市
-2310,辽阳市
-2320,盘锦市
-2330,铁岭市
-2340,朝阳市
-2360,葫芦岛市
-2410,长春市
-2420,吉林市
-2430,四平市
-2440,辽源市
-2450,通化市
-2460,白山市
-2470,白城市
-2490,延边州
-2510,松原市
-2610,哈尔滨市
-2640,齐齐哈尔市
-2660,鸡西市
-2670,鹤岗市
-2680,双鸭山市
-2690,大庆市
-2710,伊春市
-2720,佳木斯市
-2740,七台河市
-2750,牡丹江市
-2760,绥化市
-2780,黑河市
-2790,大兴安岭地区
-2900,上海市
-3010,南京市
-3020,无锡市
-3030,徐州市
-3040,常州市
-3050,苏州市
-3060,南通市
-3070,连云港市
-3080,淮安市
-3110,盐城市
-3120,扬州市
-3140,镇江市
-3160,泰州市
-3180,宿迁市
-3310,杭州市
-3320,宁波市
-3330,温州市
-3350,嘉兴市
-3360,湖州市
-3370,绍兴市
-3380,金华市
-3410,衢州市
-3420,舟山市
-3430,丽水市
-3450,台州市
-3610,合肥市
-3620,芜湖市
-3630,蚌埠市
-3640,淮南市
-3650,马鞍山市
-3660,淮北市
-3670,铜陵市
-3680,安庆市
-3710,黄山市
-3720,阜阳市
-3740,宿州市
-3750,滁州市
-3760,六安市
-3770,宣城市
-3790,池州市
-3810,亳州市
-3910,福州市
-3917,福清市
-3930,厦门市
-3940,莆田市
-3950,三明市
-3970,泉州市
-3990,漳州市
-4010,南平市
-4030,宁德市
-4050,龙岩市
-4210,南昌市
-4220,景德镇市
-4230,萍乡市
-4240,九江市
-4260,新余市
-4270,鹰潭市
-4280,赣州市
-4310,宜春市
-4330,上饶市
-4350,吉安市
-4370,抚州市
-4510,济南市
-4520,青岛市
-4530,淄博市
-4540,枣庄市
-4550,东营市
-4560,烟台市
-4580,潍坊市
-4610,济宁市
-4630,泰安市
-4650,威海市
-4660,滨州市
-4680,德州市
-4710,聊城市
-4730,临沂市
-4750,菏泽市
-4770,日照市
-4910,郑州市
-4920,开封市
-4930,洛阳市
-4950,平顶山市
-4960,安阳市
-4970,鹤壁市
-4980,新乡市
-5010,焦作市
-5017,济源市
-5020,濮阳市
-5030,许昌市
-5040,漯河市
-5050,三门峡市
-5060,商丘市
-5080,周口市
-5110,驻马店市
-5130,南阳市
-5150,信阳市
-5210,武汉市
-5220,黄石市
-5230,十堰市
-5250,宜昌市
-5270,随州市
-5280,襄阳市
-5310,鄂州市
-5311,神农架林区
-5320,荆门市
-5330,黄冈市
-5350,孝感市
-5360,咸宁市
-5370,荆州市
-5371,仙桃市
-5374,天门市
-5375,潜江市
-5410,恩施州
-5510,长沙市
-5520,株洲市
-5530,湘潭市
-5540,衡阳市
-5550,邵阳市
-5570,岳阳市
-5580,常德市
-5590,张家界市
-5610,益阳市
-5620,娄底市
-5630,郴州市
-5650,永州市
-5670,怀化市
-5690,湘西州
-5810,广州市
-5820,韶关市
-5840,深圳市
-5850,珠海市
-5860,汕头市
-5880,佛山市
-5890,江门市
-5910,湛江市
-5920,茂名市
-5930,肇庆市
-5950,惠州市
-5960,梅州市
-5970,汕尾市
-5980,河源市
-5990,阳江市
-6010,清远市
-6020,东莞市
-6030,中山市
-6040,潮州市
-6050,揭阳市
-6060,云浮市
-6110,南宁市
-6140,柳州市
-6170,桂林市
-6210,梧州市
-6230,北海市
-6240,玉林市
-6260,百色市
-6280,河池市
-6310,钦州市
-6320,防城港市
-6330,贵港市
-6340,贺州市
-6350,来宾市
-6360,崇左市
-6410,海口市
-6420,三亚市
-6421,五指山市
-6423,文昌市
-6424,琼海市
-6425,万宁市
-6426,定安县
-6427,屯昌县
-6428,澄迈县
-6429,临高县
-6431,儋州市
-6432,白沙黎族自治县
-6433,昌江黎族自治县
-6434,东方市
-6435,乐东黎族自治县
-6436,陵水黎族自治县
-6437,保亭黎族苗族自治县
-6438,琼中黎族苗族自治县
-6440,三沙市
-6510,成都市
-6550,自贡市
-6560,攀枝花市
-6570,泸州市
-6580,德阳市
-6590,绵阳市
-6610,广元市
-6620,遂宁市
-6630,内江市
-6650,乐山市
-6670,眉山市
-6690,广安市
-6710,宜宾市
-6730,南充市
-6750,达州市
-6770,雅安市
-6790,阿坝州
-6810,甘孜州
-6840,凉山州
-6870,巴中市
-6880,资阳市
-6900,重庆市
-7010,贵阳市
-7020,六盘水市
-7030,遵义市
-7050,铜仁市
-7070,黔西南州
-7090,毕节市
-7110,安顺市
-7130,黔东南州
-7150,黔南州
-7310,昆明市
-7340,昭通市
-7360,曲靖市
-7380,楚雄州
-7410,玉溪市
-7430,红河州
-7450,文山州
-7470,普洱市
-7490,西双版纳州
-7510,大理州
-7530,保山市
-7540,德宏州
-7550,丽江市
-7560,怒江州
-7570,迪庆州
-7580,临沧市
-7710,拉萨市
-7720,昌都市
-7740,山南市
-7760,日喀则市
-7790,那曲市
-7810,阿里地区
-7830,林芝市
-7910,西安市
-7920,铜川市
-7930,宝鸡市
-7950,咸阳市
-7970,渭南市
-7990,汉中市
-8010,安康市
-8030,商洛市
-8040,延安市
-8060,榆林市
-8210,兰州市
-8220,嘉峪关市
-8230,金昌市
-8240,白银市
-8250,天水市
-8260,酒泉市
-8270,张掖市
-8280,武威市
-8290,定西市
-8310,陇南市
-8330,平凉市
-8340,庆阳市
-8360,临夏州
-8380,甘南州
-8510,西宁市
-8520,海东市
-8540,海北州
-8550,黄南州
-8560,海南州
-8570,果洛州
-8580,玉树州
-8590,海西州
-8710,银川市
-8720,石嘴山市
-8730,吴忠市
-8740,固原市
-8750,中卫市
-8810,乌鲁木齐市
-8820,克拉玛依市
-8830,吐鲁番市
-8840,哈密市
-8850,昌吉州
-8870,博尔塔拉州
-8880,巴音郭楞州
-8890,铁门关市
-8910,阿克苏地区
-8930,克孜勒苏州
-8940,喀什地区
-8960,和田地区
-8980,伊犁州
-9010,塔城地区
-9020,阿勒泰地区
-9028,石河子市
-9041,阿拉尔市
-9042,图木舒克市
-9043,五家渠市
-9044,北屯市
-9045,双河市
-9046,可克达拉市
-9047,昆玉市
-9101,香港
+code,name,name_en,name_ja,name_zh_hant,osm_ref
+1000,北京市,Beijing,,,relation/912940
+1121,天津市,Tianjin,,,relation/912999
+1210,石家庄市,Shijiazhuang,石家荘市,石家莊市,relation/3009732
+1240,唐山市,Tangshan,,,relation/2989001
+1260,秦皇岛市,Qinhuangdao,秦皇島市,秦皇島市,relation/2989562
+1270,邯郸市,Handan,邯鄲市,邯鄲市,relation/3290701
+1310,邢台市,Xingtai,ケイ台市,邢臺市,relation/3290707
+1340,保定市,Baoding City,,,relation/3442995
+1380,张家口市,Zhangjiakou,張家口市,張家口市,relation/3295555
+1410,承德市,Chengde,承徳市,,relation/2989561
+1430,沧州市,Cangzhou,滄州市,滄州市,relation/3443418
+1460,廊坊市,Langfang,,,relation/2989329
+1480,衡水市,Hengshui,,,relation/3443419
+1610,太原市,Taiyuan City,,,relation/3296588
+1620,大同市,Datong City,,,relation/3008552
+1650,阳泉市,Yangquan City,陽泉市,陽泉市,relation/3285005
+1660,长治市,Changzhi City,長治市,長治市,relation/2963917
+1680,晋城市,Jincheng City,,晉城市,relation/3237073
+1690,朔州市,Shuozhou City,,,relation/3008553
+1710,忻州市,Xinzhou City,,,relation/3008569
+1730,吕梁市,Lüliang City,呂梁市,呂梁市,relation/3263826
+1750,晋中市,Jinzhong City,,晉中市,relation/3296587
+1770,临汾市,Linfen City,臨汾市,臨汾市,relation/3286003
+1810,运城市,Yuncheng City,運城市,運城市,relation/3224229
+1910,呼和浩特市,Hohhot City,フフホト市,,relation/2752851
+1920,包头市,Baotou City,包頭市,包頭市,relation/2752954
+1930,乌海市,Wuhai City,烏海市,烏海市,relation/2752805
+1940,赤峰市,Chifeng City,,赤峯市,relation/2753364
+1960,呼伦贝尔市,Hulunbuir,フルンボイル市,呼倫貝爾市,relation/161769
+1980,兴安盟,Hinggan League,ヒンガン盟,興安盟,relation/2753442
+1990,通辽市,Tongliao City,通遼市,通遼市,relation/2753408
+2010,锡林郭勒盟,Xilingol League,シリンゴル盟,錫林郭勒盟,relation/2753029
+2030,乌兰察布市,Ulanqab City,ウランチャブ市,烏蘭察布市,relation/2752977
+2050,鄂尔多斯市,Ordos City,オルドス市,鄂爾多斯市,relation/2752781
+2070,巴彦淖尔市,Bayannur City,バヤンノール市,巴彥淖爾市,relation/2752813
+2080,阿拉善盟,Alxa League,アルシャー盟,,relation/2752743
+2210,沈阳市,Shenyang City,瀋陽市,瀋陽市,relation/2769604
+2220,大连市,Dalian City,大連市,大連市,relation/2764565
+2230,鞍山市,Anshan City,,,relation/2769683
+2240,抚顺市,Fushun City,撫順市,撫順市,relation/2766526
+2250,本溪市,Benxi City,本渓市,,relation/2766193
+2260,丹东市,Dandong City,丹東市,丹東市,relation/9638643
+2270,锦州市,Jinzhou City,錦州市,錦州市,relation/2770977
+2280,营口市,Yingkou City,営口市,營口市,relation/2771992
+2290,阜新市,Fuxin City,,,relation/2769803
+2310,辽阳市,Liaoyang City,遼陽市,遼陽市,relation/2769643
+2320,盘锦市,Panjin City,盤錦市,盤錦市,relation/2771970
+2330,铁岭市,Tieling City,鉄嶺市,鐵嶺市,relation/2767515
+2340,朝阳市,Chaoyang City,朝陽市,朝陽市,relation/2769829
+2360,葫芦岛市,Huludao City,葫芦島市,葫蘆島市,relation/2769902
+2410,长春市,Changchun City,長春市,長春市,relation/2763992
+2420,吉林市,Jilin City,,,relation/2764055
+2430,四平市,Siping City,,,relation/2763795
+2440,辽源市,Liaoyuan City,遼源市,遼源市,relation/2764045
+2450,通化市,Tonghua City,,,relation/2762954
+2460,白山市,Baishan City,,,relation/2762626
+2470,白城市,Baicheng City,,,relation/2763763
+2490,延边州,Yanbian,延辺朝鮮族自治州,延邊朝鮮族自治州,relation/2761941
+2510,松原市,Songyuan City,,,relation/2763775
+2610,哈尔滨市,Harbin,ハルビン市,哈爾濱市,relation/2755608
+2640,齐齐哈尔市,Qiqihar City,チチハル市,齊齊哈爾市,relation/2755137
+2660,鸡西市,Jixi,鶏西市,雞西市,relation/199188
+2670,鹤岗市,Hegang City,鶴崗市,鶴崗市,relation/199170
+2680,双鸭山市,Shuangyashan City,双鴨山市,雙鴨山市,relation/203483
+2690,大庆市,Daqing City,大慶市,大慶市,relation/2755197
+2710,伊春市,Yichun City,,,relation/2755605
+2720,佳木斯市,Jiamusi City,ジャムス市,,relation/206437
+2740,七台河市,Qitaihe City,七台河,七臺河市,relation/199174
+2750,牡丹江市,Mudanjiang City,,,relation/2755604
+2760,绥化市,Suihua City,綏化市,綏化市,relation/2755376
+2780,黑河市,Heihe City,黒河市,,relation/2754980
+2790,大兴安岭地区,Daxing'anling Prefecture,大興安嶺地区,大興安嶺地區,relation/199127
+2900,上海市,Shanghai,,,relation/913067
+3010,南京市,Nanjing City,,,relation/2131524
+3020,无锡市,Wuxi City,無錫市,無錫市,relation/4430942
+3030,徐州市,Xuzhou,,,relation/3218572
+3040,常州市,Changzhou,,,relation/3429666
+3050,苏州市,Suzhou City,蘇州市,蘇州市,relation/4430941
+3060,南通市,Nantong,,,relation/4430899
+3070,连云港市,Lianyungang,連雲港市,連雲港市,relation/3320347
+3080,淮安市,Huai'an,,,relation/3429722
+3110,盐城市,Yancheng City,塩城市,鹽城市,relation/3473496
+3120,扬州市,Yangzhou City,揚州市,揚州市,relation/4430826
+3140,镇江市,Zhenjiang,鎮江市,鎮江市,relation/3429680
+3160,泰州市,Taizhou,,,relation/4430874
+3180,宿迁市,Suqian,宿遷市,宿遷市,relation/3293941
+3310,杭州市,Hangzhou City,,,relation/3221112
+3320,宁波市,Ningbo,寧波市,寧波市,relation/3478607
+3330,温州市,Wenzhou,,溫州市,relation/3289341
+3350,嘉兴市,Jiaxing,嘉興市,嘉興市,relation/3308626
+3360,湖州市,Huzhou,,,relation/3149738
+3370,绍兴市,Shaoxing,紹興市,紹興市,relation/3316522
+3380,金华市,Jinhua,金華市,金華市,relation/3411720
+3410,衢州市,Quzhou,,,relation/3278467
+3420,舟山市,Zhoushan,,,relation/3308121
+3430,丽水市,Lishui,麗水市,麗水市,relation/3289209
+3450,台州市,Taizhou,,,relation/3477550
+3610,合肥市,Hefei,,,relation/3288965
+3620,芜湖市,Wuhu,蕪湖市,蕪湖市,relation/3262036
+3630,蚌埠市,Bengbu,,,relation/3262334
+3640,淮南市,Huainan,,,relation/3262360
+3650,马鞍山市,Ma'anshan,馬鞍山市,馬鞍山市,relation/3260816
+3660,淮北市,Huaibei,,,relation/3231910
+3670,铜陵市,Tongling,銅陵市,銅陵市,relation/3077734
+3680,安庆市,Anqing,安慶市,安慶市,relation/3220387
+3710,黄山市,Huangshan,,黃山市,relation/2992498
+3720,阜阳市,Fuyang,阜陽市,阜陽市,relation/3246004
+3740,宿州市,Suzhou,,,relation/3231858
+3750,滁州市,Chuzhou,,,relation/3231588
+3760,六安市,Lu'an,,,relation/3243393
+3770,宣城市,Xuancheng,,,relation/3222248
+3790,池州市,Chizhou,,,relation/3164669
+3810,亳州市,Bozhou,,,relation/3245950
+3910,福州市,Fuzhou City,,,relation/3263977
+3917,福清市,Fuqing City,,,relation/3263966
+3930,厦门市,Xiamen,廈門市,廈門市,relation/3242930
+3940,莆田市,Putian City,ホ田市,,relation/3276849
+3950,三明市,Sanming City,,,relation/3181479
+3970,泉州市,Quanzhou,,,relation/2666969
+3990,漳州市,Zhangzhou City,ショウ州市,,relation/3242122
+4010,南平市,Nanping City,,,relation/3206301
+4030,宁德市,Ningde City,寧徳市,甯德市,relation/3277236
+4050,龙岩市,Longyan City,竜岩市,龍巖市,relation/3144724
+4210,南昌市,Nanchang,,,relation/3169865
+4220,景德镇市,Jingdezhen,景徳鎮市,景德鎮市,relation/3224017
+4230,萍乡市,Pingxiang,萍郷市,萍鄉市,relation/3189984
+4240,九江市,Jiujiang,,,relation/3190361
+4260,新余市,Xinyu,,新渝市,relation/3182912
+4270,鹰潭市,Yingtan,鷹潭市,鷹潭市,relation/3245900
+4280,赣州市,Ganzhou,カン州市,贛州市,relation/3180745
+4310,宜春市,Yichun,,,relation/3182923
+4330,上饶市,Shangrao,上饒市,上饒市,relation/3046790
+4350,吉安市,Ji'an City,,,relation/2950516
+4370,抚州市,Fuzhou City,撫州市,撫州市,relation/3182605
+4510,济南市,Jinan,チーナン;済南市,濟南市,relation/3486449
+4520,青岛市,Qingdao,青島市,青島市,relation/3469133
+4530,淄博市,Zibo,シ博市,,relation/3468503
+4540,枣庄市,Zaozhuang,棗荘市,棗莊市,relation/3246762
+4550,东营市,Dongying,東営市,東營市,relation/4433983
+4560,烟台市,Yantai,煙台市,煙臺市,relation/3469843
+4580,潍坊市,Weifang,イ坊市,濰坊市,relation/3468564
+4610,济宁市,Jining,済寧市,濟寧市,relation/3286961
+4630,泰安市,Tai'an,,,relation/3486494
+4650,威海市,Weihai,,,relation/3307448
+4660,滨州市,Binzhou,浜州市,濱州市,relation/4434116
+4680,德州市,Dezhou,徳州市,,relation/3485982
+4710,聊城市,Liaocheng,,,relation/3485816
+4730,临沂市,Linyi,臨沂,臨沂市,relation/2801712
+4750,菏泽市,Heze,カ沢,菏澤市,relation/3284918
+4770,日照市,Rizhao,,,relation/3485666
+4910,郑州市,Zhengzhou,鄭州市,鄭州市,relation/3283765
+4920,开封市,Kaifeng,開封市,開封市,relation/3283913
+4930,洛阳市,Luoyang,洛陽市,洛陽市,relation/3246491
+4950,平顶山市,Pingdingshan,平頂山市,平頂山市,relation/3259379
+4960,安阳市,Anyang,安陽市,安陽市,relation/4433277
+4970,鹤壁市,Hebi,鶴壁市,鶴壁市,relation/4433278
+4980,新乡市,Xinxiang,新郷市,新鄉市,relation/3237011
+5010,焦作市,Jiaozuo,,,relation/3237564
+5017,济源市,Jiyuan,済源市,濟源市,relation/3010773
+5020,濮阳市,Puyang,濮陽市,濮陽市,relation/3060567
+5030,许昌市,Xuchang,許昌市,許昌市,relation/3283887
+5040,漯河市,Luohe,,,relation/3284027
+5050,三门峡市,Sanmenxia,三門峡市,三門峽市,relation/2992284
+5060,商丘市,Shangqiu,,,relation/3218285
+5080,周口市,Zhoukou,,,relation/3284144
+5110,驻马店市,Zhumadian,駐馬店,駐馬店市,relation/3259366
+5130,南阳市,Nanyang,南陽市,南陽市,relation/3206852
+5150,信阳市,Xinyang,信陽市,信陽市,relation/3218104
+5210,武汉市,Wuhan,武漢市,武漢市,relation/3076268
+5220,黄石市,Huangshi,,黃石市,relation/3086592
+5230,十堰市,Shiyan,,,relation/3206796
+5250,宜昌市,Yichang,,,relation/2983923
+5270,随州市,Suizhou,,隨州市,relation/3216520
+5280,襄阳市,Xiangyang,襄陽市,襄陽市,relation/3216590
+5310,鄂州市,Ezhou,,,relation/3086618
+5311,神农架林区,Shennongjia,神農架林区,神農架林區,relation/2984052
+5320,荆门市,Jingmen,荊門市,荊門市,relation/3219965
+5330,黄冈市,Huanggang,黄岡市,黃岡市,relation/3144169
+5350,孝感市,Xiaogan,,,relation/3216406
+5360,咸宁市,Xianning,咸寧市,咸寧市,relation/3106518
+5370,荆州市,Jingzhou,荊州市,荊州市,relation/2709754
+5371,仙桃市,Xiantao,,,relation/3258834
+5374,天门市,Tianmen,天門市,天門市,relation/3258833
+5375,潜江市,Qianjiang,,潛江市,relation/3258831
+5410,恩施州,Enshi,恩施トゥチャ族ミャオ族自治州,恩施土家族苗族自治州,relation/2984075
+5510,长沙市,Changsha,長沙市,長沙市,relation/3202711
+5520,株洲市,Zhuzhou,,,relation/2972720
+5530,湘潭市,Xiangtan,,,relation/3202624
+5540,衡阳市,Hengyang,衡陽市,衡陽市,relation/3156043
+5550,邵阳市,Shaoyang,邵陽市,邵陽市,relation/3075378
+5570,岳阳市,Yueyang,岳陽市,岳陽市,relation/3202467
+5580,常德市,Changde,常徳市,,relation/3161246
+5590,张家界市,Zhangjiajie,張家界市,張家界市,relation/3152588
+5610,益阳市,Yiyang,益陽市,益陽市,relation/3202593
+5620,娄底市,Loudi,婁底市,婁底市,relation/3070610
+5630,郴州市,Chenzhou,,,relation/3123920
+5650,永州市,Yongzhou,,,relation/3149752
+5670,怀化市,Huaihua,懐化市,懷化市,relation/2773826
+5690,湘西州,Xiangxi,湘西トゥチャ族ミャオ族自治州,湘西土家族苗族自治州,relation/2972168
+5810,广州市,Guangzhou City,広州市,廣州市,relation/3287346
+5820,韶关市,Shaoguan City,韶関市,韶關市,relation/3203994
+5840,深圳市,Shenzhen,深セン市,,relation/3464353
+5850,珠海市,Zhuhai,,,relation/3464829
+5860,汕头市,Shantou,汕頭市,汕頭市,relation/3282750
+5880,佛山市,Foshan,仏山市,,relation/3464719
+5890,江门市,Jiangmen,江門市,江門市,relation/3463901
+5910,湛江市,Zhanjiang City,,,relation/3484419
+5920,茂名市,Maoming City,,,relation/2689018
+5930,肇庆市,Zhaoqing City,肇慶市,肇慶市,relation/3205802
+5950,惠州市,Huizhou,恵州市,,relation/3209912
+5960,梅州市,Meizhou,,,relation/3233743
+5970,汕尾市,Shanwei,,,relation/3282610
+5980,河源市,Heyuan,,,relation/3241970
+5990,阳江市,Yangjiang City,陽江市,陽江市,relation/3032037
+6010,清远市,Qingyuan City,清遠市,清遠市,relation/3124223
+6020,东莞市,Dongguan,東莞市,東莞市,relation/3464319
+6030,中山市,Zhongshan,,,relation/3464878
+6040,潮州市,Chaozhou,,,relation/3244431
+6050,揭阳市,Jieyang City,掲陽市,揭陽市,relation/3282749
+6060,云浮市,Yunfu City,雲浮市,雲浮市,relation/3032080
+6110,南宁市,Nanning,南寧市,南寧市,relation/2775778
+6140,柳州市,Liuzhou City,,,relation/2774469
+6170,桂林市,Guilin,,,relation/3471982
+6210,梧州市,Wuzhou City,,,relation/2044154
+6230,北海市,Beihai,,,relation/2100680
+6240,玉林市,Yulin City,,,relation/2776309
+6260,百色市,Baise,,,relation/2773986
+6280,河池市,Hechi,,,relation/2774389
+6310,钦州市,Qinzhou,欽州市,欽州市,relation/2776297
+6320,防城港市,Fangchenggang City,,,relation/2774214
+6330,贵港市,Guigang,貴港市,貴港市,relation/2776275
+6340,贺州市,Hezhou,賀州市,賀州市,relation/2773741
+6350,来宾市,Laibin,来賓市,來賓市,relation/2775865
+6360,崇左市,Chongzuo City,,,relation/2127478
+6410,海口市,Haikou City,,,relation/2784613
+6420,三亚市,Sanya City,三亜市,三亞市,relation/2128284
+6421,五指山市,Wuzhishan City,,,relation/2784622
+6423,文昌市,Wenchang City,,,relation/2784621
+6424,琼海市,Qionghai City,瓊海市,瓊海市,relation/2784617
+6425,万宁市,Wanning City,万寧市,萬寧市,relation/2784620
+6426,定安县,Ding'an County,定安県,定安縣,relation/2784611
+6427,屯昌县,Tunchang County,屯昌県,屯昌縣,relation/2784619
+6428,澄迈县,Chengmai County,澄邁県,澄邁縣,relation/2784609
+6429,临高县,Lingao County,臨高県,臨高縣,relation/2784615
+6431,儋州市,Danzhou City,ダン州市,,relation/2784610
+6432,白沙黎族自治县,Baisha Li Autonomous County,白沙リー族自治県,白沙黎族自治縣,relation/2784606
+6433,昌江黎族自治县,Changjiang Li Autonomous County,昌江リー族自治県,昌江黎族自治縣,relation/2784608
+6434,东方市,Dongfang City,東方市,東方市,relation/2784612
+6435,乐东黎族自治县,Ledong Li Autonomous County,楽東リー族自治県,樂東黎族自治縣,relation/2784614
+6436,陵水黎族自治县,Lingshui Li Autonomous County,陵水リー族自治県,陵水黎族自治縣,relation/2784616
+6437,保亭黎族苗族自治县,Baoting Li and Miao Autonomous County,保亭リー族ミャオ族自治県,保亭黎族苗族自治縣,relation/2784607
+6438,琼中黎族苗族自治县,Qiongzhong Li and Miao Autonomous County,瓊中リー族ミャオ族自治県,瓊中黎族苗族自治縣,relation/2784618
+6440,三沙市,Sansha,,,relation/2833102
+6510,成都市,Chengdu,,,relation/2110264
+6550,自贡市,Zigong,自貢市,自貢市,relation/2791218
+6560,攀枝花市,Panzhihua,,,relation/2785689
+6570,泸州市,Luzhou,瀘州市,瀘州市,relation/2789344
+6580,德阳市,Deyang,徳陽市,德陽市,relation/2787561
+6590,绵阳市,Mianyang,綿陽市,綿陽市,relation/2787464
+6610,广元市,Guangyuan,広元市,廣元市,relation/2787606
+6620,遂宁市,Suining,遂寧市,遂寧市,relation/2788710
+6630,内江市,Neijiang,,內江市,relation/2789481
+6650,乐山市,Leshan,楽山市,樂山市,relation/2789892
+6670,眉山市,Meishan,,,relation/2789926
+6690,广安市,Guang'an,広安市,廣安市,relation/2787851
+6710,宜宾市,Yibin,宜賓市,宜賓市,relation/2791229
+6730,南充市,Nanchong,,,relation/2787937
+6750,达州市,Dazhou,達州市,達州市,relation/2787741
+6770,雅安市,Ya'an,,,relation/2789731
+6790,阿坝州,Ngawa Tibetan and Qiang Autonomous Prefecture,アバ・チベット族チャン族自治州,阿壩藏族羌族自治州,relation/2110265
+6810,甘孜州,Kardze,カンゼ・チベット族自治州,甘孜藏族自治州,relation/2049312
+6840,凉山州,Liangshan,涼山イ族自治州,涼山彝族自治州,relation/2785750
+6870,巴中市,Bazhong,,,relation/2787658
+6880,资阳市,Ziyang,資陽市,資陽市,relation/2788724
+6900,重庆市,Chongqing,重慶市,重慶市,relation/913069
+7010,贵阳市,Guiyang,貴陽市,貴陽市,relation/2782246
+7020,六盘水市,Liupanshui,六盤水市,六盤水市,relation/2780191
+7030,遵义市,Zunyi,遵義市,遵義市,relation/2778812
+7050,铜仁市,Tongren,銅仁市,銅仁市,relation/2778223
+7070,黔西南州,Qianxinan,黔西南プイ族ミャオ族自治州,黔西南布依族苗族自治州,relation/2781292
+7090,毕节市,Bijie,畢節市,畢節市,relation/2780074
+7110,安顺市,Anshun,安陽市,安順市,relation/2782250
+7130,黔东南州,Qiandongnan,黔東南ミャオ族トン族自治州,黔東南苗族侗族自治州,relation/2777847
+7150,黔南州,Qiannan,黔南プイ族ミャオ族自治州,黔南布依族苗族自治州,relation/2777425
+7310,昆明市,Kunming,,,relation/2723597
+7340,昭通市,Zhaotong City,,,relation/2402650
+7360,曲靖市,Qujing City,,,relation/2718030
+7380,楚雄州,Chuxiong,楚雄イ族自治州,楚雄彝族自治州,relation/2727342
+7410,玉溪市,Yuxi,玉渓市,,relation/2723502
+7430,红河州,Honghe,紅河ハニ族イ族自治州,紅河哈尼族彝族自治州,relation/2723404
+7450,文山州,Wenshan,文山チワン族ミャオ族自治州,文山壯族苗族自治州,relation/2718941
+7470,普洱市,Pu'er City,普ジ市,,relation/2716205
+7490,西双版纳州,Xishuangbanna,シーサンパンナ・タイ族自治州,西雙版納傣族自治州,relation/2715398
+7510,大理州,Dali Bai Autonomous Prefecture,大理ペー族自治州,大理白族自治州,relation/2727745
+7530,保山市,Baoshan,,,relation/2727146
+7540,德宏州,Dehong,徳宏タイ族チンポー族自治州,德宏傣族景頗族自治州,relation/2717249
+7550,丽江市,Lijiang City,麗江市,麗江市,relation/2729779
+7560,怒江州,Nujiang,怒江リス族自治州,怒江傈僳族自治州,relation/2729768
+7570,迪庆州,Diqing,デチェン・チベット族自治州,迪慶藏族自治州,relation/2729695
+7580,临沧市,Lincang,臨滄市,臨滄市,relation/2725393
+7710,拉萨市,Lhasa,ラサ市,拉薩市,relation/2745046
+7720,昌都市,Chamdo City,チャムド地区,,relation/2734866
+7740,山南市,Lhoka,山南地区,,relation/2743978
+7760,日喀则市,Shigatse Prefecture,シガツェ市,日喀則市,relation/2744623
+7790,那曲市,Nagqu City,ナクチュ市,,relation/2744938
+7810,阿里地区,Ngari Prefecture,ガリ地区,阿里地區,relation/1997914
+7830,林芝市,Nyingchi Prefecture,ニンティ市,,relation/2734427
+7910,西安市,Xi'an,,,relation/3226004
+7920,铜川市,Tongchuan,銅川市,銅川市,relation/3226142
+7930,宝鸡市,Baoji,宝鶏市,寶雞市,relation/3048442
+7950,咸阳市,Xianyang,咸陽市,咸陽市,relation/3221020
+7970,渭南市,Weinan City,,,relation/3028621
+7990,汉中市,Hanzhong,漢中市,漢中市,relation/2967716
+8010,安康市,Ankang,,,relation/2996866
+8030,商洛市,Shangluo,,,relation/2971129
+8040,延安市,Yan'an,,,relation/3020001
+8060,榆林市,Yulin,楡林市,,relation/3016353
+8210,兰州市,Lanzhou Prefecture,蘭州市,蘭州市,relation/2701949
+8220,嘉峪关市,Jiayuguan Prefecture,嘉峪関市,嘉峪關市,relation/165664
+8230,金昌市,Jinchang Prefecture,,,relation/2705765
+8240,白银市,Baiyin Prefecture,白銀市,白銀市,relation/2702854
+8250,天水市,Tianshui Prefecture,,,relation/2697305
+8260,酒泉市,Jiuquan Prefecture,,,relation/165655
+8270,张掖市,Zhangye Prefecture,張掖市,張掖市,relation/165803
+8280,武威市,Wuwei Prefecture,,,relation/165830
+8290,定西市,Dingxi Prefecture,,,relation/2701633
+8310,陇南市,Longnan Prefecture,隴南市,隴南市,relation/2697126
+8330,平凉市,Pingliang Prefecture,平涼市,平涼市,relation/2696771
+8340,庆阳市,Qingyang,慶陽市,慶陽市,relation/165866
+8360,临夏州,Linxia Hui Autonomous Prefecture,臨夏回族自治州,臨夏回族自治州,relation/2697555
+8380,甘南州,Ganlho Tibetan Autonomous Prefecture,甘南チベット族自治州,甘南藏族自治州,relation/165639
+8510,西宁市,Xining City,西寧市,西寧市,relation/2707990
+8520,海东市,Haidong,海東市,海東市,relation/2707988
+8540,海北州,Haibei,海北チベット族自治州,海北藏族自治州,relation/2707655
+8550,黄南州,Huangnan,黄南チベット族自治州,黃南藏族自治州,relation/2707864
+8560,海南州,Hainan,海南チベット族自治州,海南藏族自治州,relation/2707863
+8570,果洛州,Golog,ゴロク・チベット族自治州,果洛藏族自治州,relation/2707987
+8580,玉树州,Yushu,玉樹チベット族自治州,玉樹藏族自治州,relation/2707991
+8590,海西州,Haixi Mongol and Tibetan Autonomous Prefecture,海西モンゴル族チベット族自治州,海西蒙古族藏族自治州,relation/2707989
+8710,银川市,Yinchuan City,銀川市,銀川市,relation/3307138
+8720,石嘴山市,Shizuishan,,,relation/3307098
+8730,吴忠市,Wuzhong City,呉忠市,吳忠市,relation/3307137
+8740,固原市,Guyuan City,,,relation/2793583
+8750,中卫市,Zhongwei City,中衛市,中衛市,relation/2793622
+8810,乌鲁木齐市,Ürümqi,ウルムチ市,烏魯木齊市,relation/2752472
+8820,克拉玛依市,Karamay City,,克拉瑪依市,relation/2751491
+8830,吐鲁番市,Turpan,,吐魯番市,relation/2747197
+8840,哈密市,Hami,,,relation/2747108
+8850,昌吉州,Changji,昌吉回族自治州,昌吉回族自治州,relation/2752412
+8870,博尔塔拉州,Bortala,ボルタラ・モンゴル自治州,博尔塔拉蒙古自治州,relation/239457
+8880,巴音郭楞州,Bayingolin,バインゴリン・モンゴル自治州,巴音郭楞蒙古自治州,relation/2747242
+8890,铁门关市,Tiemenguan,鉄門関市,鐵門關市,relation/7002046
+8910,阿克苏地区,Aksu Prefecture,アクス地区,阿克蘇地區,relation/2748825
+8930,克孜勒苏州,Kizilsu,クズルス・キルギス自治州,克孜勒蘇柯爾克孜自治州,relation/2710679
+8940,喀什地区,Kachgar,カシュガル地区,喀什地區,relation/2748436
+8960,和田地区,Hotan Prefecture,ホータン地区,和闐地區,relation/2748339
+8980,伊犁州,Ili,イリ・カザフ自治州,伊犁哈薩克自治州,relation/2750980
+9010,塔城地区,Tacheng Prefecture,,塔城地區,relation/239064
+9020,阿勒泰地区,Altay Prefecture,アルタイ地区,阿勒泰地區,relation/239062
+9028,石河子市,Shihezi City,,,relation/3431881
+9041,阿拉尔市,Aral City,アラル市,阿拉爾市,relation/2748887
+9042,图木舒克市,Tumxuk City,トムシュク市,圖木舒克市,relation/2748778
+9043,五家渠市,Wujiaqu City,,,relation/2752471
+9044,北屯市,Beitun City,,,relation/9077256
+9045,双河市,Shuanghe City,,雙河市,relation/9068337
+9046,可克达拉市,Kokdala City,,可克達拉市,relation/20281769
+9047,昆玉市,Kunyu,,崑玉市,relation/9051185
+9101,香港,Hong Kong,,,relation/20044132
