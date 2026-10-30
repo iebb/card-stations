@@ -8,14 +8,14 @@ Corrections and added mappings must include evidence in their pull request.
 
 | Data | Source | Recorded terms |
 | --- | --- | --- |
-| Japanese physical stations and route graph | [Seo-4d696b75/station_database](https://github.com/Seo-4d696b75/station_database), revision `76d4d4dbf15aa1ef967fc137b4ddf892abe3f3f8` | CC BY-SA 4.0; see [`licenses/station_database.md`](licenses/station_database.md) |
+| Japanese physical stations and route graph | [Seo-4d696b75/station_database](https://github.com/Seo-4d696b75/station_database), revision `76d4d4dbf15aa1ef967fc137b4ddf892abe3f3f8` | [CC BY-SA 4.0](licenses/CC-BY-SA-4.0.txt); see [`licenses/station_database.md`](licenses/station_database.md) |
 | Japanese FeliCa and bus code/name registries | Existing CardBal code tables | Separate upstream grant not recorded in the imported assets |
-| Published T-Union station, line, gate, and Shanghai CU data | Domosekai Limited and Trip Reader data contributors, [domosekai/tripreader-data](https://github.com/domosekai/tripreader-data), revision `c5584d6b8d9a39d7162b7b9781134be52db66186` | CC BY 4.0 |
-| China coordinates and OSM names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), retained OSM element type/ID | ODbL 1.0 |
+| Published T-Union station, line, gate, and Shanghai CU data | Domosekai Limited and Trip Reader data contributors, [domosekai/tripreader-data](https://github.com/domosekai/tripreader-data), revision `c5584d6b8d9a39d7162b7b9781134be52db66186` | [CC BY 4.0](licenses/CC-BY-4.0.txt) |
+| China coordinates and OSM names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), retained OSM element type/ID | [ODbL 1.0](licenses/ODbL-1.0.txt) |
 | Three Taizhou station codes and reviewed exact terminal-to-station links | Domosekai Limited, Trip Reader 读卡识途 1.7.17-cn | APK data terms not specified; the public CSV license is not asserted for these mappings |
-| Base Korean exact location aliases | [iebb/korean-stations](https://github.com/iebb/korean-stations), consumer export revision `f63c4050f862f4b64a530bf923d5f21cd2698847`, SHA-256 `a8b3076d10bd19a18f00fff650b4c96ddfa26d2f7fc458fa801911c4e10e86c0` | Retains the upstream source-specific terms; consult its DATA_SOURCES.md and pinned sources |
-| Additional collected Korean aliases and official station fields | [MOLIT settlement inventory, 2026-07-03](https://www.data.go.kr/data/15128614/fileData.do), reviewed station-only source revision `5f9f9392e2c6e3312bba1dd6e445b2c5edbd4bf6`, and exact Seoul stop IDs | Official source-specific terms; Seoul inputs retain KOGL Type 1 attribution |
-| Korean map references and supplementary names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), pinned Geofabrik South Korea 2026-07-28 extract, and identity-linked [Wikidata labels](https://www.wikidata.org/wiki/Wikidata:Licensing) | OSM-derived Korean data is an ODbL 1.0 Derived Database; Wikidata structured labels are CC0 |
+| Base Korean exact location aliases | [iebb/korean-stations](https://github.com/iebb/korean-stations), consumer export revision `f63c4050f862f4b64a530bf923d5f21cd2698847`, SHA-256 `a8b3076d10bd19a18f00fff650b4c96ddfa26d2f7fc458fa801911c4e10e86c0` | Korean public-sector datasets (KORAIL KOTRIS, MOLIT, Seoul Metropolitan Government, Busan BIMS, KRIC, Daegu Transportation Corporation), each under its publisher's terms; Seoul data is [KOGL Type 1](https://www.kogl.or.kr/info/licenseType1.do) |
+| Additional collected Korean aliases and official station fields | [MOLIT settlement inventory, 2026-07-03](https://www.data.go.kr/data/15128614/fileData.do), reviewed station-only source revision `5f9f9392e2c6e3312bba1dd6e445b2c5edbd4bf6`, and exact Seoul stop IDs | Official source-specific terms; Seoul inputs retain [KOGL Type 1](https://www.kogl.or.kr/info/licenseType1.do) attribution |
+| Korean map references and supplementary names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), pinned Geofabrik South Korea 2026-07-28 extract, and identity-linked [Wikidata labels](https://www.wikidata.org/wiki/Wikidata:Licensing) | OSM-derived Korean data is an [ODbL 1.0](licenses/ODbL-1.0.txt) Derived Database; Wikidata structured labels are [CC0 1.0](licenses/CC0-1.0.txt) |
 | Korean transport-mode catalog | [KORAIL KOTRIS, 2023-08-25 dataset](https://www.data.go.kr/data/15121099/fileData.do) | Imported source records “No restrictions on permitted use”; supplementary entries retain separate citations |
 | Ulaanbaatar stops, routes, and sequences | Ulaanbaatar Smart Card LLC, UB Smart Bus service | A separate redistribution license was not recorded in the imported snapshot |
 
@@ -40,10 +40,12 @@ forward. Terminal names inherit from linked stations when identical. Synthetic
 line-approximation IDs are not presented as OSM references. Matching diagnostics and administrative lookup metadata are outside the station
 CSVs. Routing tables are separate. These format changes do not add new station mappings.
 
-The MIT license covers this repository's compiler and contribution tooling.
-It does not replace upstream data licenses or supply missing permission for
-datasets whose grant was not recorded. Consumers must retain applicable
-attribution and share-alike notices for the data they redistribute.
+The [BSD 3-Clause License](LICENSE) covers this repository's compiler,
+contribution tooling, and original contributions. It does not replace upstream
+data licenses or supply missing permission for datasets whose grant was not
+recorded. Consumers must retain applicable attribution and share-alike notices
+for the data they redistribute. [`licenses/`](licenses/README.md) maps each path
+to its license and holds the full license texts.
 
 Japanese routing geometry uses the `extra` rail polylines in
 [station_database](https://github.com/Seo-4d696b75/station_database), revision

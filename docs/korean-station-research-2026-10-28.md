@@ -102,4 +102,4 @@ rows and retained points are listed in the audit.
 [ODbL 1.0 Derived Database](https://www.openstreetmap.org/copyright).
 [Wikidata structured labels are CC0](https://www.wikidata.org/wiki/Wikidata:Licensing).
 The official source-specific terms remain applicable; this research does not
-relicense the official inputs under the compiler's MIT license.
+relicense the official inputs under the repository's BSD 3-Clause license.
