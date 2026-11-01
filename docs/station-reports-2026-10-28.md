@@ -1,5 +1,8 @@
 # Incoming station report review — 2026-10-28
 
+The Shenzhen alias below is superseded and removed by the
+[2026-11-01 review](station-reports-2026-11-01.md). The Chengdu aliases remain.
+
 The 16 pending submissions reduce to 12 distinct station/line/code groups
 covering 11 station names. Four submissions repeat an existing group. Three
 groups contain an exact code; nine groups have no code.

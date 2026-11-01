@@ -84,8 +84,11 @@ def load_data(root):
                         require_hex(code, 12 if row["_kind"] == "18" else 16, label)
                         require_hex(path.stem, 4, label)
                     elif spec["name"] == "cityunion":
-                        if path.stem != "2000" or not re.fullmatch(r"2000[0-9A-F]+", code) or len(code) not in (8, 10, 12):
-                            fail(label, "invalid Shanghai City Union prefix")
+                        lengths = {"2000": (8, 10, 12), "5180": (9,)}
+                        if (not re.fullmatch(r"[0-9A-F]+", code)
+                                or not code.startswith(path.stem)
+                                or len(code) not in lengths.get(path.stem, ())):
+                            fail(label, "invalid City Union terminal prefix")
                     elif spec["name"] in ("u-money", "u-money-lines", "modes"):
                         if not re.fullmatch(r"[1-9][0-9]*", code):
                             fail(label, "code must be a positive decimal identifier")
@@ -112,7 +115,7 @@ def load_data(root):
             if linked:
                 if linked not in stations:
                     fail(table, f"orphan station link {linked}")
-                expected_city = row["_group"] if table == "terminals" else "2900"
+                expected_city = row["_group"] if table == "terminals" else {"2000": "2900", "5180": "5840"}[row["_group"]]
                 if not linked.startswith(expected_city) or (row["name"] and row["name"] != stations[linked]["name"]):
                     fail(table, f"station link disagrees with city or name: {linked}")
     modes = {int(r["code"]): r for r in tables["modes"]}

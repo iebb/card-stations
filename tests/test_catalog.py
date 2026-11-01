@@ -125,8 +125,37 @@ class CatalogTests(unittest.TestCase):
             build.build(self.source, self.target)
 
     def test_orphan_terminal_link_rejected(self):
-        self.edit("data/t-union/cityunion/*.csv", lambda rows: rows[0].update(station_code="2900FFFFFF"))
+        self.edit("data/t-union/cityunion/2000.csv", lambda rows: rows[0].update(station_code="2900FFFFFF"))
         with self.assertRaisesRegex(build.ValidationError, "orphan station link"):
+            build.build(self.source, self.target)
+
+    def test_shenzhen_station_prefixes_export_without_speculative_tu_links(self):
+        with closing(sqlite3.connect(self.output / "tunion_stations.sqlite")) as db:
+            self.assertEqual(db.execute(
+                "SELECT COUNT(*), COUNT(station_key) FROM cityunion_terminal_prefixes WHERE city_id='5180'"
+            ).fetchone(), (284, 0))
+            self.assertEqual(db.execute(
+                "SELECT station_name,line_name FROM cityunion_terminal_prefixes WHERE terminal_prefix='518040013'"
+            ).fetchone(), ("岗厦", "10号线"))
+            self.assertIsNone(db.execute(
+                "SELECT station_key FROM tunion_stations WHERE station_key='584000000000000016'"
+            ).fetchone())
+
+    def test_shenzhen_rejects_broad_line_prefixes_and_other_city_prefixes(self):
+        path = self.source / "data/t-union/cityunion/5180.csv"
+        original = path.read_bytes()
+        for prefix in ("51806", "518068", "200068035", "5180ZZ035"):
+            path.write_bytes(original)
+            self.edit("data/t-union/cityunion/5180.csv", lambda rows: rows[0].update(code=prefix))
+            with self.subTest(prefix=prefix), self.assertRaisesRegex(build.ValidationError, "City Union terminal prefix"):
+                build.build(self.source, self.target)
+
+    def test_shenzhen_cannot_link_to_a_shanghai_station(self):
+        data, _ = build.load_data(self.source)
+        shanghai = next(r for r in data["t-union"] if r["code"].startswith("2900"))
+        self.edit("data/t-union/cityunion/5180.csv", lambda rows: rows[0].update(
+            station_code=shanghai["code"], name=shanghai["name"]))
+        with self.assertRaisesRegex(build.ValidationError, "station link disagrees"):
             build.build(self.source, self.target)
 
     def test_fabricated_osm_reference_rejected(self):

@@ -10,7 +10,7 @@ Corrections and added mappings must include evidence in their pull request.
 | --- | --- | --- |
 | Japanese physical stations and route graph | [Seo-4d696b75/station_database](https://github.com/Seo-4d696b75/station_database), revision `76d4d4dbf15aa1ef967fc137b4ddf892abe3f3f8` | [CC BY-SA 4.0](licenses/CC-BY-SA-4.0.txt); see [`licenses/station_database.md`](licenses/station_database.md) |
 | Japanese FeliCa and bus code/name registries | Existing CardBal code tables | Separate upstream grant not recorded in the imported assets |
-| Published T-Union station, line, gate, and Shanghai CU data | Domosekai Limited and Trip Reader data contributors, [domosekai/tripreader-data](https://github.com/domosekai/tripreader-data), revision `c5584d6b8d9a39d7162b7b9781134be52db66186` | [CC BY 4.0](licenses/CC-BY-4.0.txt) |
+| Published T-Union station, line, gate, and Shanghai/Shenzhen CU data | Domosekai Limited and Trip Reader data contributors, [domosekai/tripreader-data](https://github.com/domosekai/tripreader-data), revision `c5584d6b8d9a39d7162b7b9781134be52db66186` | [CC BY 4.0](licenses/CC-BY-4.0.txt) |
 | China coordinates and OSM names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), retained OSM element type/ID | [ODbL 1.0](licenses/ODbL-1.0.txt) |
 | Three Taizhou station codes and reviewed exact terminal-to-station links | Domosekai Limited, Trip Reader 读卡识途 1.7.17-cn | APK data terms not specified; the public CSV license is not asserted for these mappings |
 | Base Korean exact location aliases | [iebb/korean-stations](https://github.com/iebb/korean-stations), consumer export revision `f63c4050f862f4b64a530bf923d5f21cd2698847`, SHA-256 `a8b3076d10bd19a18f00fff650b4c96ddfa26d2f7fc458fa801911c4e10e86c0` | Korean public-sector datasets (KORAIL KOTRIS, MOLIT, Seoul Metropolitan Government, Busan BIMS, KRIC, Daegu Transportation Corporation), each under its publisher's terms; Seoul data is [KOGL Type 1](https://www.kogl.or.kr/info/licenseType1.do) |
@@ -62,9 +62,18 @@ The Chinese-city enrichment snapshot is dated 2026-10-28. Its city-scoped OSM
 queries, hashes, identity rejections and route evidence are summarized in
 `research/china-osm-audit-2026-10-28.json`; exact historical-name exceptions
 include cited Wikipedia and primary OSM evidence. Native names and original
-card keys are preserved. Three additional full-length keys are exact publicly
-shown station-report observations, corroborated against primary OSM station
-and line identities; no private report fields or location pins are distributed.
+card keys are preserved. Two additional Chengdu full-length keys are exact
+station-report observations, corroborated against primary OSM station and line
+identities; no private report fields or location pins are distributed. The
+previous Shenzhen alias was retracted after contradictory reports showed that
+its field cannot identify a station; see the follow-up below.
+
+The [2026-11-01 station-report review](docs/station-reports-2026-11-01.md)
+adds 284 station-level Shenzhen terminal prefixes from the public
+`Guangdong/Shenzhen/cu.csv` at the pinned revision above. The 30 line/operator
+prefixes are excluded. Names and line labels are retained without invented
+TU station links or coordinates. File checksums are recorded in
+`reference/tripreader-provenance.json`.
 
 The follow-up review of the remaining Chinese references is recorded in
 `docs/remaining-china-north-2026-10-28.md` and

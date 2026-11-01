@@ -63,6 +63,10 @@ The [2026-10-28 Chinese-city audit](docs/china-osm-research-2026-10-28.md)
 covers every existing station-city CSV and all 368 city-code OSM references.
 [Incoming station reports](docs/station-reports-2026-10-28.md) are reviewed
 separately; only exact observed keys with physical-source evidence become aliases.
+The [2026-11-01 follow-up](docs/station-reports-2026-11-01.md) retracts a
+conflicting Shenzhen station-field alias and adds 284 published station-level
+terminal prefixes, bringing the City Union terminal table to 898 rows
+(614 Shanghai, 284 Shenzhen).
 
 Follow-up research covers the initial 190 remaining Chinese reference gaps
 ([north/east](docs/remaining-china-north-2026-10-28.md),

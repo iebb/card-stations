@@ -23,8 +23,11 @@ empty to inherit it. Do not repeat the same name in a translation column.
   without a physical mapping can omit coordinates and `station_code`.
 - T-Union: `code` contains its four-character city prefix. The city is also the
   file name, not a repeated column. `terminals/18/<city>.csv` contains 12-hex
-  terminals; `terminals/1e/<city>.csv` contains 16-hex terminals. Shanghai CU
-  prefixes remain in `cityunion/2000.csv`, separate from TU city `2900`.
+  terminals; `terminals/1e/<city>.csv` contains 16-hex terminals. City Union
+  terminal prefixes use `cityunion/<city>.csv`: Shanghai `2000` (TU `2900`)
+  has 8-, 10-, or 12-character prefixes; Shenzhen `5180` (TU `5840`) has
+  9-character station prefixes. Shenzhen's TU travel records also use these
+  CU prefixes after their terminal discriminator has been checked.
 - Korean: `code` is the eight-hex station token followed by the four-hex mode.
   Neither component nor any mode labels are repeated as station columns.
   Company grouping does not assert an operator where it is unknown.
