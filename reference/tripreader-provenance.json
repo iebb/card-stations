@@ -56,6 +56,27 @@
       "url": "https://github.com/domosekai/tripreader-data"
     },
     {
+      "attribution": "Domosekai Limited and Trip Reader data contributors",
+      "files": {
+        "Guangdong/Dongguan/metro-tu.csv": "59466a65f418837cfad43cefd54157c2b61f123e6a31ba6209c733cbf42dbb62",
+        "Guangdong/Foshan/metro-tu.csv": "532611b5096a1432fa0c1b5e00a68549d118d2d61b74a898a0c14c94e95b52e8",
+        "Guangdong/Guangzhou/metro-tu.csv": "85e4d94ab3260229c588076115dd14a3b4839b4748b90fd1290fc673aa82cb8e",
+        "Hubei/Wuhan/metro-tu.csv": "0a90e60a4ee1cb90bb60fc30853d5dc284559f384e28e0658e0bc24fd9fdfd07",
+        "Jiangsu/Nanjing/metro-tu.csv": "7a6a1261e1f5dc6100307adc568d9cadf4b596311195a4c9c154976489375abf",
+        "Jiangsu/Nantong/metro-tu.csv": "9a7e595a0aff6d1cc9f0f71457ba538e8f654c525dc5c6d57f99ed6e87be94ca",
+        "Jiangsu/Xuzhou/metro-tu.csv": "85dbe1afc54e6a7276b493c444e42404fc075135737615d6932677308d0a91b7",
+        "Shandong/Qingdao/metro-tu.csv": "e6764cf3ab20ac7849325a5fea8808d2b37e9eba4822a071a060481849357c15",
+        "Sichuan/Chengdu/metro-tu.csv": "0adaa8c345361bc5508551dbb30a5444e79449469286eaff301388a03f839d64",
+        "Tianjin/metro-tu.csv": "3403e5f6e8b1f7e96a2a1778504f6b4f6750f7044500d2c5c2530eb5875465ea",
+        "Xinjiang/Urumqi/metro-tu.csv": "8c5f3b48b40b26202b417962d32f78a236dd2ba63d284212f809e960881f410e",
+        "Zhejiang/Jinhua/metro-tu.csv": "e99ec6bc243d0445db836ce759e5cd8038c2d1f558941a93f1c512fb0922b3ef",
+        "Zhejiang/Ningbo/metro-tu.csv": "9580b4dc4a4992925fd867e4cd7a4e341077db99a24de62e95d20a2d3ced56e2"
+      },
+      "license": "CC-BY-4.0",
+      "revision": "3b54dbb90607826c4ab7bfa697fa255c4480971e",
+      "url": "https://github.com/HaoTian22/tripreader-data"
+    },
+    {
       "attribution": "Domosekai Limited, Trip Reader 读卡识途",
       "license": "APK data terms not specified",
       "notes": "Three rail station-code/name pairs absent from the existing registry, plus 4014 exact terminal-to-station aliases matching published gate IDs. Eleven aliases resolve the current name 长安. Literal data from the official APK; no application code or executable is redistributed.",
