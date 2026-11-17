@@ -62,11 +62,11 @@ def load_data(root):
                     if spec["name"] == "terminals":
                         row["_kind"] = path.parent.name
                     code = row["code"]
-                    key = (row.get("_kind", ""), path.stem, code) if spec["name"] in ("terminals", "cityunion") else code
+                    key = (row.get("_kind", ""), path.stem, code) if spec["name"] in ("terminals", "cityunion", "lingnan") else code
                     if not code or key in seen:
                         fail(label, f"empty or duplicate code {code!r} across CSV files")
                     seen.add(key)
-                    if not row["name"] and not (spec["name"] in ("terminals", "cityunion") and row["station_code"]):
+                    if not row["name"] and not (spec["name"] in ("terminals", "cityunion", "lingnan") and row["station_code"]):
                         fail(label, "name is required")
                     if spec["name"] == "japanese-ic":
                         require_hex(code, 5, label)
@@ -84,11 +84,14 @@ def load_data(root):
                         require_hex(code, 12 if row["_kind"] == "18" else 16, label)
                         require_hex(path.stem, 4, label)
                     elif spec["name"] == "cityunion":
-                        lengths = {"2000": (8, 10, 12), "5180": (9,)}
+                        lengths = {"2000": (8, 10, 12), "3100": (12,), "5180": (9,)}
                         if (not re.fullmatch(r"[0-9A-F]+", code)
                                 or not code.startswith(path.stem)
                                 or len(code) not in lengths.get(path.stem, ())):
                             fail(label, "invalid City Union terminal prefix")
+                    elif spec["name"] == "lingnan":
+                        if path.stem != "0100" or not re.fullmatch(r"[0-9A-F]{12}", code) or not code.startswith(path.stem):
+                            fail(label, "invalid Lingnan Pass terminal")
                     elif spec["name"] in ("u-money", "u-money-lines", "modes"):
                         if not re.fullmatch(r"[1-9][0-9]*", code):
                             fail(label, "code must be a positive decimal identifier")
@@ -109,14 +112,16 @@ def load_data(root):
                     rows.append(row)
         tables[spec["name"]] = sorted(rows, key=lambda r: (r.get("_kind", ""), r["code"], r["_group"]))
     stations = {r["code"]: r for r in tables["t-union"]}
-    for table in ("terminals", "cityunion"):
+    linked_cities = {"cityunion": {"2000": ("2900",), "3100": ("3310", "3350", "3370"), "5180": ("5840",)},
+                     "lingnan": {"0100": ("5810", "5880")}}
+    for table in ("terminals", "cityunion", "lingnan"):
         for row in tables[table]:
             linked = row["station_code"]
             if linked:
                 if linked not in stations:
                     fail(table, f"orphan station link {linked}")
-                expected_city = row["_group"] if table == "terminals" else {"2000": "2900", "5180": "5840"}[row["_group"]]
-                if not linked.startswith(expected_city) or (row["name"] and row["name"] != stations[linked]["name"]):
+                expected_cities = (row["_group"],) if table == "terminals" else linked_cities[table][row["_group"]]
+                if not linked.startswith(expected_cities) or (row["name"] and row["name"] != stations[linked]["name"]):
                     fail(table, f"station link disagrees with city or name: {linked}")
     modes = {int(r["code"]): r for r in tables["modes"]}
     for row in tables["korean"]:

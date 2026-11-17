@@ -15,8 +15,10 @@ Do not add dated reports, work logs, progress summaries, or candidate inventorie
 
 ## Always
 
-- Never change an existing card code or native primary name. Add identity,
-  coordinates, references, and translations around them.
+- Never change an existing card code. Change a native primary name only for an
+  official rename documented upstream or in `reference/`, and keep the former
+  name in that evidence. Add identity, coordinates, references, and translations
+  around them.
 - Never derive a code from a station name, an OSM ID, a terminal number, or a
   public station number. Never infer a line or physical station from the digits
   or order of card codes.

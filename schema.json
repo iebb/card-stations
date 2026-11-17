@@ -116,6 +116,25 @@
       ]
     },
     {
+      "name": "lingnan",
+      "glob": "data/t-union/lingnan/**/*.csv",
+      "columns": [
+        "code",
+        "station_code",
+        "name",
+        "name_en",
+        "name_ja",
+        "name_hanja",
+        "name_zh_hans",
+        "name_zh_hant",
+        "line_code",
+        "line",
+        "latitude",
+        "longitude",
+        "osm_ref"
+      ]
+    },
+    {
       "name": "modes",
       "glob": "data/korean/modes.csv",
       "columns": [

@@ -47,7 +47,8 @@ def export_assets(root, output, data):
             "osm_type": osm_type, "osm_id": osm_id, "osm_name_en": r["name_en"] or None,
             "osm_name_ja": r["name_ja"] or None, "osm_name_zh": r["name_zh_hans"] or None,
             "source_code": r["code"][4:], "source_line_name": r["line"]})
-    for table, key, name in (("tunion_terminal_stations", "terminal_code", "terminals"), ("cityunion_terminal_prefixes", "terminal_prefix", "cityunion")):
+    for table, key, name in (("tunion_terminal_stations", "terminal_code", "terminals"), ("cityunion_terminal_prefixes", "terminal_prefix", "cityunion"),
+                             ("cityunion_terminal_prefixes", "terminal_prefix", "lingnan")):
         for r in data[name]:
             linked = cn_by_code.get(r["station_code"])
             row = {key: r["code"], "city_id": r["_group"], "station_name": r["name"] or linked["name"],

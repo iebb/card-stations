@@ -25,9 +25,13 @@ empty to inherit it. Do not repeat the same name in a translation column.
   file name, not a repeated column. `terminals/18/<city>.csv` contains 12-hex
   terminals; `terminals/1e/<city>.csv` contains 16-hex terminals. City Union
   terminal prefixes use `cityunion/<city>.csv`: Shanghai `2000` (TU `2900`)
-  has 8-, 10-, or 12-character prefixes; Shenzhen `5180` (TU `5840`) has
-  9-character station prefixes. Shenzhen's TU travel records also use these
-  CU prefixes after their terminal discriminator has been checked.
+  has 8-, 10-, or 12-character prefixes; Hangzhou Metro `3100` has 12-character
+  terminals on Hangzhou (TU `3310`), Shaoxing (`3370`), and Jiaxing (`3350`)
+  lines; Shenzhen `5180` (TU `5840`) has 9-character station prefixes.
+  Shenzhen's TU travel records also use these CU prefixes after their terminal
+  discriminator has been checked. Lingnan Pass terminals use
+  `lingnan/0100.csv`: 12-character Guangzhou and Foshan (TU `5810`, `5880`)
+  metro terminals.
 - Korean: `code` is the eight-hex station token followed by the four-hex mode.
   Neither component nor any mode labels are repeated as station columns.
   Company grouping does not assert an operator where it is unknown.

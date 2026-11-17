@@ -143,23 +143,6 @@
     },
     {
       "city_code": "8210",
-      "code": "821000010021",
-      "native_name": "深安大桥南",
-      "osm_ref": "node/6563923252",
-      "current_osm_name": "奥体中心",
-      "line": "1号线",
-      "stop_area_id": null,
-      "route_ids": [],
-      "sources": [
-        "https://www.openstreetmap.org/node/6563923252",
-        "https://zh.wikipedia.org/wiki/奥体中心站_(兰州市)"
-      ],
-      "reason": "The live OSM subway station has exact old_name 深安大桥南. The station article independently records the 2023-11-22 rename to 奥体中心. Preserve the existing native lookup label.",
-      "preserve_name": true,
-      "preserve_code": true
-    },
-    {
-      "city_code": "8210",
       "code": "821000010022",
       "native_name": "兰州城市学院",
       "osm_ref": "node/6563941615",

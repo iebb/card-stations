@@ -158,6 +158,32 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(build.ValidationError, "station link disagrees"):
             build.build(self.source, self.target)
 
+    def test_hangzhou_and_lingnan_terminals_export_with_station_links(self):
+        with closing(sqlite3.connect(self.output / "tunion_stations.sqlite")) as db:
+            for city, stations in (("3100", ("3310", "3350", "3370")), ("0100", ("5810", "5880"))):
+                keys = [r[0] for r in db.execute(
+                    "SELECT station_key FROM cityunion_terminal_prefixes WHERE city_id=? AND station_key IS NOT NULL", (city,))]
+                with self.subTest(city=city):
+                    self.assertGreater(len(keys), 1000)
+                    self.assertTrue(all(key.startswith(stations) for key in keys))
+                    self.assertEqual({key[:4] for key in keys}, set(stations))
+
+    def test_lingnan_rejects_other_terminal_forms(self):
+        path = self.source / "data/t-union/lingnan/0100.csv"
+        original = path.read_bytes()
+        for code in ("01001634", "0200163423AB", "0100163423ab"):
+            path.write_bytes(original)
+            self.edit("data/t-union/lingnan/0100.csv", lambda rows: rows[0].update(code=code))
+            with self.subTest(code=code), self.assertRaisesRegex(build.ValidationError, "Lingnan Pass terminal"):
+                build.build(self.source, self.target)
+
+    def test_lingnan_cannot_link_to_another_city(self):
+        data, _ = build.load_data(self.source)
+        shanghai = next(r for r in data["t-union"] if r["code"].startswith("2900"))
+        self.edit("data/t-union/lingnan/0100.csv", lambda rows: rows[0].update(station_code=shanghai["code"], name=""))
+        with self.assertRaisesRegex(build.ValidationError, "station link disagrees"):
+            build.build(self.source, self.target)
+
     def test_fabricated_osm_reference_rejected(self):
         self.edit("data/t-union/stations/6020.csv", lambda rows: rows[0].update(osm_ref="line-approx/123"))
         with self.assertRaisesRegex(build.ValidationError, "osm_ref"):
