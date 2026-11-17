@@ -1,1 +1,1 @@
-"""Compact routing geometry."""
+"""Geohash path encoding for routing geometry."""

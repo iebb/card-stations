@@ -7,7 +7,8 @@ ALPHABET = '0123456789bcdefghjkmnpqrstuvwxyz'
 
 
 def encode(longitude, latitude, precision=9):
-    if not 1 <= precision <= 9 or not math.isfinite(longitude) or not math.isfinite(latitude) or not -180 <= longitude <= 180 or not -90 <= latitude <= 90:
+    if not (1 <= precision <= 9 and math.isfinite(longitude) and math.isfinite(latitude)
+            and -180 <= longitude <= 180 and -90 <= latitude <= 90):
         raise ValueError('Invalid coordinate or precision')
     bounds = [[-180.0, 180.0], [-90.0, 90.0]]
     output, value = [], 0
@@ -18,7 +19,8 @@ def encode(longitude, latitude, precision=9):
         value = (value << 1) | int(high)
         bounds[axis][0 if high else 1] = mid
         if bit % 5 == 4:
-            output.append(ALPHABET[value]); value = 0
+            output.append(ALPHABET[value])
+            value = 0
     return ''.join(output)
 
 
@@ -58,12 +60,14 @@ def decode_path(value):
     while offset < len(value):
         if value[offset] not in '0123456789':
             raise ValueError('Invalid geohash prefix length')
-        shared = int(value[offset]); offset += 1
+        shared = int(value[offset])
+        offset += 1
         if shared > min(len(previous), precision) or offset + precision - shared > len(value):
             raise ValueError('Truncated geohash path')
         current = previous[:shared] + value[offset:offset + precision - shared]
         offset += precision - shared
-        output.append(decode(current)); previous = current
+        output.append(decode(current))
+        previous = current
     if len(output) < 2:
         raise ValueError('A path needs at least two distinct vertices')
     return output

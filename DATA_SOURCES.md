@@ -1,103 +1,85 @@
 # Data sources and attribution
 
-The migration changes the storage format, grouping, and output generation.
-Upstream lookup identifiers, station names, coordinates, and real OSM references
-are retained. Source citations and licenses live here and in `reference/`;
-timestamps, matching scores, and per-row source payloads are omitted.
-Corrections and added mappings must include evidence in their pull request.
+Every correction or new mapping must cite its evidence in the pull request.
+Station CSVs hold no timestamps, matching scores, or per-row source payloads.
+Source revisions, checksums, and per-code evidence live in `reference/` and
+`research/`. [`licenses/`](licenses/README.md) maps each path to its license.
 
-| Data | Source | Recorded terms |
+| Data | Source | Terms |
 | --- | --- | --- |
 | Japanese physical stations and route graph | [Seo-4d696b75/station_database](https://github.com/Seo-4d696b75/station_database), revision `76d4d4dbf15aa1ef967fc137b4ddf892abe3f3f8` | [CC BY-SA 4.0](licenses/CC-BY-SA-4.0.txt); see [`licenses/station_database.md`](licenses/station_database.md) |
-| Japanese FeliCa and bus code/name registries | Existing CardBal code tables | Separate upstream grant not recorded in the imported assets |
-| Published T-Union station, line, gate, and Shanghai/Shenzhen CU data | Domosekai Limited and Trip Reader data contributors, [domosekai/tripreader-data](https://github.com/domosekai/tripreader-data), revision `c5584d6b8d9a39d7162b7b9781134be52db66186` | [CC BY 4.0](licenses/CC-BY-4.0.txt) |
-| China coordinates and OSM names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), retained OSM element type/ID | [ODbL 1.0](licenses/ODbL-1.0.txt) |
-| Three Taizhou station codes and reviewed exact terminal-to-station links | Domosekai Limited, Trip Reader 读卡识途 1.7.17-cn | APK data terms not specified; the public CSV license is not asserted for these mappings |
-| Base Korean exact location aliases | [iebb/korean-stations](https://github.com/iebb/korean-stations), consumer export revision `f63c4050f862f4b64a530bf923d5f21cd2698847`, SHA-256 `a8b3076d10bd19a18f00fff650b4c96ddfa26d2f7fc458fa801911c4e10e86c0` | Korean public-sector datasets (KORAIL KOTRIS, MOLIT, Seoul Metropolitan Government, Busan BIMS, KRIC, Daegu Transportation Corporation), each under its publisher's terms; Seoul data is [KOGL Type 1](https://www.kogl.or.kr/info/licenseType1.do) |
-| Additional collected Korean aliases and official station fields | [MOLIT settlement inventory, 2026-07-03](https://www.data.go.kr/data/15128614/fileData.do), reviewed station-only source revision `5f9f9392e2c6e3312bba1dd6e445b2c5edbd4bf6`, and exact Seoul stop IDs | Official source-specific terms; Seoul inputs retain [KOGL Type 1](https://www.kogl.or.kr/info/licenseType1.do) attribution |
-| Korean map references and supplementary names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), pinned Geofabrik South Korea 2026-07-28 extract, and identity-linked [Wikidata labels](https://www.wikidata.org/wiki/Wikidata:Licensing) | OSM-derived Korean data is an [ODbL 1.0](licenses/ODbL-1.0.txt) Derived Database; Wikidata structured labels are [CC0 1.0](licenses/CC0-1.0.txt) |
-| Korean transport-mode catalog | [KORAIL KOTRIS, 2023-08-25 dataset](https://www.data.go.kr/data/15121099/fileData.do) | Imported source records “No restrictions on permitted use”; supplementary entries retain separate citations |
-| Ulaanbaatar stops, routes, and sequences | Ulaanbaatar Smart Card LLC, UB Smart Bus service | A separate redistribution license was not recorded in the imported snapshot |
+| Japanese FeliCa and bus code/name registries | Existing CardBal code tables | No upstream grant recorded |
+| T-Union stations, lines, gates, and Shanghai/Shenzhen CU prefixes | Domosekai Limited and Trip Reader data contributors, [domosekai/tripreader-data](https://github.com/domosekai/tripreader-data), revision `c5584d6b8d9a39d7162b7b9781134be52db66186` | [CC BY 4.0](licenses/CC-BY-4.0.txt) |
+| Chinese coordinates and OSM names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) | [ODbL 1.0](licenses/ODbL-1.0.txt) |
+| Three Taizhou station codes and reviewed terminal-to-station links | Domosekai Limited, Trip Reader 读卡识途 1.7.17-cn | APK data terms not specified; not relicensed |
+| Base Korean location aliases | [iebb/korean-stations](https://github.com/iebb/korean-stations), revision `f63c4050f862f4b64a530bf923d5f21cd2698847`, SHA-256 `a8b3076d10bd19a18f00fff650b4c96ddfa26d2f7fc458fa801911c4e10e86c0` | Korean public-sector datasets (KORAIL KOTRIS, MOLIT, Seoul Metropolitan Government, Busan BIMS, KRIC, Daegu Transportation Corporation), each under its publisher's terms; Seoul data is [KOGL Type 1](https://www.kogl.or.kr/info/licenseType1.do) |
+| Additional Korean aliases and official station fields | [MOLIT settlement inventory, 2026-07-03](https://www.data.go.kr/data/15128614/fileData.do), station-only source revision `5f9f9392e2c6e3312bba1dd6e445b2c5edbd4bf6`, and Seoul stop IDs | Publisher terms; Seoul data is [KOGL Type 1](https://www.kogl.or.kr/info/licenseType1.do) |
+| Korean map references and supplementary names | [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (Geofabrik South Korea extract, 2026-07-28) and [Wikidata labels](https://www.wikidata.org/wiki/Wikidata:Licensing) | OSM-derived data is an [ODbL 1.0](licenses/ODbL-1.0.txt) Derived Database; Wikidata labels are [CC0 1.0](licenses/CC0-1.0.txt) |
+| Korean transport modes | [KORAIL KOTRIS, 2023-08-25 dataset](https://www.data.go.kr/data/15121099/fileData.do) | Recorded as “No restrictions on permitted use”; supplementary modes cite their own sources |
+| Ulaanbaatar stops, routes, and sequences | Ulaanbaatar Smart Card LLC, UB Smart Bus service | No redistribution license recorded |
 
-Full pinned Trip Reader source-file checksums and the separately identified APK
-supplement remain in [`reference/tripreader-provenance.json`](reference/tripreader-provenance.json).
-The three APK station codes are `34503113` (仙居南), `34503116` (临海南), and
-`34503119` (台州西). These and exact terminal links have distinct provenance.
-No APK, decompiled application code, card identifiers, or travel histories are
-distributed here.
+## Japan
 
-Base Korean names come from the pinned station-only consumer export. The
-follow-up research below adds reviewed station-only identities and separately
-attributed official and map fields. Missing operator names remain unknown.
-Mode names, translations, and classes are normalized into
-one `data/korean/modes.csv`, joined by the mode embedded in each location code.
-`reference/korean-mode-metadata.json` preserves the
-official catalog metadata and supplementary-mode citations.
+Decoder names and coordinates come from the same station rows. Synthetic
+line-approximation IDs are never presented as OSM references.
 
-Japanese decoder names now come from the same station rows as coordinates;
-empty unnamed registry entries and duplicate spelling tables are not carried
-forward. Terminal names inherit from linked stations when identical. Synthetic
-line-approximation IDs are not presented as OSM references. Matching diagnostics and administrative lookup metadata are outside the station
-CSVs. Routing tables are separate. These format changes do not add new station mappings.
-
-The [BSD 3-Clause License](LICENSE) covers this repository's compiler,
-contribution tooling, and original contributions. It does not replace upstream
-data licenses or supply missing permission for datasets whose grant was not
-recorded. Consumers must retain applicable attribution and share-alike notices
-for the data they redistribute. [`licenses/`](licenses/README.md) maps each path
-to its license and holds the full license texts.
-
-Japanese routing geometry uses the `extra` rail polylines in
+Routing geometry uses the `extra` rail polylines from
 [station_database](https://github.com/Seo-4d696b75/station_database), revision
-`66ba36b937ab40fb53afafb4d0ec10ba652b876a`. The project publishes rail polylines from source-specific origins, including
-MLIT National Land Numerical Information 2008/2017 and historical sources such
-as rail-history.org; declared origins are retained in the routing provenance. We clip
-continuous source paths between verified station positions, then quantize
-vertices to nine-character geohashes with shared-prefix compression. Exact
-input hashes and coverage are in `reference/japan-routing.json`. The source
-license notice is retained in `licenses/station_database.md`. Unmatched edges
-retain their prior distance and have no claimed detailed geometry.
+`66ba36b937ab40fb53afafb4d0ec10ba652b876a`. Those polylines come from
+several origins, including MLIT National Land Numerical Information
+(2008/2017) and historical sources such as rail-history.org.
+`reference/japan-routing.json` keeps each declared origin, the input hashes,
+and coverage. See [routing/README.md](routing/README.md) for the method.
 
-The Chinese-city enrichment snapshot is dated 2026-10-28. Its city-scoped OSM
-queries, hashes, identity rejections and route evidence are summarized in
-`research/china-osm-audit-2026-10-28.json`; exact historical-name exceptions
-include cited Wikipedia and primary OSM evidence. Native names and original
-card keys are preserved. Two additional Chengdu full-length keys are exact
-station-report observations, corroborated against primary OSM station and line
-identities; no private report fields or location pins are distributed. The
-previous Shenzhen alias was retracted after contradictory reports showed that
-its field cannot identify a station; see the follow-up below.
+## China (T-Union)
 
-The [2026-11-01 station-report review](docs/station-reports-2026-11-01.md)
-adds 284 station-level Shenzhen terminal prefixes from the public
-`Guangdong/Shenzhen/cu.csv` at the pinned revision above. The 30 line/operator
-prefixes are excluded. Names and line labels are retained without invented
-TU station links or coordinates. File checksums are recorded in
-`reference/tripreader-provenance.json`.
+Shenzhen's 284 station-level terminal prefixes come from public
+`Guangdong/Shenzhen/cu.csv` at the revision above. The 30 broader line/operator
+prefixes are excluded. Names and line labels have no inferred TU station links
+or coordinates; file checksums are in `reference/tripreader-provenance.json`.
 
-The follow-up review of the remaining Chinese references is recorded in
-`docs/remaining-china-north-2026-10-28.md` and
-`docs/remaining-china-south-2026-10-28.md`, with per-code evidence under
-`research/`. OSM station nodes and explicitly supported stop groups supply
-coordinates and references; cited Wikipedia articles, operator publications,
-and government naming records establish historical names and service context.
-Card-city prefixes do not require administrative containment for intercity
-services. Native lookup names and codes remain unchanged, and uncertain
-spelling-only or directional matches stay unresolved.
+`reference/tripreader-provenance.json` pins the Trip Reader source-file checksums
+and the separate APK supplement. The APK supplies three station codes, `34503113`
+(仙居南), `34503116` (临海南), and `34503119` (台州西), plus exact terminal links.
+No APK, decompiled code, card identifiers, or travel histories are distributed.
 
-The Korean follow-up uses the station-only source above and the public
-[station-observations aggregate](https://korean-trip-crowdsourcing.ieb.app/research/station-observations)
-to identify collected keys. Additional bus identities require an exact,
-unambiguous official settlement ID, a reviewed bus mode, a normal entry/exit
-observation, and consistent administrative state. The source CSV checksum and
-selection evidence are retained in the research audit. The 1,384 new aliases
-comprise 977 previously reviewed keys and 407 independently reviewed additions.
-MOLIT station facts use its 2026-07-03 snapshot; exact Seoul stop and route joins
-use 2026-08-04 files, with compatible multilingual labels from February 2025.
-No card identifiers,
-histories, raw captures, or observation timestamps are included. See
-`docs/korean-station-research-2026-10-28.md` and
-`docs/korean-collected-candidates-review-2026-10-28.md` for the independent
-review and field-specific source dates. Existing populated Korean fields are
-preserved; map references require explicit stop IDs or supported rail identity,
-and ambiguous features remain unlinked.
+The OSM enrichment snapshot is dated 2026-10-28. These files under `research/`
+record queries, hashes, accepted identities, rejections, and route evidence:
+
+- `china-osm-audit-2026-10-28.json`: city-scoped enrichment
+- `reviewed-name-equivalences.json`: former and short/full names, with
+  Wikipedia and OSM citations
+- `remaining-china-north-2026-10-28.json` and
+  `remaining-china-south-2026-10-28.json`: one decision per previously
+  unreferenced code
+- `station-body-corrections-2026-10-28.json`: two corrected line-specific
+  references
+
+Cited Wikipedia articles, operator publications, and government naming records
+establish historical names. Their coordinates and station numbers are not
+imported.
+
+## Korea
+
+The [public station-observations aggregate](https://korean-trip-crowdsourcing.ieb.app/research/station-observations)
+identified which codes cards actually report. The 1,384 aliases added from it
+comprise 977 previously reviewed keys and 407 independently reviewed ones. MOLIT
+station facts come from its 2026-07-03 snapshot. Seoul stop and route joins use
+the 2026-08-04 files, and Seoul multilingual labels come from February 2025.
+
+`research/korean-osm-audit-2026-10-28.json` records the new codes, input hashes,
+accepted OSM object versions, ARS IDs, field sources, and withheld matches.
+`research/korean-collected-candidates-review-2026-10-28.json` records the 407
+cleared keys and the dated Seoul name bridges. `data/korean/modes.csv` holds mode
+names once. `reference/korean-mode-metadata.json` keeps the official catalog
+metadata and the citations for supplementary modes.
+
+No card identifiers, histories, raw captures, or observation timestamps are
+included.
+
+## License scope
+
+The [BSD 3-Clause License](LICENSE) covers the compiler, tooling, and original
+contributions. It does not replace upstream data licenses, and it grants nothing
+for datasets with no recorded upstream grant. When you redistribute the data, keep
+its attribution and share-alike notices.

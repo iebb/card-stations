@@ -129,7 +129,8 @@ def write_rows(path, columns, rows):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', encoding='utf-8', newline='') as handle:
         writer = csv.writer(handle, lineterminator='\n')
-        writer.writerow(columns); writer.writerows(rows)
+        writer.writerow(columns)
+        writer.writerows(rows)
 
 
 def main():
@@ -144,7 +145,7 @@ def main():
         for r in csv.DictReader(handle):
             if r.get('station_code') and r.get('latitude'):
                 coordinates[r['station_code']] = (float(r['longitude']), float(r['latitude']))
-    # Rail-only intermediary stations keep their source positions for clipping.
+    # Stations without a card code still need their source positions for clipping.
     source_stations = json.loads((station_root / 'station.json').read_text())
     for r in source_stations:
         coordinates.setdefault(str(r['code']), (r['lng'], r['lat']))
@@ -173,7 +174,8 @@ def main():
                     result = None
                 if result:
                     length, encoded = result
-                    detailed += 1; vertices += len(decode_path(encoded))
+                    detailed += 1
+                    vertices += len(decode_path(encoded))
                 else:
                     length, encoded = old_distance, ''
                 output.append((line, start, end, length, encoded))

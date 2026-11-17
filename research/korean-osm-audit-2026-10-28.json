@@ -6184,7 +6184,6 @@
     }
   ],
   "additional_407_review": {
-    "documentation": "docs/korean-collected-candidates-review-2026-10-28.md",
     "audit": "research/korean-collected-candidates-review-2026-10-28.json",
     "candidate_artifact_sha256": "dc94682702067c606b2ce469e6a17920d4ad5abf476df5f19c78be658dc28cbf"
   },

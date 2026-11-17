@@ -1,77 +1,70 @@
 # Card Stations
 
-Contribution-friendly transit-card station CSVs. Each row contains only codes,
-names, lines, coordinates, and OSM references.
+**English** · [Español](README.es.md) · [Français](README.fr.md) · [简体中文](README.zh-CN.md) · [繁體中文（台灣）](README.zh-TW.md) · [繁體中文（香港）](README.zh-HK.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-| Cards | Station files |
+Card Stations is an open catalog that maps the station codes stored on transit
+cards to station names, lines, coordinates, and OpenStreetMap references. The
+source is plain CSV, so contributions are easy to review. A small Python compiler
+validates the CSVs and generates the files that apps load.
+
+## Coverage
+
+| Card family | Station files |
 | --- | --- |
-| Japanese IC | `data/japanese-ic/stations/all.csv` — one shared network |
-| T-Union | `data/t-union/stations/<city-code>.csv` |
-| Korean cards | `data/korean/stations/<company-or-mode>.csv` |
-| U-money | `data/u-money/stations/ulaanbaatar.csv` |
+| Japanese IC (Suica, PASMO, ICOCA, …) | `data/japanese-ic/stations/all.csv` |
+| China T-Union | `data/t-union/stations/<city-code>.csv` |
+| Korean transit cards | `data/korean/stations/<company-or-mode>.csv` |
+| Mongolia U-money | `data/u-money/stations/ulaanbaatar.csv` |
 
-For example, Dongguan uses:
+Each row identifies one card code:
 
 ```csv
 code,name,line_code,line,latitude,longitude,osm_ref
 602000020201,东莞火车站,60200002,2号线,23.0914394,113.8557158,node/7942711901
 ```
 
-All families use the same column names. Optional translations and separate
-physical-station codes appear only where useful. Empty cells mean unknown.
-There are no JSON cells, matching scores, timestamps, or duplicated source fields.
+Column names mean the same thing in every card family. An empty cell means the
+value is unknown. Translation columns appear only when a source supplies them.
+The file path gives the city or company. Korean mode names are stored once in
+[`data/korean/modes.csv`](data/korean/modes.csv), because the last four hex
+digits of each Korean code identify the mode. [SCHEMA.md](SCHEMA.md) is the full
+format reference.
 
-Korean mode names, translations, and classes live once in
-[`data/korean/modes.csv`](data/korean/modes.csv). The station's 12-hex `code`
-already contains its mode in the final four characters, so station CSVs have no
-transport-mode columns.
+## Routing
 
-Terminal mappings use the same compact columns. A linked terminal inherits its
-station name when its own name is empty. City codes and record kind come from
-file paths. See [SCHEMA.md](SCHEMA.md) for the short format reference.
+Station-to-station edges are stored separately, in `edges.csv` and `edges/`.
+Known stop order is in `line-stops.csv`. Japanese edges include detailed rail
+geometry, encoded as prefix-compressed geohash paths that are accurate to a few
+metres. A blank geometry means that no verified continuous path exists, so apps
+draw a straight station-to-station line instead. See
+[routing/README.md](routing/README.md).
 
-## Contribute and build
+## Build
 
-Edit a CSV and open a pull request against `master`, with a source for the change.
-Python's standard library is sufficient:
+You need only Python 3 and its standard library.
 
 ```sh
-python3 build.py --check
-python3 -m unittest discover -s tests -v
-python3 build.py --output dist
+python3 build.py --check                    # validate all sources
+python3 -m unittest discover -s tests -v    # run the test suite
+python3 build.py --output dist              # generate SQLite, TSV, and JSON assets
 ```
 
-The compiler generates the SQLite, TSV, and JSON formats required by existing
-apps. Generated files stay out of Git. CardBal pins a commit of this repository;
-`--csv-source /path/to/card-stations` tests a local contribution.
+Generated files go in `dist/` and are not committed. Apps pin a commit of this
+repository. To test a local change in CardBal, build it with
+`--csv-source /path/to/card-stations`.
 
-Routing CSVs are separate from station rows: `edges.csv`/`edges/` contain line,
-endpoint codes, distance, and optional geometry; `line-stops.csv` records known
-stop order. Japanese edges use station_database's detailed rail polylines.
-Vertices are geohash encoded and prefix compressed, reducing storage while
-retaining metre-scale detail. A blank geometry means the source did not provide
-a continuous match; applications retain their station-to-station fallback.
+## Contributing
 
-See [routing/README.md](routing/README.md) for the format and provenance.
+Edit a CSV, cite your source, and open a pull request against `master`. Codes are
+text, so keep their leading zeroes. Never guess coordinates or OSM identities.
+Leave a cell empty when you are unsure. [CONTRIBUTING.md](CONTRIBUTING.md) lists
+the rules, and [AGENTS.md](AGENTS.md) describes the research method behind the
+current data.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [DATA_SOURCES.md](DATA_SOURCES.md).
-Code and original contributions are [BSD 3-Clause](LICENSE) licensed; imported
-data keeps its upstream license. See [`licenses/`](licenses/README.md) for the
-license of each path.
+## License
 
-The [2026-10-28 Chinese-city audit](docs/china-osm-research-2026-10-28.md)
-covers every existing station-city CSV and all 368 city-code OSM references.
-[Incoming station reports](docs/station-reports-2026-10-28.md) are reviewed
-separately; only exact observed keys with physical-source evidence become aliases.
-The [2026-11-01 follow-up](docs/station-reports-2026-11-01.md) retracts a
-conflicting Shenzhen station-field alias and adds 284 published station-level
-terminal prefixes, bringing the City Union terminal table to 898 rows
-(614 Shanghai, 284 Shenzhen).
-
-Follow-up research covers the initial 190 remaining Chinese reference gaps
-([north/east](docs/remaining-china-north-2026-10-28.md),
-[south/west](docs/remaining-china-south-2026-10-28.md)) and
-[collected Korean station codes](docs/korean-station-research-2026-10-28.md).
-The audits record verified additions and explicit deferrals; the
-[independent review](docs/station-research-independent-review-2026-10-28.md)
-explains the higher-risk identity decisions.
+The code and original contributions use the [BSD 3-Clause](LICENSE) license.
+Imported data keeps its upstream license, which includes ODbL, CC BY-SA 4.0, and
+CC BY 4.0. [DATA_SOURCES.md](DATA_SOURCES.md) records every source, and
+[`licenses/`](licenses/README.md) gives the license for each path and the
+attribution you must keep.
