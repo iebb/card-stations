@@ -1,0 +1,29 @@
+{
+  "format": "card-stations-tunion-aliases-v1",
+  "aliases": [
+    {
+      "code": "651000060638000000",
+      "station_code": "65100638",
+      "name": "西南交大",
+      "osm_ref": "node/8242507064",
+      "code_evidence": "Complete observed card lookup key; applies only to this exact string.",
+      "station_sources": [
+        "https://www.openstreetmap.org/node/8242507064",
+        "https://www.openstreetmap.org/relation/12038792",
+        "https://www.openstreetmap.org/relation/9627850"
+      ]
+    },
+    {
+      "code": "651000030330000000",
+      "station_code": "65100330",
+      "name": "春熙路",
+      "osm_ref": "node/5617074686",
+      "code_evidence": "Complete observed card lookup key; applies only to this exact string.",
+      "station_sources": [
+        "https://www.openstreetmap.org/node/5617074686",
+        "https://www.openstreetmap.org/relation/8297270",
+        "https://www.openstreetmap.org/relation/6517083"
+      ]
+    }
+  ]
+}

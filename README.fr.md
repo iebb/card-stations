@@ -61,8 +61,8 @@ locale dans CardBal, compilez-la avec `--csv-source /chemin/vers/card-stations`.
 Modifiez un CSV, citez votre source et ouvrez une pull request vers `master`.
 Les codes sont du texte : conservez leurs zéros initiaux. Ne devinez jamais des
 coordonnées ni des identités OSM. En cas de doute, laissez la cellule vide.
-[CONTRIBUTING.md](CONTRIBUTING.md) liste les règles et [AGENTS.md](AGENTS.md)
-décrit la méthode de recherche appliquée aux données actuelles.
+[CONTRIBUTING.md](CONTRIBUTING.md) liste les règles et
+[reference/](reference/README.md) documente les sources des données.
 
 ## Licence
 

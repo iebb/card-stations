@@ -58,8 +58,7 @@ repository. To test a local change in CardBal, build it with
 Edit a CSV, cite your source, and open a pull request against `master`. Codes are
 text, so keep their leading zeroes. Never guess coordinates or OSM identities.
 Leave a cell empty when you are unsure. [CONTRIBUTING.md](CONTRIBUTING.md) lists
-the rules, and [AGENTS.md](AGENTS.md) describes the research method behind the
-current data.
+the rules, and [reference/](reference/README.md) documents the source evidence.
 
 ## License
 

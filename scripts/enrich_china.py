@@ -382,7 +382,7 @@ def main():
     parser.add_argument("--source-types", type=Path)
     parser.add_argument("--city-relations", type=Path)
     parser.add_argument("--equivalences", type=Path)
-    parser.add_argument("--audit", type=Path, help="Detailed local change ledger (default: research/local/)")
+    parser.add_argument("--audit", type=Path, help="Local diagnostics (default: dist/china-enrichment.json)")
     args = parser.parse_args()
     types = {}
     if args.source_types:
@@ -406,12 +406,11 @@ def main():
                 if not row.get(key) and source.get(key) and normalized(source[key]) != normalized(row["name"]):
                     row[key] = source[key]
         write_csv(registry, rows)
-    output = {"checked_date": "2026-10-28",
-              "policy": "Exact city-scoped OSM identities with whitespace/parenthesis equivalence or a Chinese component "
+    output = {"policy": "Exact city-scoped OSM identities with whitespace/parenthesis equivalence or a Chinese component "
                         "followed by the exact explicit name:ug suffix; preserve primary names/codes; no inferred card codes; "
                         "line labels require explicit relation membership at multiple station identities.",
               "cities": results, "changes": ledger}
-    audit_path = args.audit or args.root / "research/local/china-osm-audit-2026-10-28.json"
+    audit_path = args.audit or args.root / "dist/china-enrichment.json"
     audit_path.parent.mkdir(parents=True, exist_ok=True)
     audit_path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps({"cities": len(results), "snapshot_cities": sum(bool(r["snapshot"]) for r in results),

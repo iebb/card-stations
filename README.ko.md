@@ -55,8 +55,8 @@ python3 build.py --output dist              # SQLite, TSV, JSON 파일 생성
 
 CSV를 수정하고 출처를 밝힌 뒤 `master`로 풀 리퀘스트를 보내 주세요. 코드는 텍스트이므로
 앞자리의 0을 지우지 마세요. 좌표나 OSM 객체를 추측해서 채우지 말고, 확실하지 않으면 빈
-칸으로 두세요. 규칙은 [CONTRIBUTING.md](CONTRIBUTING.md)에, 현재 데이터의 조사 방법은
-[AGENTS.md](AGENTS.md)에 정리되어 있습니다.
+칸으로 두세요. 규칙은 [CONTRIBUTING.md](CONTRIBUTING.md)에, 데이터의 출처는
+[reference/](reference/README.md)에 정리되어 있습니다.
 
 ## 라이선스
 

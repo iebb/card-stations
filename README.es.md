@@ -61,8 +61,8 @@ compílalo con `--csv-source /ruta/a/card-stations`.
 Edita un CSV, cita la fuente y abre un pull request contra `master`. Los códigos
 son texto, así que conserva sus ceros iniciales. Nunca adivines coordenadas ni
 identidades de OSM. Deja la celda vacía si tienes dudas.
-[CONTRIBUTING.md](CONTRIBUTING.md) recoge las reglas y [AGENTS.md](AGENTS.md)
-describe el método de investigación de los datos actuales.
+[CONTRIBUTING.md](CONTRIBUTING.md) recoge las reglas y
+[reference/](reference/README.md) documenta las fuentes de los datos.
 
 ## Licencia
 

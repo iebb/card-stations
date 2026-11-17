@@ -56,7 +56,7 @@ python3 build.py --output dist              # SQLite・TSV・JSON を生成
 CSV を編集し、出典を明記して `master` 宛てにプルリクエストを送ってください。コードは
 文字列なので、先頭のゼロを消さないでください。座標や OSM の対象を推測で埋めず、確信が
 なければ空欄のままにしてください。ルールは [CONTRIBUTING.md](CONTRIBUTING.md) に、
-現在のデータの調査方法は [AGENTS.md](AGENTS.md) にまとめています。
+データの出典は [reference/](reference/README.md) にまとめています。
 
 ## ライセンス
 

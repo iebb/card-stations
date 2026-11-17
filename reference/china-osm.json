@@ -1,0 +1,1230 @@
+{
+  "format": "card-stations-china-osm-provenance-v1",
+  "source_snapshots": [
+    {
+      "city_code": "1000",
+      "name": "北京市",
+      "snapshot": {
+        "sha256": "72aa3f4ce5e46fcd17bd2cb9aea9b9ebd542acefec1df91230854476875f6923",
+        "osm_base": "2026-10-28T03:08:41Z",
+        "elements": 6478
+      },
+      "query_sha256": "49730784a5014ceb33acf60c9bff65bc5817a94cb271d6f1c11a0edf520c6ffe",
+      "supplement": {
+        "sha256": "4318609971553f7882084412886cf97655fcfa9e408edac6fcbd5f648db8ee3a",
+        "osm_base": "2026-10-28T03:27:02Z",
+        "elements": 38
+      },
+      "supplement_query_sha256": "cac207c2d6902010385100af221df5dc1f2220f3b5a89e9e4736af847f530ea7"
+    },
+    {
+      "city_code": "1121",
+      "name": "天津市",
+      "snapshot": {
+        "sha256": "59138ae7afed45115fc58fb60fdd28d9fe04f8ad27fd8c7969436f9262da22a2",
+        "osm_base": "2026-10-28T03:09:32Z",
+        "elements": 5697
+      },
+      "query_sha256": "ffe5a433bbfc00b3c8aee5a30b5eb90bdd82f77d505c2f4445f136947e59483b",
+      "supplement": {
+        "sha256": "3b46ffd72fc54f7988eeb5dd92dca4beb6c818fe97444f8a10dce38198a789bb",
+        "osm_base": "2026-10-28T03:29:05Z",
+        "elements": 5
+      },
+      "supplement_query_sha256": "e8d13f192ee45b28f8c38f8cbb3ac9b924e61cbc8b4c3a3179d70195d6d0ce0b"
+    },
+    {
+      "city_code": "2210",
+      "name": "沈阳市",
+      "snapshot": {
+        "sha256": "82e9f6dc0be573b2be4670de2d45bcdfb88e40560c5f6ab65761331a1c7d6f43",
+        "osm_base": "2026-10-28T03:10:49Z",
+        "elements": 477
+      },
+      "query_sha256": "4606a70ef8759a12c099bf7f1d228aebb81d5501f1be5a1712da4e9f0e037369"
+    },
+    {
+      "city_code": "2220",
+      "name": "大连市",
+      "snapshot": {
+        "sha256": "7f32245ac50634f3a94a19a92ab60218ac7ad1f5b8936152de4cb5d9792b7596",
+        "osm_base": "2026-10-28T03:10:49Z",
+        "elements": 349
+      },
+      "query_sha256": "db7b29cd6c8bebaed7f56e1d309b14f1ec08327f839ddab4c37299a357e60897",
+      "supplement": {
+        "sha256": "5ec260e459d9adee31260bc857fafade5227fff764542f76b0c1ebb6759eb932",
+        "osm_base": "2026-10-28T03:32:05Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "723da4925b888f2ebe88dc5155fb07eca390ba933404efe41fda754d12491a2c"
+    },
+    {
+      "city_code": "2610",
+      "name": "哈尔滨市",
+      "snapshot": {
+        "sha256": "b7a78694241b47d42f3ea8521e5c06ac4cd51955e87f50213a63d06844e09a81",
+        "osm_base": "2026-10-28T03:11:49Z",
+        "elements": 262
+      },
+      "query_sha256": "e479fb9a3a3b5ad68c250e6d5edc0b987c60c5e3f75389d7c4c657ddc059add4",
+      "supplement": {
+        "sha256": "87582372d4f97464cc78bc6ee4bffc42512660a9ec29eef339bb65a12576925b",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "38c6edb28a5e5883919cfe7d70479bea4d9f2aaad4e104e50f8e80ec8c9d9bf4"
+    },
+    {
+      "city_code": "2900",
+      "name": "上海市",
+      "snapshot": {
+        "sha256": "269345eaa9a877f63270a5b74d2a6ad6e05fd2632af2b190ff501055e9d44acf",
+        "osm_base": "2026-10-28T03:12:51Z",
+        "elements": 16705
+      },
+      "query_sha256": "2981e3e23d1926081b7eb9ae62befc0d531a80c6f646cabd018ba9037f8fca57"
+    },
+    {
+      "city_code": "3010",
+      "name": "南京市",
+      "snapshot": {
+        "sha256": "4dffc3b3f348829992eaa8da9e4f6e90d7be7af289b36c8ce7dc9f7b9111b663",
+        "osm_base": "2026-10-28T03:12:51Z",
+        "elements": 718
+      },
+      "query_sha256": "1379a2152ae095a8de039c0ec6682617e6ce0193f52c58bb53d4068e21eb2f9d",
+      "supplement": {
+        "sha256": "35d31d8beeac8c90756b4e315d0aa2d1955023991963b21b08edb5d639632b7e",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 1
+      },
+      "supplement_query_sha256": "e177798b1f5441ddcf3006d4a5f891ddbe566bcd9c3e98fa54a131b6e9c7fbf9"
+    },
+    {
+      "city_code": "3020",
+      "name": "无锡市",
+      "snapshot": {
+        "sha256": "7745824ab00ff5925f644c4fecdf15e32016cc269815fb793ac422030940e13c",
+        "osm_base": "2026-10-28T03:13:40Z",
+        "elements": 218
+      },
+      "query_sha256": "f2a874cee5c8fa792660313a41f0e1b27845765864b9832950d9ed3e0d473e44"
+    },
+    {
+      "city_code": "3030",
+      "name": "徐州市",
+      "snapshot": {
+        "sha256": "032b2432e98b54307694afcb46e44f170a462f13b944c9d0a747da3c23897960",
+        "osm_base": "2026-10-28T03:16:51Z",
+        "elements": 320
+      },
+      "query_sha256": "c7eb8cd5a749566a083e10ad73d727f0bd717c7be2ddb8a5b307ee146b17d336"
+    },
+    {
+      "city_code": "3040",
+      "name": "常州市",
+      "snapshot": {
+        "sha256": "9f959a11ddc243de701b76b17e5becb094355ed7b5caf54644612d612edd88ef",
+        "osm_base": "2026-10-28T03:17:58Z",
+        "elements": 194
+      },
+      "query_sha256": "67cb6ff3c6fbc7403a5def3604dfcabab6bc566f56dc7a6ba32d940a122e6261"
+    },
+    {
+      "city_code": "3050",
+      "name": "苏州市",
+      "snapshot": {
+        "sha256": "4995559159d0033138a2823737d6adbdeff27b91f3705dd9edbdf47ba4afc5c0",
+        "osm_base": "2026-10-28T03:18:58Z",
+        "elements": 2756
+      },
+      "query_sha256": "5cd6993dbeffc3a71eca55ad6f2daf25d0e74262ac6bc2a0582173ebd65a8095"
+    },
+    {
+      "city_code": "3060",
+      "name": "南通市",
+      "snapshot": {
+        "sha256": "e1b971205ce6d45ac59994dbb273852c8eafe4d76101c48ce74996403ae28aff",
+        "osm_base": "2026-10-28T03:18:58Z",
+        "elements": 6160
+      },
+      "query_sha256": "26a198947671994f206935731f56f26afb2ace52f7cb87cb68c23ca64a129f9b"
+    },
+    {
+      "city_code": "3310",
+      "name": "杭州市",
+      "snapshot": {
+        "sha256": "fd5bd39b5e6c4ffdaf7ebdcdcbacb3596b2bcc1f43389ff1cc801c86a236baf4",
+        "osm_base": "2026-10-28T03:19:42Z",
+        "elements": 10556
+      },
+      "query_sha256": "f90dc31de6c154db542bdaf0fedf315ab7d9bf83ea500a02947e6e86a0eb2567",
+      "supplement": {
+        "sha256": "8043a281d434ca85abde383a7315481001a3e02ebc1589e1dfeb9b24e25be836",
+        "osm_base": "2026-10-28T03:43:21Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "285495f8ab7df2c34cf27c55feb602b5d4e46cb92823c6205ee0af5ab16c4502"
+    },
+    {
+      "city_code": "3320",
+      "name": "宁波市",
+      "snapshot": {
+        "sha256": "3ca5d84b61a6db7e2bc88258969890c1a04df5b7c1dfaa646af9a1b435b96e9c",
+        "osm_base": "2026-10-28T03:21:01Z",
+        "elements": 4705
+      },
+      "query_sha256": "1bc4b4945875aa2927872ab9abb301fa652cf52e18aa65a93dc5a9babcacf5a0",
+      "supplement": {
+        "sha256": "a9632e1d7d65b79e1f8e818cdd421ee4a6f9d79c9815fbedfea2810a18141839",
+        "osm_base": "2026-10-28T03:43:21Z",
+        "elements": 6
+      },
+      "supplement_query_sha256": "f2bd38822da3caafc54a37046bd4f1484825706b59b31cec919c9bf08d323c27"
+    },
+    {
+      "city_code": "3330",
+      "name": "温州市",
+      "snapshot": {
+        "sha256": "63c298ca6ec413c6656daf5c4f62e03d0a094cf19f21a3972c1b9e7bcf047988",
+        "osm_base": "2026-10-28T03:21:01Z",
+        "elements": 110
+      },
+      "query_sha256": "8f9e9f1fe0b5a6aa97f8da8a3c5a006d9d937e89b995ca709e547177f7bbf2a9"
+    },
+    {
+      "city_code": "3350",
+      "name": "嘉兴市",
+      "snapshot": {
+        "sha256": "f35b01806a3e1795a5a8c12ca21abc121a9ef55f451e38a5108d0500b7fb35fe",
+        "osm_base": "2026-10-28T03:21:51Z",
+        "elements": 5100
+      },
+      "query_sha256": "6ee0b89a32661555268d110c3045c7167e6da3b6d9a69ae47f8ea5a3f8dba27f"
+    },
+    {
+      "city_code": "3370",
+      "name": "绍兴市",
+      "snapshot": {
+        "sha256": "21535eff6563416123c7b6becb792fd2de29743eb99137b91f1ec50fbad955b3",
+        "osm_base": "2026-10-28T03:23:02Z",
+        "elements": 136
+      },
+      "query_sha256": "97c482158ecff9b15c55458c579608e4bb481e7811b41892a372c4d8c41979c8"
+    },
+    {
+      "city_code": "3380",
+      "name": "金华市",
+      "snapshot": {
+        "sha256": "b120c362c1644b752c4502e64e97dcdff51dc741102ff18176fddd8135564fac",
+        "osm_base": "2026-10-28T03:24:00Z",
+        "elements": 126
+      },
+      "query_sha256": "7358437c4c90a9b968244c2d02fe6edbf34680bfd3f85c8c67dcfcd02d0f235f"
+    },
+    {
+      "city_code": "3450",
+      "name": "台州市",
+      "snapshot": {
+        "sha256": "64f2c356bb6ebe4b66934983dc2d702d5a404f504d27d2a28b9a0703f9b62f2c",
+        "osm_base": "2026-10-28T03:24:00Z",
+        "elements": 92
+      },
+      "query_sha256": "498335b493bd2bbe4fbf9fa6ad9a5ed79d2bc73978e343b64683de6bb5c638a3"
+    },
+    {
+      "city_code": "3610",
+      "name": "合肥市",
+      "snapshot": {
+        "sha256": "c6fe4ddd99f0bab6ef3c295e015d17ec7e5911eee6c063566446ae17679a3577",
+        "osm_base": "2026-10-28T03:25:00Z",
+        "elements": 608
+      },
+      "query_sha256": "bc7e94caded3f5ec52d8d8e5fbe16bb69cf3a6af570e17fe299dd4f00c32ac46",
+      "supplement": {
+        "sha256": "e9dd21d42f93c60945bf8afd311dd653a4edff4ec943ace498cb055c05dc2303",
+        "osm_base": "2026-10-28T03:50:35Z",
+        "elements": 1
+      },
+      "supplement_query_sha256": "f2ea8c0a8a3d36b65ab1b384c955590c68908356e780a5ecec665621d48627a6"
+    },
+    {
+      "city_code": "3620",
+      "name": "芜湖市",
+      "snapshot": {
+        "sha256": "1ade31fcfa00af143c16e8e4cbbced2af68c231eff79974c5c82ddefa6ecccda",
+        "osm_base": "2026-10-28T03:25:59Z",
+        "elements": 99
+      },
+      "query_sha256": "f139776dc7f3b7131f54ab9c3caf973f22e4e3344687a737c32f05cb294aa0c1"
+    },
+    {
+      "city_code": "3750",
+      "name": "滁州市",
+      "snapshot": {
+        "sha256": "6d60bd68a03e7641758fe90eb18d0bf6bdcc7a977349ec43bf1d6c270d2fd1e7",
+        "osm_base": "2026-07-24T11:04:51Z",
+        "elements": 14
+      },
+      "query_sha256": "9cba5f94cb8aaee9e95fd6e59e930a108d05e9d7d13ff0f972753359b6a01164"
+    },
+    {
+      "city_code": "3910",
+      "name": "福州市",
+      "snapshot": {
+        "sha256": "383b013ef9bfc834f2a8a25bf0a755da137dae1de2e6f8da350aa50b6118a0fe",
+        "osm_base": "2026-10-28T03:27:02Z",
+        "elements": 304
+      },
+      "query_sha256": "e526d3e2bd4138775772202854ed551e89e48321bb37d40fa8c482206f3ecf8e"
+    },
+    {
+      "city_code": "3930",
+      "name": "厦门市",
+      "snapshot": {
+        "sha256": "a58c04041c247d5049b2c87f37b5879588817f7abdc68850c1fb7a359d626bf7",
+        "osm_base": "2026-10-28T03:31:04Z",
+        "elements": 420
+      },
+      "query_sha256": "07b4ddfd209de348c610286cbfb0b2bd8cc51a3cd871033b646175801b6f3d3e",
+      "supplement": {
+        "sha256": "0bf1c84b9e012d8533711ea54a7205b0e08509ea3ab192d0e47836f36b257709",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 82
+      },
+      "supplement_query_sha256": "6342a3af27b73616c5b56306a3d9ebe854d5e435effd10aefc73a58cc702b2a7"
+    },
+    {
+      "city_code": "4210",
+      "name": "南昌市",
+      "snapshot": {
+        "sha256": "d498ce4b292b29ceb05e7dad212d94b699cb6a40ed912cff0b4eb5087795be5e",
+        "osm_base": "2026-10-28T03:31:04Z",
+        "elements": 292
+      },
+      "query_sha256": "1dca42b3370570e28e777dad4225ce7dae974798e9df99eb536e3b2068afbe42",
+      "supplement": {
+        "sha256": "3992fbed761f1c9b119cfeb7a8f0e2015abdf6d469d8a7973330faa8dbb6d6ba",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "51a5ae0f579aef363b5e4db40a109013c0b28a75587d132924fe8938358a262e"
+    },
+    {
+      "city_code": "4510",
+      "name": "济南市",
+      "snapshot": {
+        "sha256": "09ce9638ac96befb29e1f0ac7dd761d20fa538c0028fdd8fee982729ddb9794e",
+        "osm_base": "2026-10-28T03:34:05Z",
+        "elements": 7926
+      },
+      "query_sha256": "74d576d64d3deb6b1513ddd6ebdbe23f855e547531cca7565532d06fa59820a0",
+      "supplement": {
+        "sha256": "a4a85236d7ddb5960616ca032f9bdf571bd49cee3c14a314e10155e85e8669fb",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "92ddc75814f3f7884ec9665b26ad74f7b9f8f28e147d2147d5a1a92855979a93"
+    },
+    {
+      "city_code": "4520",
+      "name": "青岛市",
+      "snapshot": {
+        "sha256": "77a89e1aa6cc3c49fe0795c08eb4bee70a220b1e1b5e059191b8ddd3b9eaf2b4",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 1209
+      },
+      "query_sha256": "15a1d3c4735dc7fcfaa8a9e8062c85909c11ea0c72ea8dc05594730d2392c978",
+      "supplement": {
+        "sha256": "46349b2c87aaaec38d290fe0f08a4bda41c490647108bd09e76fec370380b1fc",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 11
+      },
+      "supplement_query_sha256": "3d0c3183c6fcc04606eda68448ecede6c40e41ecb5ba48f761a288b2d9e22648"
+    },
+    {
+      "city_code": "4930",
+      "name": "洛阳市",
+      "snapshot": {
+        "sha256": "8ce8136878c4efd033f8f73a10eaf8e8752a1d3d43312f2d46b617ee6b52083a",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 99
+      },
+      "query_sha256": "84e9204efe542e9cd07fb557b06f83bbf7b8cc960e835e446b2b279c90150f90",
+      "supplement": {
+        "sha256": "1a80e95bd48429e6a2f663862cbb032d23f652748ba0abda6e742c002ae47e87",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 2
+      },
+      "supplement_query_sha256": "7588e1099386ca26d1a21b0e0057bf2ed479094f151385acbe85c01a72672a5a"
+    },
+    {
+      "city_code": "5510",
+      "name": "长沙市",
+      "snapshot": {
+        "sha256": "496a0ffcc2d13eed789e40335af3bce39899b2f53a0507da833c43607ca81582",
+        "osm_base": "2026-10-28T03:38:20Z",
+        "elements": 414
+      },
+      "query_sha256": "9e9c6569cafd407f2a594e232e3f86639469e3555e200986c416e25ef97e4c7b",
+      "supplement": {
+        "sha256": "d2e75d73729e45dbafdc727b16d2a9700179e0cbd97f5fcb63da24a8c1480318",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "a3f75906020421d113177e0a1eba26ffff78fd258de3689d07bcf74e057891ed"
+    },
+    {
+      "city_code": "5810",
+      "name": "广州市",
+      "snapshot": {
+        "sha256": "02cc71e0433d370f2c72b61175ab8f226b3acf37091b40fcdd0d42bf57041ba7",
+        "osm_base": "2026-10-28T03:40:19Z",
+        "elements": 3750
+      },
+      "query_sha256": "cc584701719cc16876cd4b59404815b3fecc19e7f4ed1aa5045fb842b672fa2f"
+    },
+    {
+      "city_code": "5880",
+      "name": "佛山市",
+      "snapshot": {
+        "sha256": "f34e82ac35f730ad266722addd7ae553ab140f66b94126001c130136cf74d3c6",
+        "osm_base": "2026-10-28T03:44:21Z",
+        "elements": 223
+      },
+      "query_sha256": "1581453e67825f7ad774d17ae0520779899aa94040a633f6054f14b7598d6a43",
+      "supplement": {
+        "sha256": "01364a28c70727abda2d945ff5ae0ef4e399d2ee81816d2af7f68a15fb4a0592",
+        "osm_base": "2026-10-28T03:55:26Z",
+        "elements": 2
+      },
+      "supplement_query_sha256": "57d65b95ab03c776c858f30dd4b006526ddf81a67d35601e003f508b4f14499f"
+    },
+    {
+      "city_code": "6020",
+      "name": "东莞市",
+      "snapshot": {
+        "sha256": "bb00dc1c0a473340b1caa490c3c20d8b42faa8096bcdc3856fbc6f34ec15367e",
+        "osm_base": "2026-10-28T03:45:25Z",
+        "elements": 101
+      },
+      "query_sha256": "4dbe2a6d6330e70b9ff882e155fd55921b7d1903fe9f319f86f6edb67abd894e",
+      "supplement": {
+        "sha256": "b3bad39fc010653d5da14f52ef82cd20f40b505e6da9384ccef5d047e9be13a3",
+        "osm_base": "2026-10-28T03:55:26Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "f6d7ee47074bb1aab053426dd73dd48547f9403a2c0852f9f6524af605a6e3fd"
+    },
+    {
+      "city_code": "6510",
+      "name": "成都市",
+      "snapshot": {
+        "sha256": "190354966756bfcc03f22131f7e206e317eb7a4a2bd8124830dda9d94dc22743",
+        "osm_base": "2026-10-28T03:49:24Z",
+        "elements": 1109
+      },
+      "query_sha256": "dc78c13fd27c0e020b1cc10bf242c064b58d556ecdab65d65acde90f0bf34112",
+      "supplement": {
+        "sha256": "221c076fc0d7f33d17c12c38cbf9202fd24ca91b806f9e027461650c8eb30387",
+        "osm_base": "2026-10-28T03:55:26Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "6056381ba7f43cf1e187505f85a26e93b2df4484ff25c2b2accab2a186fb4768"
+    },
+    {
+      "city_code": "6900",
+      "name": "重庆市",
+      "snapshot": {
+        "sha256": "0f372b347173020b1af5f31e1cc7a8e0ad4752b6fa1e8e89fca894a3332b1f31",
+        "osm_base": "2026-10-28T03:49:24Z",
+        "elements": 1088
+      },
+      "query_sha256": "101b2cee596cb419b9b8d2159e71d2b128a8f3945670fb3e543a37cae856296e"
+    },
+    {
+      "city_code": "7010",
+      "name": "贵阳市",
+      "snapshot": {
+        "sha256": "d45c2e499e5046df818d6f83e521c6c293f6d8bbf9e6804e972d77b2e108e6fe",
+        "osm_base": "2026-10-28T03:50:35Z",
+        "elements": 271
+      },
+      "query_sha256": "33534b3edb4257fa73f60feed6f9980d3d9fefcea0abc5e77737f5472a184db5"
+    },
+    {
+      "city_code": "7310",
+      "name": "昆明市",
+      "snapshot": {
+        "sha256": "a8af73c45ac6b0dece60677e81783c8a79396eadcde628d135dacf1432ed8020",
+        "osm_base": "2026-10-28T03:51:35Z",
+        "elements": 383
+      },
+      "query_sha256": "7bc260ef4d9e8dc535423a7d08f2a7471b160efb51678b9deab60cbc5e75e2ec"
+    },
+    {
+      "city_code": "7910",
+      "name": "西安市",
+      "snapshot": {
+        "sha256": "5b273123686e0a8c3d9c307edea5d33bc22cb8c529ad9fc209aac29876dc7926",
+        "osm_base": "2026-10-28T03:52:36Z",
+        "elements": 657
+      },
+      "query_sha256": "838f3a5d879ff90008e2dcdf5d15bc479dce8bfb24aaefa4df5b2dce248f0844",
+      "supplement": {
+        "sha256": "1c52af5a42e42526a52c61ac290236069ea87cafb9b821f030ad80291cb02b93",
+        "osm_base": "2026-10-28T03:59:32Z",
+        "elements": 0
+      },
+      "supplement_query_sha256": "9809c5af2041ca1459051b3f2960a519011d9624f575da3b863fe0b2b40b4da1"
+    },
+    {
+      "city_code": "8210",
+      "name": "兰州市",
+      "snapshot": {
+        "sha256": "2ec002670acbd727e21508dd5a0024ad52fd32d124c92a851e6bda4a69fa76bc",
+        "osm_base": "2026-10-28T03:53:25Z",
+        "elements": 120
+      },
+      "query_sha256": "22d8ecfad0e1c67156bda0af30e15a11b55f48b02e16e71ab392244ac0738abd",
+      "supplement": {
+        "sha256": "fb15700f806aed3f26f060d6323ffc0ef3b0ea37f87496de51930b3be750fdf7",
+        "osm_base": "2026-10-28T03:59:32Z",
+        "elements": 2
+      },
+      "supplement_query_sha256": "beee91fc01b362b1bbff6b5e8bf0c20ef7fb2397f8ee4257e5b9a5f489ab7cfa"
+    },
+    {
+      "city_code": "8810",
+      "name": "乌鲁木齐市",
+      "snapshot": {
+        "sha256": "05d0eb4e90c5d753b25cefbbd6d8bc240cf366db7f8525a028030394fd68983a",
+        "osm_base": "2026-10-28T03:54:35Z",
+        "elements": 125
+      },
+      "query_sha256": "8321be31ff877becf2ae2512e335e8c9695bf4b2867d5ef73413c3b1c6cd9d2a"
+    }
+  ],
+  "line_memberships": [
+    {
+      "city_code": "1121",
+      "line_code": "11210008",
+      "line": "8号线",
+      "relation_ids": [
+        13711699,
+        13711700
+      ]
+    },
+    {
+      "city_code": "1121",
+      "line_code": "11210010",
+      "line": "10号线",
+      "relation_ids": [
+        14903886,
+        14903907
+      ]
+    },
+    {
+      "city_code": "1121",
+      "line_code": "11210011",
+      "line": "11号线",
+      "relation_ids": [
+        16914085,
+        16914088
+      ]
+    },
+    {
+      "city_code": "1121",
+      "line_code": "11210021",
+      "line": "津静线",
+      "relation_ids": [
+        17868751,
+        18099354
+      ]
+    },
+    {
+      "city_code": "2210",
+      "line_code": "22100003",
+      "line": "3号线",
+      "relation_ids": [
+        18482203,
+        18482204
+      ]
+    },
+    {
+      "city_code": "2210",
+      "line_code": "22100004",
+      "line": "4号线",
+      "relation_ids": [
+        16393679
+      ]
+    },
+    {
+      "city_code": "2220",
+      "line_code": "222005",
+      "line": "5号线",
+      "relation_ids": [
+        15611185,
+        15611910
+      ]
+    },
+    {
+      "city_code": "3010",
+      "line_code": "3010000D",
+      "line": "7号线",
+      "relation_ids": [
+        15336345,
+        15336347
+      ]
+    },
+    {
+      "city_code": "3010",
+      "line_code": "3010000F",
+      "line": "5号线",
+      "relation_ids": [
+        17417176,
+        17417177
+      ]
+    },
+    {
+      "city_code": "3020",
+      "line_code": "30201400",
+      "line": "S1号线",
+      "relation_ids": [
+        17126907,
+        17126908
+      ]
+    },
+    {
+      "city_code": "3050",
+      "line_code": "30500008",
+      "line": "8号线",
+      "relation_ids": [
+        18026575,
+        18026576
+      ]
+    },
+    {
+      "city_code": "3050",
+      "line_code": "30500011",
+      "line": "11号线",
+      "relation_ids": [
+        5611110,
+        5611111,
+        16025193,
+        16097172,
+        16879714,
+        16879715
+      ]
+    },
+    {
+      "city_code": "3060",
+      "line_code": "30600001",
+      "line": "1号线",
+      "relation_ids": [
+        14863572,
+        14870559
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100001",
+      "line": "1号线",
+      "relation_ids": [
+        4627560,
+        4627561
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100002",
+      "line": "2号线",
+      "relation_ids": [
+        5454457,
+        8323744
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100003",
+      "line": "3号线",
+      "relation_ids": [
+        13538219,
+        13538220,
+        14280624,
+        14280625
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100004",
+      "line": "4号线",
+      "relation_ids": [
+        9641050,
+        13077392
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100005",
+      "line": "5号线",
+      "relation_ids": [
+        10386952,
+        10386965
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100006",
+      "line": "6号线",
+      "relation_ids": [
+        13077286,
+        13077287,
+        13077348,
+        13077349
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100007",
+      "line": "7号线",
+      "relation_ids": [
+        12561898,
+        13061278
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100008",
+      "line": "8号线",
+      "relation_ids": [
+        13042425,
+        13042426
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100009",
+      "line": "9号线",
+      "relation_ids": [
+        13060895,
+        13060896
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100010",
+      "line": "10号线",
+      "relation_ids": [
+        13535686,
+        13535687
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100016",
+      "line": "16号线",
+      "relation_ids": [
+        11076297,
+        11076298
+      ]
+    },
+    {
+      "city_code": "3310",
+      "line_code": "33100019",
+      "line": "19号线",
+      "relation_ids": [
+        14613120,
+        14613131
+      ]
+    },
+    {
+      "city_code": "3330",
+      "line_code": "33300001",
+      "line": "S1号线",
+      "relation_ids": [
+        13084224,
+        13084225
+      ]
+    },
+    {
+      "city_code": "3330",
+      "line_code": "33300002",
+      "line": "S2号线",
+      "relation_ids": [
+        13282128,
+        16244466,
+        16244467,
+        16244468
+      ]
+    },
+    {
+      "city_code": "3350",
+      "line_code": "33500099",
+      "line": "杭海城际",
+      "relation_ids": [
+        13078548,
+        13078549,
+        13279890,
+        13279891
+      ]
+    },
+    {
+      "city_code": "3370",
+      "line_code": "33700087",
+      "line": "2号线",
+      "relation_ids": [
+        16136201,
+        16136202
+      ]
+    },
+    {
+      "city_code": "3450",
+      "line_code": "34500100",
+      "line": "S1号线",
+      "relation_ids": [
+        11930603,
+        11930605
+      ]
+    },
+    {
+      "city_code": "4520",
+      "line_code": "452004",
+      "line": "4号线",
+      "relation_ids": [
+        15051204,
+        15051219
+      ]
+    },
+    {
+      "city_code": "4520",
+      "line_code": "452006",
+      "line": "6号线",
+      "relation_ids": [
+        17518144,
+        17518159
+      ]
+    },
+    {
+      "city_code": "5510",
+      "line_code": "55101F00",
+      "line": "3号线",
+      "relation_ids": [
+        11257187,
+        11257189,
+        16103880,
+        16103881
+      ]
+    },
+    {
+      "city_code": "5810",
+      "line_code": "58100011",
+      "line": "11号线",
+      "relation_ids": [
+        18132492,
+        18132493
+      ]
+    },
+    {
+      "city_code": "5880",
+      "line_code": "58800043",
+      "line": "3号线",
+      "relation_ids": [
+        15054264,
+        15054271,
+        20996095,
+        20996096
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651001",
+      "line": "1号线",
+      "relation_ids": [
+        2381768,
+        7913598,
+        8297247,
+        8303538
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651002",
+      "line": "2号线",
+      "relation_ids": [
+        2474349,
+        8298109
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651003",
+      "line": "3号线",
+      "relation_ids": [
+        6517083,
+        8297265
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651004",
+      "line": "4号线",
+      "relation_ids": [
+        6385133,
+        8298131
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651005",
+      "line": "5号线",
+      "relation_ids": [
+        9627905,
+        10526315
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651006",
+      "line": "6号线",
+      "relation_ids": [
+        9627850,
+        12038668
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651007",
+      "line": "7号线",
+      "relation_ids": [
+        7913593,
+        8297136
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651008",
+      "line": "8号线",
+      "relation_ids": [
+        9761272,
+        12086371
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651009",
+      "line": "9号线",
+      "relation_ids": [
+        9627519,
+        12094622
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651010",
+      "line": "10号线",
+      "relation_ids": [
+        7913594,
+        8298253,
+        11807052,
+        11807053
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651017",
+      "line": "19号线",
+      "relation_ids": [
+        16494768,
+        16494854,
+        16764492,
+        16764493
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651018",
+      "line": "18号线",
+      "relation_ids": [
+        9869750,
+        11697794,
+        13367599,
+        13367600
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651019",
+      "line": "19号线",
+      "relation_ids": [
+        16494768,
+        16494854,
+        16764492,
+        16764493,
+        16764494,
+        16764495
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651027",
+      "line": "27号线",
+      "relation_ids": [
+        12123402,
+        18436260
+      ]
+    },
+    {
+      "city_code": "6510",
+      "line_code": "651073",
+      "line": "S3号线",
+      "relation_ids": [
+        11516374
+      ]
+    },
+    {
+      "city_code": "6900",
+      "line_code": "69000001",
+      "line": "1号线",
+      "relation_ids": [
+        12759727,
+        13305509
+      ]
+    },
+    {
+      "city_code": "6900",
+      "line_code": "690018",
+      "line": "18号线",
+      "relation_ids": [
+        15749312,
+        15749313
+      ]
+    },
+    {
+      "city_code": "6900",
+      "line_code": "690072",
+      "line": "BT",
+      "relation_ids": [
+        17135614,
+        17135615
+      ]
+    },
+    {
+      "city_code": "7010",
+      "line_code": "701003",
+      "line": "3号线",
+      "relation_ids": [
+        16843975,
+        16843976
+      ]
+    },
+    {
+      "city_code": "7010",
+      "line_code": "701005",
+      "line": "S1号线",
+      "relation_ids": [
+        18482300,
+        18482303
+      ]
+    },
+    {
+      "city_code": "7910",
+      "line_code": "79100008",
+      "line": "8号线",
+      "relation_ids": [
+        18462995,
+        18462996
+      ]
+    },
+    {
+      "city_code": "7910",
+      "line_code": "7910000A",
+      "line": "10号线",
+      "relation_ids": [
+        18089013,
+        18089014
+      ]
+    },
+    {
+      "city_code": "7910",
+      "line_code": "79100010",
+      "line": "16号线",
+      "relation_ids": [
+        16104050,
+        16104054
+      ]
+    },
+    {
+      "city_code": "7910",
+      "line_code": "79100100",
+      "line": "云巴",
+      "relation_ids": [
+        17925372,
+        17925373
+      ]
+    }
+  ],
+  "bilingual_names": [
+    {
+      "city_code": "8810",
+      "code": "8810010001",
+      "osm_ref": "node/13286935096",
+      "name": "三屯碑 سەندۈڭبىي",
+      "name:ug": "سەندۈڭبىي‎",
+      "chinese_component": "三屯碑"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010002",
+      "osm_ref": "node/4191403070",
+      "name": "新疆大学 شىنجاڭ داشۆ",
+      "name:ug": "شىنجاڭ داشۆ",
+      "chinese_component": "新疆大学"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010003",
+      "osm_ref": "node/4191403073",
+      "name": "二道桥 ئيرداۋ چىيا ۋ",
+      "name:ug": "ئيرداۋ چىيا ۋ",
+      "chinese_component": "二道桥"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010004",
+      "osm_ref": "node/4191403077",
+      "name": "南门 نە نمين",
+      "name:ug": "نە نمين",
+      "chinese_component": "南门"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010005",
+      "osm_ref": "node/4191403079",
+      "name": "北门 بېيمىن",
+      "name:ug": "بېيمىن",
+      "chinese_component": "北门"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010006",
+      "osm_ref": "node/4321204694",
+      "name": "新兴街 شىنشىڭ كوچىسى",
+      "name:ug": "شىنشىڭ كوچىسى",
+      "chinese_component": "新兴街"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010007",
+      "osm_ref": "node/4191403082",
+      "name": "南湖广场 نەنخۈ مەيدانى",
+      "name:ug": "نەنخۈ مەيدانى",
+      "chinese_component": "南湖广场"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010008",
+      "osm_ref": "node/4191403084",
+      "name": "南湖北路 شمالىي نەنخۈ",
+      "name:ug": "شمالىي نەنخۈ",
+      "chinese_component": "南湖北路"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010009",
+      "osm_ref": "node/4191403895",
+      "name": "王家梁 ۋاڭجيالياڭ",
+      "name:ug": "ۋاڭجيالياڭ",
+      "chinese_component": "王家梁"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010010",
+      "osm_ref": "node/6278600347",
+      "name": "八楼 بالۇ",
+      "name:ug": "بالۇ",
+      "chinese_component": "八楼"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010011",
+      "osm_ref": "node/4676387144",
+      "name": "新疆图书馆 شىنجاڭ كۈتۈپخانىس",
+      "name:ug": "شىنجاڭ كۈتۈپخانىس",
+      "chinese_component": "新疆图书馆"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010012",
+      "osm_ref": "node/4676387145",
+      "name": "中营工 جوڭيىڭگوڭ",
+      "name:ug": "جوڭيىڭگوڭ",
+      "chinese_component": "中营工"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010013",
+      "osm_ref": "node/5931051594",
+      "name": "小西沟 شىاۋشىگۈ",
+      "name:ug": "شىاۋشىگۈ",
+      "chinese_component": "小西沟"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010014",
+      "osm_ref": "node/4191403898",
+      "name": "铁路局 تۆمۈريول ئىدارىسى",
+      "name:ug": "تۆمۈريول ئىدارىسى",
+      "chinese_component": "铁路局"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010015",
+      "osm_ref": "node/4191403900",
+      "name": "体育中心 تەنتەربىيە مەركىزى",
+      "name:ug": "تەنتەربىيە مەركىزى",
+      "chinese_component": "体育中心"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010016",
+      "osm_ref": "node/13286938301",
+      "name": "植物园 ئۆسۈملۈكلەر باغچىسى‎",
+      "name:ug": "ئۆسۈملۈكلەر باغچىسى‎",
+      "chinese_component": "植物园"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010017",
+      "osm_ref": "node/13286938305",
+      "name": "迎宾路口 يىنبىن يولى ئېغىزى",
+      "name:ug": "يىنبىن يولى ئېغىزى",
+      "chinese_component": "迎宾路口"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010018",
+      "osm_ref": "node/13286938306",
+      "name": "三工 سەنگۇڭ",
+      "name:ug": "سەنگۇڭ",
+      "chinese_component": "三工"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010019",
+      "osm_ref": "node/13286938311",
+      "name": "宣仁墩 شۈەنرېندۈن",
+      "name:ug": "شۈەنرېندۈن",
+      "chinese_component": "宣仁墩"
+    },
+    {
+      "city_code": "8810",
+      "code": "8810010020",
+      "osm_ref": "node/4191403905",
+      "name": "大地窝堡 چوڭ دىئوپو",
+      "name:ug": "چوڭ دىئوپو",
+      "chinese_component": "大地窝堡"
+    }
+  ]
+}

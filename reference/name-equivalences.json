@@ -1,6 +1,5 @@
 {
-  "checked_date": "2026-10-28",
-  "scope": "Nine existing card lookup rows only. Physical identity/name equivalence is corroborated; primary names and card codes remain unchanged. Wikipedia station numbers and coordinates are not used as card codes or geometry.",
+  "format": "card-stations-name-equivalences-v1",
   "entries": [
     {
       "city_code": "2900",

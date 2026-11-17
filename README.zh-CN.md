@@ -51,7 +51,7 @@ python3 build.py --output dist              # 生成 SQLite、TSV 和 JSON 文�
 
 修改 CSV，注明来源，然后向 `master` 提交 pull request。代码是文本，请保留前导零。
 不要猜测坐标或 OSM 对象；不确定时请留空。规则见 [CONTRIBUTING.md](CONTRIBUTING.md)，
-现有数据的研究方法见 [AGENTS.md](AGENTS.md)。
+数据来源依据见 [reference/](reference/README.md)。
 
 ## 许可
 

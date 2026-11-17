@@ -51,7 +51,7 @@ CardBal 中測試本機修改，請用 `--csv-source /path/to/card-stations` 建
 
 修改 CSV、註明來源，然後向 `master` 提交 pull request。編號是文字，請保留前置零。
 切勿估算坐標或 OSM 物件；如有疑問請留空。規則見 [CONTRIBUTING.md](CONTRIBUTING.md)，
-現有數據的研究方法見 [AGENTS.md](AGENTS.md)。
+數據來源依據見 [reference/](reference/README.md)。
 
 ## 授權
 

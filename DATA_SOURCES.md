@@ -2,8 +2,9 @@
 
 Every correction or new mapping must cite its evidence in the pull request.
 Station CSVs hold no timestamps, matching scores, or per-row source payloads.
-Source revisions, checksums, and per-code evidence live in `reference/` and
-`research/`. [`licenses/`](licenses/README.md) maps each path to its license.
+Source revisions, checksums, and per-code evidence live in
+[`reference/`](reference/README.md). [`licenses/`](licenses/README.md) maps each
+path to its license.
 
 | Data | Source | Terms |
 | --- | --- | --- |
@@ -43,17 +44,16 @@ and the separate APK supplement. The APK supplies three station codes, `34503113
 (仙居南), `34503116` (临海南), and `34503119` (台州西), plus exact terminal links.
 No APK, decompiled code, card identifiers, or travel histories are distributed.
 
-The OSM enrichment snapshot is dated 2026-10-28. These files under `research/`
-record queries, hashes, accepted identities, rejections, and route evidence:
+The OSM source snapshots are dated 2026-10-28:
 
-- `china-osm-audit-2026-10-28.json`: city-scoped enrichment
-- `reviewed-name-equivalences.json`: former and short/full names, with
-  Wikipedia and OSM citations
-- `remaining-china-north-2026-10-28.json` and
-  `remaining-china-south-2026-10-28.json`: one decision per previously
-  unreferenced code
-- `station-body-corrections-2026-10-28.json`: two corrected line-specific
-  references
+- [China OSM provenance](reference/china-osm.json) records source and query
+  hashes, explicit line memberships, and bilingual source tags.
+- [Chinese station evidence](reference/china-stations.json) records accepted
+  station identities, field sources, and line-specific station bodies.
+- [Name equivalences](reference/name-equivalences.json) records former and
+  short/full names with Wikipedia and OSM citations.
+- [Exact T-Union aliases](reference/tunion-aliases.json) records complete
+  observed keys and their independently established station identities.
 
 Cited Wikipedia articles, operator publications, and government naming records
 establish historical names. Their coordinates and station numbers are not
@@ -62,16 +62,14 @@ imported.
 ## Korea
 
 The [public station-observations aggregate](https://korean-trip-crowdsourcing.ieb.app/research/station-observations)
-identified which codes cards actually report. The 1,384 aliases added from it
-comprise 977 previously reviewed keys and 407 independently reviewed ones. MOLIT
-station facts come from its 2026-07-03 snapshot. Seoul stop and route joins use
+identifies observed lookup keys; the accepted codes are listed in
+[Korean station provenance](reference/korean-stations.json). MOLIT station facts
+come from its 2026-07-03 snapshot. Seoul stop and route joins use
 the 2026-08-04 files, and Seoul multilingual labels come from February 2025.
 
-`research/korean-osm-audit-2026-10-28.json` records the new codes, input hashes,
-accepted OSM object versions, ARS IDs, field sources, and withheld matches.
-`research/korean-collected-candidates-review-2026-10-28.json` records the 407
-cleared keys and the dated Seoul name bridges. `data/korean/modes.csv` holds mode
-names once. `reference/korean-mode-metadata.json` keeps the official catalog
+The same reference records input hashes, accepted OSM object versions, ARS IDs,
+field sources, and historical Seoul name bridges. `data/korean/modes.csv` holds
+mode names once. `reference/korean-mode-metadata.json` keeps the official catalog
 metadata and the citations for supplementary modes.
 
 No card identifiers, histories, raw captures, or observation timestamps are

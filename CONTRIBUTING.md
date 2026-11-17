@@ -26,3 +26,27 @@ For maintenance, `scripts/import_cardbal.py --resources /path/to/CardBal/Resourc
 compact station fields from finalized app assets. Review the resulting CSV diff
 and attribution before replacing source files. Normal builds contact no station
 services. Generated compatibility assets belong in `dist/`, not in Git.
+
+## OSM maintenance
+
+[AGENTS.md](AGENTS.md) defines the identity and matching rules.
+[Reference formats](reference/README.md) describes the verified source evidence
+kept alongside the CSVs.
+
+To enrich Chinese stations from cached Overpass JSON:
+
+```sh
+python3 scripts/enrich_china.py --root . --cache /path/to/cached-osm \
+  --equivalences reference/name-equivalences.json
+```
+
+The cache uses `<city>.json` and optional `<city>-supplement.json` files, each
+containing an Overpass `elements` array. The tool reads local snapshots, updates
+station CSVs, and writes diagnostics to ignored `dist/china-enrichment.json`.
+`--source-types` can supply a JSON `stations` object keyed by code with a `type`
+field; `--city-relations` can supply a `verified` array of city registry fields.
+`--audit` overrides the diagnostic output path.
+
+Review the CSV diff and source hashes before committing. Keep only independently
+supported facts and their public sources in `reference/`, using the existing
+formats; leave progress summaries and unresolved candidates in local diagnostics.

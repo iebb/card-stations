@@ -6,11 +6,12 @@ raw captures, credentials, or APK binaries. Document upstream sources and terms
 in DATA_SOURCES.md. Run `python3 build.py --check` and
 `python3 -m unittest discover -s tests -v` before committing data or compiler changes.
 
-# Station research method
+# Station evidence rules
 
 Follow these rules when adding OSM references, coordinates, names, or new codes.
-Record per-code decisions and their public sources in a JSON ledger under
-`research/`. Do not add Markdown reports.
+Record verified per-code facts and their public sources under `reference/`.
+Keep documentation focused on formats, source evidence, and maintenance guides.
+Do not add dated reports, work logs, progress summaries, or candidate inventories.
 
 ## Always
 
@@ -36,7 +37,7 @@ Record per-code decisions and their public sources in a JSON ledger under
   unopened, or under-construction station is operating.
 - Use only public station facts. Leave out card hashes, device or submission IDs,
   private notes, report location pins, observation timestamps, and raw payloads.
-  Pin source revisions and SHA-256 checksums in the ledger.
+  Pin source revisions and SHA-256 checksums in the reference data.
 
 ## Chinese (T-Union) stations
 
@@ -52,7 +53,7 @@ Record per-code decisions and their public sources in a JSON ledger under
 - Former, engineering, or short/full names need a documented source, such as an
   OSM `old_name`/`alt_name`, a Wikipedia station history, an operator naming
   table, or a government approval. List each one individually in
-  `research/reviewed-name-equivalences.json`. Spelling-only variants, such as
+  `reference/name-equivalences.json`. Spelling-only variants, such as
   蒌葑/娄葑 and 卢葭/芦葭, stay unresolved without a published alias.
 - A card city is a lookup namespace, not administrative containment. Intercity
   and cross-boundary lines can reference stations in another city, and several
@@ -66,8 +67,9 @@ Record per-code decisions and their public sources in a JSON ledger under
   of them agree, and the runner-up has at most half the winner's support. A route
   member with an empty role counts only if it is a known station, stop, or
   platform. An existing label that conflicts blocks the fill.
-- `research/enrich_china.py` implements these rules over cached city-scoped
-  Overpass snapshots. `research/summarize_china.py` writes the public audit.
+- `scripts/enrich_china.py` implements these rules over cached city-scoped
+  Overpass snapshots. Keep generated diagnostics in ignored `dist/`; commit only
+  independently supported facts and their source evidence.
 
 ## Korean stations
 

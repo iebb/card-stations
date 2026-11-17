@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-SCRIPT = Path(__file__).resolve().parents[1] / "research/enrich_china.py"
+SCRIPT = Path(__file__).resolve().parents[1] / "scripts/enrich_china.py"
 SPEC = importlib.util.spec_from_file_location("china_enrichment", SCRIPT)
 module = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(module)
